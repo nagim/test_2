@@ -1,0 +1,16 @@
+{
+    "plugins": [
+        "comment",
+        "include",
+        "-sharing",
+        "expandable-chapters",
+        "versions",
+        "anchors",
+        "splitter"
+    ],
+    "pluginsConfig": {
+        "versions": {
+            "type": "branches"
+        }
+    }
+}

@@ -1,0 +1,5 @@
+# Glossary
+
+## AsciiDoc
+
+Cool thing
