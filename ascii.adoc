@@ -22,10 +22,6 @@ TIP: The pages you are reading were written using AsciiDoc, to view
 the corresponding AsciiDoc source click on the *Page Source* menu item
 in the left hand margin.
 
-ldnslmfnsd
-new lines for feature branch
-another new line
-
 Overview and Examples
 ---------------------
 You write an AsciiDoc document the same way you would write a
@@ -39,12 +35,7 @@ DocBook markups.  DocBook can be post-processed to presentation
 formats such as HTML, PDF, EPUB, DVI, LaTeX, roff, and Postscript
 using readily available Open Source tools.
 
-Adding a few lines here for testing as well.
-Here's a link as well: link:github.com[Github]
-
-What about this?
-
-Next one.
+New one for feature branch.
 
 Add more stuff.
 
