@@ -37,7 +37,7 @@ using readily available Open Source tools.
 
 New one for feature branch.
 
-<<README.MD#, Readme>>
+<<README.md#, Readme>>
 
 Add more stuff.
 Another stuff.
