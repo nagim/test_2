@@ -7,17 +7,11 @@
         "versions",
         "anchors",
         "structured-toc",
-        "-search",
-        "search-pro",
         "splitter"
     ],
     "pluginsConfig": {
         "versions": {
             "type": "branches"
-        },
-        "search-pro": {
-          "cutWordLib": "nodejieba",
-          "defineWord" : ["小需求","AsciiDoc"]
         }
     }
 }
