@@ -5,13 +5,12 @@
         "-sharing",
         "anchor-navigation",
         "anchors",
-        "gtoc",
         "versions",
-        "collapsible-menu",
+        "expandable-chapters",
         "book-summary-scroll-position-saver",
         "splitter",
         "ungrey",
-        "catalog"
+        "toconsole"
     ],
     "pluginsConfig": {
         "versions": {
