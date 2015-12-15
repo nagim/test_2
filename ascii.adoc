@@ -37,7 +37,7 @@ using readily available Open Source tools.
 
 New one for feature branch.
 
-<<README.md#, Readme>>
+<<ascii.adoc#, Readme>>
 
 Add more stuff.
 Another stuff.
