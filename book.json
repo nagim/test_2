@@ -8,7 +8,8 @@
         "versions",
         "expandable-chapters",
         "book-summary-scroll-position-saver",
-        "splitter"
+        "splitter",
+        "ungrey"
     ],
     "pluginsConfig": {
         "versions": {
