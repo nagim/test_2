@@ -37,10 +37,12 @@ using readily available Open Source tools.
 
 New one for feature branch.
 
-<<ascii.adoc#, Readme>>
+<<X7>>
 
-Add more stuff.
-Another stuff.
+New lines +added+ +
+Add more stuff. +
+Another stuff. +
+Adding as many edits in one commit as possible.
 
 Example Articles
 ~~~~~~~~~~~~~~~~

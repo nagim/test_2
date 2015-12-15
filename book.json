@@ -6,6 +6,9 @@
         "expandable-chapters",
         "versions",
         "anchors",
+        "structured-toc",
+        "-search",
+        "search-pro"
         "splitter"
     ],
     "pluginsConfig": {
