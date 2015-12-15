@@ -14,6 +14,9 @@
     "pluginsConfig": {
         "versions": {
             "type": "branches"
-        }
+        },
+        "simple": {
+            "configuration": "auto"
+          }
     }
 }
