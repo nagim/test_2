@@ -3,9 +3,10 @@
         "comment",
         "include",
         "-sharing",
-        "expandable-chapters",
+        "anchor-navigation",
+        "anchors",
         "versions",
-        "structured-toc",
+        "expandable-chapters",
         "splitter"
     ],
     "pluginsConfig": {
