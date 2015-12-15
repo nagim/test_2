@@ -8,15 +8,11 @@
         "versions",
         "expandable-chapters",
         "book-summary-scroll-position-saver",
-        "splitter",
-        "simple"
+        "splitter"
     ],
     "pluginsConfig": {
         "versions": {
             "type": "branches"
-        },
-        "simple": {
-            "configuration": "auto"
-          }
+        }
     }
 }
