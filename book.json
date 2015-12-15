@@ -4,7 +4,7 @@
         "include",
         "-sharing",
         "anchor-navigation",
-        "anchors",
+        "anchors-wrapper",
         "versions",
         "expandable-chapters",
         "splitter"
