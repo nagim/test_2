@@ -8,16 +8,16 @@
         "anchors",
         "structured-toc",
         "-search",
-        "search-pro"
+        "search-pro",
         "splitter"
     ],
     "pluginsConfig": {
         "versions": {
             "type": "branches"
         },
-    "search-pro": {
-        "cutWordLib": "nodejieba",
-        "defineWord" : ["AsciiDoc"]
-     }
+        "search-pro": {
+          "cutWordLib": "nodejieba",
+           "defineWord" : ["小需求","基础建设"]
+        }
     }
 }
