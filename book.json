@@ -10,7 +10,8 @@
         "collapsible-menu",
         "book-summary-scroll-position-saver",
         "splitter",
-        "ungrey"
+        "ungrey",
+        "catalog"
     ],
     "pluginsConfig": {
         "versions": {
