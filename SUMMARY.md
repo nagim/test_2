@@ -1,6 +1,7 @@
 # Summary
 
 * [Introduction](README.md)
-    * [Ascii](ascii.adoc)
+* [Ascii](ascii.adoc)
     * [rST](sdk.rst)
-* [Glossary](GLOSSARY.md)
+        * [Chapter 1](chapter1.md)
+    * [Glossary](GLOSSARY.md)
