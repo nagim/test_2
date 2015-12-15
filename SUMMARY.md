@@ -5,3 +5,4 @@
     * [rST](sdk.rst)
     * [Chapter 1](chapter1.md)
     * [Glossary](GLOSSARY.md)
+    * [New section](something.md)
