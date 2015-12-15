@@ -37,12 +37,14 @@ using readily available Open Source tools.
 
 New one for feature branch.
 
-<<X7>>
-
 New lines +added+ +
 Add more stuff. +
 Another stuff. +
 Adding as many edits in one commit as possible.
+
+[[parameter]]
+* parameter
+    - type
 
 Example Articles
 ~~~~~~~~~~~~~~~~
@@ -99,8 +101,6 @@ NOTE: This is a note
                 }
         }
 ----
-
-
 
 [[X7]]
 Example Books
