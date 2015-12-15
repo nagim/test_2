@@ -5,5 +5,5 @@
     * [rST](sdk.rst)
     * [Chapter 1](chapter1.md)
     * [Glossary](GLOSSARY.md)
-    * [New section]()
-        * [Readme](README.md)
+    * [New section](newsection.md)
+        * [Chapter](chapter1.md)

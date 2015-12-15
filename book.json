@@ -5,8 +5,9 @@
         "-sharing",
         "anchor-navigation",
         "anchors",
+        "gtoc",
         "versions",
-        "expandable-chapters",
+        "collapsible-menu",
         "book-summary-scroll-position-saver",
         "splitter",
         "ungrey"
