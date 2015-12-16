@@ -8,9 +8,7 @@
         "versions",
         "toggle-chapters",
         "book-summary-scroll-position-saver",
-        "splitter",
-        "ungrey",
-        "toconsole"
+        "splitter"
     ],
     "pluginsConfig": {
         "versions": {
