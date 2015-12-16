@@ -5,14 +5,9 @@
         "-sharing",
         "anchor-navigation",
         "anchors",
-        "versions",
         "toggle-chapters",
         "book-summary-scroll-position-saver",
         "splitter"
     ],
-    "pluginsConfig": {
-        "versions": {
-            "type": "branches"
-        }
-    }
+    "pluginsConfig": {}
 }
