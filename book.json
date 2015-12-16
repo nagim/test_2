@@ -6,10 +6,10 @@
         "anchor-navigation",
         "anchors",
         "versions",
+        "toggle-chapters",
         "book-summary-scroll-position-saver",
         "splitter",
         "ungrey",
-        "toggle-chapters",
         "toconsole"
     ],
     "pluginsConfig": {
