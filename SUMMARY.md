@@ -7,3 +7,4 @@
     * [Glossary](GLOSSARY.md)
 * New section
       * [Chapter](chapter1.md)
+* [Next section](chapter1.md)
