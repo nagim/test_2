@@ -10,6 +10,7 @@
         "book-summary-scroll-position-saver",
         "splitter",
         "ungrey",
+        "toggle-chapters",
         "toconsole"
     ],
     "pluginsConfig": {
