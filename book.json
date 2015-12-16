@@ -4,7 +4,7 @@
         "include",
         "-sharing",
         "anchor-navigation",
-        "anchors",
+        "structured-toc",
         "versions",
         "expandable-chapters",
         "book-summary-scroll-position-saver",
