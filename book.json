@@ -7,7 +7,8 @@
         "anchors",
         "toggle-chapters",
         "book-summary-scroll-position-saver",
-        "splitter"
+        "splitter",
+        "ungrey"
     ],
     "pluginsConfig": {}
 }
