@@ -1,14 +1,17 @@
 {
+
+"gitbook": ">=2.0.0",
+
     "plugins": [
         "comment",
         "include",
         "-sharing",
         "anchor-navigation",
         "anchors",
+        "ungrey",
         "toggle-chapters",
         "book-summary-scroll-position-saver",
-        "splitter",
-        "ungrey"
+        "splitter"
     ],
     "pluginsConfig": {}
 }
