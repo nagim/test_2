@@ -1,5 +1,13 @@
 {
     "plugins": [
+        "comment",
+        "include",
+        "-sharing",
+        "anchor-navigation",
+        "anchors",
+        "toggle-chapters",
+        "book-summary-scroll-position-saver",
+        "splitter",
         "ungrey"
     ],
     "pluginsConfig": {}
