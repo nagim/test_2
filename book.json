@@ -5,7 +5,7 @@
         "-sharing",
         "anchor-navigation",
         "anchors",
-        "expandable-chapters",
+        "toggle-chapters",
         "book-summary-scroll-position-saver",
         "splitter",
         "ungrey"
