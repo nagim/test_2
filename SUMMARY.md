@@ -3,5 +3,5 @@
 * [Introduction](README.md)
 * [Ascii](ascii.adoc)
   * [rST](sdk.rst)
-* New Section
+* [New Section]()
   * [Chapter 1](chapter1.md)
