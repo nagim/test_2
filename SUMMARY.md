@@ -2,7 +2,6 @@
 
 * [Introduction](README.md)
 * [Ascii](ascii.adoc)
-* New Section
   * [rST](sdk.rst)
+* New Section
   * [Chapter 1](chapter1.md)
-  * [Glossary](GLOSSARY.md)
