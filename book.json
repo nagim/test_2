@@ -1,7 +1,5 @@
 {
 
-"gitbook": "2.6.6",
-
     "plugins": [
         "comment",
         "include",
@@ -9,7 +7,7 @@
         "anchor-navigation",
         "anchors",
         "ungrey",
-        "toggle-chapters",
+        "expandable-chapters",
         "book-summary-scroll-position-saver",
         "splitter"
     ],
