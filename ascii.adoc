@@ -7,9 +7,6 @@ AsciiDoc Home Page
               web pages, man pages and blogs.  AsciiDoc files can be +
               translated to many formats including HTML, PDF, EPUB,  +
               man page.
-              
-              dsfds
-              fdgdfg
 
 Introduction
 ------------
