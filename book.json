@@ -1,5 +1,4 @@
 {
-
     "plugins": [
         "comment",
         "include",
@@ -9,7 +8,8 @@
         "ungrey",
         "toggle-chapters",
         "book-summary-scroll-position-saver",
-        "splitter"
+        "splitter",
+        "super-prd"
     ],
     "pluginsConfig": {}
 }
