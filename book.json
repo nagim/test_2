@@ -11,5 +11,12 @@
         "splitter",
         "super-prd"
     ],
-    "pluginsConfig": {}
+    "pluginsConfig": {
+        "versions": {
+            "type": "tags"
+        }
+    }
+    "variables: {
+        "process": "install"
+  }
 }
