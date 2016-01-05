@@ -14,7 +14,12 @@
     ],
     "pluginsConfig": {
         "versions": {
-            "type": "tags"
+            "gitbookConfigURL": "https://raw.githubusercontent.com/nagim/test_2/master/book.json",
+            "options": [
+                {
+                    "value": "https://github.com/nagim/test_2/Added_Feature_1",
+                    "text": "Added new feature"
+                }"
         }      
     },
     "variables": {
