@@ -10,12 +10,18 @@
         "book-summary-scroll-position-saver",
         "splitter",
         "versions",
-        "super-prd"
+        "super-prd",
+        "-search",
+        "search-pro"
     ],
     "pluginsConfig": {
         "versions": {
             "type": "tags"
-        }
+        },
+        "search-pro": {
+            "cutWordLib": "nodejieba",
+            "defineWord" : ["小需求","基础建设"]
+      }
     },
     "variables": {
         "process": "install"
