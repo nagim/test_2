@@ -6,6 +6,8 @@ AsciiDoc is mentioned here a lot.
 
 Here's some code:
 
+> **note** sadasd asd as das
+
 ```JavaScript
 filterArr(qMultiOpt, qArray) {
        if($('#question'+qMultiOpt+' input.checkbox:checked').length < 1) {
