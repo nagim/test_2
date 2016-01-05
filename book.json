@@ -4,7 +4,7 @@
         "include",
         "-sharing",
         "anchor-navigation",
-        "anchors",
+        "structured-toc",
         "ungrey",
         "toggle-chapters",
         "book-summary-scroll-position-saver",
