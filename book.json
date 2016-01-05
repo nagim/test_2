@@ -12,7 +12,11 @@
         "versions",
         "super-prd"
     ],
-    "pluginsConfig": {},
+    "pluginsConfig": {
+        "versions": {
+            "type": "branches"
+        }
+    },
     "variables": {
         "process": "install"
   }
