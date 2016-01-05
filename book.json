@@ -17,7 +17,7 @@
             "type": "tags"
         }
     }
-    "variables: {
+    "variables": {
         "process": "install"
   }
 }
