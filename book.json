@@ -16,7 +16,7 @@
         "versions": {
             "type": "tags"
         }
-    }
+    },
     "variables": {
         "process": "install"
   }
