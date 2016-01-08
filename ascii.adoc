@@ -102,6 +102,15 @@ AsciiDoc markup supports all the standard DocBook frontmatter and
 backmatter sections (dedication, preface, bibliography, glossary,
 index, colophon) plus footnotes and index entries.
 
+[source,ruby]
+----
+require 'sinatra'  # <1>
+get '/hi' do         
+  "Hello World!"     
+end
+----
+<1> Library import
+
 - This link:book.txt[AsciiDoc book] produced link:book.html[this HTML
   file] using the 'DocBook XSL Stylesheets'.
 - The link:asciidoc.pdf[PDF formatted AsciiDoc User Guide] was
