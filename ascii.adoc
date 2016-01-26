@@ -23,7 +23,7 @@ the corresponding AsciiDoc source click on the *Page Source* menu item
 in the left hand margin.
 
 New stuff
-stuff
+stuff dd
 
 Overview and Examples
 ---------------------
