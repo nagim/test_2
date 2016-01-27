@@ -8,7 +8,6 @@ Here's some code:
 
 > **Warning** Be careful
 
-
 ```JavaScript
 filterArr(qMultiOpt, qArray) {
        if($('#question'+qMultiOpt+' input.checkbox:checked').length < 1) {
