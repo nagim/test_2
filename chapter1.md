@@ -6,7 +6,7 @@ AsciiDoc is mentioned here a lot.
 
 Here's some code:
 
-> **Warning** Be careful
+> **Danger** Be careful
 
 ```JavaScript
 filterArr(qMultiOpt, qArray) {
