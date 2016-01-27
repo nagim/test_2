@@ -15,6 +15,13 @@
     "pluginsConfig": {
         "versions": {
             "type": "tags"
+        },
+        "richquotes":
+        {
+            "danger": {
+                "alert": "danger",
+                "picto": "fa-exclamation-triangle"
+            }
         }
     },
     "variables": {
