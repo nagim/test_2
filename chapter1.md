@@ -6,7 +6,9 @@ AsciiDoc is mentioned here a lot.
 
 Here's some code:
 
-> **note** sadasd asd as das
+> **Warning** Be careful
+
+> **Note** sadasd asd as das
 
 ```JavaScript
 filterArr(qMultiOpt, qArray) {
