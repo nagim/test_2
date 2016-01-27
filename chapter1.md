@@ -8,7 +8,6 @@ Here's some code:
 
 > **Warning** Be careful
 
-> **Note** sadasd asd as das
 
 ```JavaScript
 filterArr(qMultiOpt, qArray) {
