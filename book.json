@@ -10,7 +10,7 @@
         "book-summary-scroll-position-saver",
         "splitter",
         "versions",
-        "richquotes"
+        "richquotes" 
     ],
     "pluginsConfig": {
         "versions": {
