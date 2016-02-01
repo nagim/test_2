@@ -10,14 +10,15 @@
         "book-summary-scroll-position-saver",
         "splitter",
         "versions",
-        "richquotes" 
+        "richquotes",
+        "copy-code-button",
+        "codesnippet"
     ],
     "pluginsConfig": {
         "versions": {
             "type": "tags"
         },
-        "richquotes":
-        {
+        "richquotes": {
             "danger": {
                 "alert": "danger",
                 "picto": "fa-exclamation-triangle"
@@ -26,5 +27,5 @@
     },
     "variables": {
         "process": "install"
-  }
+    }
 }
