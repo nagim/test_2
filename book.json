@@ -12,17 +12,21 @@
         "versions",
         "richquotes",
         "copy-code-button",
-        "codesnippet"
+        "codesnippet",
+        "sitemap"
     ],
     "pluginsConfig": {
         "versions": {
-            "type": "tags"
+            "type": "branches"
         },
         "richquotes": {
             "danger": {
                 "alert": "danger",
                 "picto": "fa-exclamation-triangle"
             }
+        },
+        "sitemap": {
+            "hostname": "https://imrenagy.gitbooks.io/test_2/content/"
         }
     },
     "variables": {
