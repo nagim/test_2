@@ -14,8 +14,7 @@
         "copy-code-button",
         "codesnippet",
         "sitemap",
-        "sections",
-        "scrollablecode"
+        "sections"
     ],
     "pluginsConfig": {
         "versions": {
@@ -28,7 +27,7 @@
             }
         },
         "sitemap": {
-            "hostname": "https://imrenagy.gitbooks.io/test_2/content/"
+            "hostname": "https://imrenagy.gitbooks.io/"
         }
     },
     "variables": {
