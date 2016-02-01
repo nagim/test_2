@@ -13,7 +13,9 @@
         "richquotes",
         "copy-code-button",
         "codesnippet",
-        "sitemap"
+        "sitemap",
+        "sections",
+        "scrollablecode"
     ],
     "pluginsConfig": {
         "versions": {
