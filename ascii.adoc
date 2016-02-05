@@ -39,7 +39,6 @@ DocBook markups.  DocBook can be post-processed to presentation
 formats such as HTML, PDF, EPUB, DVI, LaTeX, roff, and Postscript
 using readily available Open Source tools. btn:[OK] fdg f
 
-[subs="quotes"]
 ++++
 <div class="tabs">
     <ul class="tabs-nav">
