@@ -1,5 +1,4 @@
-AsciiDoc Home Page
-==================
+= AsciiDoc Home Page
 // Web page meta data.
 :keywords:    AsciiDoc, DocBook, EPUB, PDF, ebooks, slideshow, slidy, man page
 :description: AsciiDoc is a text document format for writing notes,  +
@@ -7,10 +6,11 @@ AsciiDoc Home Page
               web pages, man pages and blogs.  AsciiDoc files can be +
               translated to many formats including HTML, PDF, EPUB,  +
               man page.
-:icons: font
+              
+[.lead]
+Preamble
 
-Introduction
-------------
+== Introduction
 {description}
 
 icon:comment[]
@@ -18,11 +18,13 @@ AsciiDoc is highly _configurable: both the AsciiDoc source file syntax and the
 backend output markups (which can be almost any type of SGML/XML markup) can be
 
 AsciiDoc is free software and is licenced under the terms of the 'GNU
-General Public License version 2' (GPLv2). pass:<span class="octicon octicon-browser"></span> *`[OK]`*
+General Public License version 2' (GPLv2).
 
 TIP: The pages you are reading were written using AsciiDoc, to view
 the corresponding AsciiDoc source click on the *Page Source* menu item
 in the left hand margin.
+
+link:GLOSSARY.md[Glossary]
 
 > **Warning** New stuff stuff dd
 
@@ -37,24 +39,7 @@ the asciidoc(1) command.
 The asciidoc(1) command translates AsciiDoc files to HTML, XHTML and
 DocBook markups.  DocBook can be post-processed to presentation
 formats such as HTML, PDF, EPUB, DVI, LaTeX, roff, and Postscript
-using readily available Open Source tools. btn:[OK] fdg f
-
-++++
-<div class="tabs">
-    <ul class="tabs-nav">
-        <li>
-            <a data-toggle="tab">Java</a>
-        </li>
-        <li class="active">
-            <a data-toggle="tab">C++</a>
-        </li>
-    </ul>
-    <div class="tabs-content">
-        <div class="tab-pane" id="java">`Java Code`</div>
-        <div class="tab-pane active" id="cpp">`Cpp code`</div>
-    </div>
-</div>
-++++
+using readily available Open Source tools.
 
 Example Articles
 ~~~~~~~~~~~~~~~~
