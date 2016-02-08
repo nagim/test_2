@@ -4,6 +4,8 @@
 
 AsciiDoc is mentioned here a lot.
 
+[RST](sdk.rst)
+
 Here's some code:
 
 > **Danger** Be careful

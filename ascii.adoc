@@ -24,7 +24,7 @@ TIP: The pages you are reading were written using AsciiDoc, to view
 the corresponding AsciiDoc source click on the *Page Source* menu item
 in the left hand margin.
 
-link:GLOSSARY.md[Glossary]
+link:GLOSSARY.html[Glossary]
 
 > **Warning** New stuff stuff dd
 
