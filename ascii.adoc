@@ -18,7 +18,7 @@ AsciiDoc is highly _configurable: both the AsciiDoc source file syntax and the
 backend output markups (which can be almost any type of SGML/XML markup) can be
 
 AsciiDoc is free software and is licenced under the terms of the 'GNU
-General Public License version 2' (GPLv2).
+General Public License version 2' (GPLv2). [big]#*`[OK]`*#
 
 TIP: The pages you are reading were written using AsciiDoc, to view
 the corresponding AsciiDoc source click on the *Page Source* menu item
