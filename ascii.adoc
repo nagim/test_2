@@ -30,7 +30,7 @@ GLOSSARY.md[Glossary]
 
 Overview and Examples
 ---------------------
-You write an AsciiDoc document the same way you would write a
+[red]#You write an AsciiDoc# document the same way you would write a
 normal text document, there are no markup tags or weird format
 notations. AsciiDoc files are designed to be viewed, edited and
 printed directly or translated to other presentation formats using
