@@ -75,12 +75,12 @@ NOTE: This is a note
 
 [subs="quotes",source,js]
 ----
-filterArr(qMultiOpt, qArray) {
+[red]#filterArr(qMultiOpt, qArray) {#
     if($('#question'+qMultiOpt+'input.checkbox:checked').length < 1) {
     // Hide the array if no multi-opt options are checked
     $('#question'+qArray+'').hide();
     }
-    #else# {
+    else {
          $('#question'+qArray+' table.question tbody td, #question'+qArray+' table.question thead th').show();
          // Loop through multi-opt checkboxes and, if checked, show corresponding column of array
          $('#question'+qMultiOpt+' input.checkbox').each(function(i){
