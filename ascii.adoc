@@ -41,8 +41,8 @@ formats such as HTML, PDF, EPUB, DVI, LaTeX, roff, and Postscript
 using readily available Open Source tools.
 
 
-|kbd:[F11]
-|Toggle fullscreen
+kbd:[F11]
+
 
 Example Articles
 ~~~~~~~~~~~~~~~~
