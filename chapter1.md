@@ -31,3 +31,18 @@ filterArr(qMultiOpt, qArray) {
        }
 }
 ```
+
+<div class="tabs">
+    <ul class="tabs-nav">
+        <li>
+            <a data-toggle="tab">Java</a>
+        </li>
+        <li class="active">
+            <a data-toggle="tab">C++</a>
+        </li>
+    </ul>
+    <div class="tabs-content">
+        <div class="tab-pane" id="java">`Java Code`</div>
+        <div class="tab-pane active" id="cpp">`Cpp code`</div>
+    </div>
+</div>
