@@ -13,6 +13,7 @@
         "richquotes",
         "copy-code-button",
         "codesnippet",
+        "plantuml",
         "sections"
     ],
     "pluginsConfig": {

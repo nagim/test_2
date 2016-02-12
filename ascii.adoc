@@ -40,9 +40,20 @@ DocBook markups.  DocBook can be post-processed to presentation
 formats such as HTML, PDF, EPUB, DVI, LaTeX, roff, and Postscript
 using readily available Open Source tools.
 
+```uml
+@startuml
 
-kbd:[F11]
+    Class Stage
+    Class Timeout {
+        +constructor:function(cfg)
+        +timeout:function(ctx)
+        +overdue:function(ctx)
+        +stage: Stage
+    }
+     Stage <|-- Timeout
 
+@enduml
+```
 
 Example Articles
 ~~~~~~~~~~~~~~~~
