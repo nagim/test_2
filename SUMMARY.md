@@ -5,4 +5,3 @@
    * [rST](sdk.rst)
 * New Section 
    * [Chapter 1](chapter1.md)
-s
