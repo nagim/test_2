@@ -10,6 +10,21 @@ Here's some code:
 
 > **Danger** Be careful
 
+```uml
+@startuml
+
+    Class Stage
+    Class Timeout {
+        +constructor:function(cfg)
+        +timeout:function(ctx)
+        +overdue:function(ctx)
+        +stage: Stage
+    }
+     Stage <|-- Timeout
+
+@enduml
+```
+
 ```JavaScript
 filterArr(qMultiOpt, qArray) {
        if($('#question'+qMultiOpt+' input.checkbox:checked').length < 1) {
