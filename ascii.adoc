@@ -13,7 +13,7 @@ Preamble
 == Introduction
 {description}
 
-AsciiDoc is highly configurable: both the AsciiDoc source file syntax and the
+AsciiDoc is highly [line-through]#configurable#: both the AsciiDoc source file syntax and the
 backend output markups (which can be almost any type of SGML/XML markup) can be
 
 AsciiDoc is free software and is licenced under the terms of the 'GNU
