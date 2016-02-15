@@ -2,7 +2,7 @@
     "plugins": [
         "comment",
         "include",
-        "-sharing",,
+        "-sharing",
         "-search",
         "anchor-navigation",
         "heading-anchors",
