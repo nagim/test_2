@@ -14,7 +14,8 @@
         "copy-code-button",
         "codesnippet",
         "plantuml",
-        "sections"
+        "sections",
+        "swiftype"
     ],
     "pluginsConfig": {
         "versions": {
@@ -29,6 +30,10 @@
                 "alert": "warning",
                 "picto": "fa-exclamation-circle"
             }
+        },
+        "swiftype": {
+            "token": "utQHy1R2XyiVqDqaZxxx",
+            "version": "2.0.0"
         }
     },
     "variables": {
