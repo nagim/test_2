@@ -14,7 +14,8 @@
         "copy-code-button",
         "codesnippet",
         "plantuml",
-        "sections"
+        "sections",
+        "base"
     ],
     "pluginsConfig": {
         "versions": {
