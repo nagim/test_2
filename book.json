@@ -24,6 +24,10 @@
             "danger": {
                 "alert": "danger",
                 "picto": "fa-exclamation-triangle"
+            },
+            "warning": {
+                "alert": "warning",
+                "picto": "fa-exclamation-circle"
             }
         }
     },
