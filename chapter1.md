@@ -9,25 +9,25 @@ AsciiDoc is mentioned here a lot.
 Here's some code:
 
 > **Info** Info
-> 
+
 > **Note** Note
-> 
+
 > **Tag** Tag
-> 
+
 > **Comment** Comment
-> 
+
 > **Hint** Hint
-> 
+
 > **Success** Success
-> 
+ 
 > **Warning** Warning
-> 
+
 > **Caution** Caution
-> 
+
 > **Danger** Danger
-> 
+
 > **Quote** Quote
-> 
+
 
 ```uml
 @startuml
