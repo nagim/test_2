@@ -1,5 +1,6 @@
 = AsciiDoc Home Page
 // Web page meta data.
+icons:font
 :keywords:    AsciiDoc, DocBook, EPUB, PDF, ebooks, slideshow, slidy, man page
 :description: AsciiDoc is a text document format for writing notes,  +
               documentation, articles, books, ebooks, slideshows,    +
@@ -19,12 +20,29 @@ AsciiDoc is highly [line-through]#configurable#: both the AsciiDoc source file s
 AsciiDoc is free software and is licenced under the terms of the 'GNU
 General Public License version 2' (GPLv2).
 
-> #### Note::Note
+==== sdfdsf
+
+dssdfdsf
+^^^^^^^^^
+
+> ==== Note::Note
 
 
 > **Info** Info
 
 fdg
+
+[NOTE]
+====
+An admonition block may contain complex content.
+
+.A list
+- one
+- two
+- three
+
+Another paragraph.
+====
 
 NOTE: The pages you are reading were written using AsciiDoc, to view
 the corresponding AsciiDoc source click on the *Page Source* menu item
