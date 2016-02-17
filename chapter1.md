@@ -46,6 +46,28 @@ fdgfdg
 
 > **Quote** Quote
 
+asdasd
+
+
+> #### Info::Info
+
+> #### Note::Note
+
+> #### Tag::Tag
+
+> #### Comment::Comment
+
+> #### Hint::Hint
+
+> #### Success::Success
+
+> #### Warning::Warning
+
+> #### Caution::Caution
+
+> #### Danger::Danger
+
+> #### Quote::Quote
 
 ```uml
 @startuml
