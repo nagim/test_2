@@ -19,6 +19,9 @@ AsciiDoc is highly [line-through]#configurable#: both the AsciiDoc source file s
 AsciiDoc is free software and is licenced under the terms of the 'GNU
 General Public License version 2' (GPLv2).
 
+> ==== Note::Note
+
+
 NOTE: The pages you are reading were written using AsciiDoc, to view
 the corresponding AsciiDoc source click on the *Page Source* menu item
 in the left hand margin.
