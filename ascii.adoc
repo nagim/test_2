@@ -15,7 +15,7 @@ Preamble
 {description}
 
 AsciiDoc is highly [line-through]#configurable#: both the AsciiDoc source file syntax and the
-[small]#backend output# [big]#markups# (which can be almost any type of SGML/XML markup) can be
+[small]#backend output# markups (which can be almost any type of SGML/XML markup) [big]#can be#
 
 AsciiDoc is free software and is licenced under the terms of the 'GNU
 General Public License version 2' (GPLv2).
