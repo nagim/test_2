@@ -39,7 +39,7 @@ dssdfdsf
 
 This is a note
 
-> ***Info*** Info
+> **Info** **Info:** This is an info
 
 fdg
 
