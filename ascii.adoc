@@ -51,9 +51,12 @@ An admonition block may contain complex content.
 - one
 - two
 - three
-
-Another paragraph.
 ====
+
+[underline]#Another paragraph.#
+
+[overline]#something.#
+
 
 NOTE: The pages you are reading were written using AsciiDoc, to view
 the corresponding AsciiDoc source click on the *Page Source* menu item
