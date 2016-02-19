@@ -4,6 +4,16 @@
 
 AsciiDoc is mentioned here a lot.
 
+- [ ] Mercury
+- [x] Venus
+- [x] Earth (Orbit/Moon)
+- [x] Mars
+- [ ] Jupiter
+- [ ] Saturn
+- [ ] Uranus
+- [ ] Neptune
+- [ ] Comet Haley
+
 [RST](sdk.rst)
 
 Here's some code:
