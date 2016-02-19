@@ -34,7 +34,8 @@ dssdfdsf
 > ==== Note::Note
 > This is a note
 
-> ==== Note::Note +
+> ==== Note::Note
+
 This is a note
 
 > **Info** Info
