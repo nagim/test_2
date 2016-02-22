@@ -14,6 +14,12 @@ Preamble
 == Introduction
 {description}
 
+
+
+---
+
+
+
 AsciiDoc is highly [line-through]#configurable#: both the AsciiDoc source file syntax and the
 [small]#backend output# markups (which can be almost any type of SGML/XML markup) [big]#can be#
 

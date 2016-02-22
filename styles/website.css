@@ -52,6 +52,14 @@ blockquote.alert p a {
     text-decoration: underline !important;
 }
 
+hr {
+  border: 0;
+  width: 80%;
+  color: #f00;
+  background-color: #f00;
+  height: 5px;
+}
+
 div.unbreakable{page-break-inside:avoid}
 .big{font-size:larger}
 .small{font-size:smaller}
