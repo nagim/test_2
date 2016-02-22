@@ -29,7 +29,7 @@ General Public License version 2' (GPLv2).
         +stage: Stage
     }
      Stage <|-- Timeout
-{% plantuml %}
+{% endplantuml %}
 
 - [*] checked
 - [x] also checked
