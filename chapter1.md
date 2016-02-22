@@ -5,9 +5,7 @@
 AsciiDoc is mentioned here a lot.
 
 
-*****
-
-<hr>
+<hr class="style18">
 
 - [ ] Mercury
 - [x] Venus
