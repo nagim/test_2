@@ -7,6 +7,8 @@ AsciiDoc is mentioned here a lot.
 
 *****
 
+<hr>
+
 - [ ] Mercury
 - [x] Venus
 - [x] Earth (Orbit/Moon)
