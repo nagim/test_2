@@ -99,9 +99,7 @@ dfgfdg
 
 dfgfdg
 
-```uml
-@startuml
-
+{% plantuml %}
     Class Stage
     Class Timeout {
         +constructor:function(cfg)
@@ -110,9 +108,8 @@ dfgfdg
         +stage: Stage
     }
      Stage <|-- Timeout
+{% plantuml %}
 
-@enduml
-```
 
 ```JavaScript
 filterArr(qMultiOpt, qArray) {

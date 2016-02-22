@@ -13,9 +13,9 @@
         "richquotes",
         "copy-code-button",
         "codesnippet",
-        "plantuml",
         "sections",
-        "callouts"
+        "callouts",
+        "puml"
     ],
     "pluginsConfig": {
         "versions": {
