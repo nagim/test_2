@@ -54,6 +54,8 @@ blockquote.alert p a {
 
 hr {
 	color:#0000bf;
+	border: 0;
+	box-shadow: 0 10px 10px -10px #8c8b8b inset;
 }
 
 div.unbreakable{page-break-inside:avoid}
