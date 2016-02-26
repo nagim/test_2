@@ -144,6 +144,9 @@ Example Articles
 
 NOTE: This is a note
 
+Example:
+<!--sec data-id="section0" data-show=false ces-->
+
 [subs="quotes",source,js]
 ----
 [red]#filterArr(qMultiOpt, qArray) {#
@@ -164,6 +167,8 @@ NOTE: This is a note
     }
 }
 ----
+
+<!--endsec-->
 
 [[X7]]
 Example Books

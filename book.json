@@ -15,7 +15,8 @@
         "codesnippet",
         "sections",
         "callouts",
-        "puml"
+        "puml",
+        "sectionx"
     ],
     "pluginsConfig": {
         "versions": {
