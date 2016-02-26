@@ -145,7 +145,8 @@ Example Articles
 NOTE: This is a note
 
 Example:
-<!--sec data-id="section0" data-show=false ces-->
+
+<!--sec data-title="Introduction" data-id="section0" data-show=true ces-->
 
 [subs="quotes",source,js]
 ----

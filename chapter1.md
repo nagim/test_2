@@ -110,6 +110,7 @@ Alice -> Bob: Another authentication Request
 Alice <-- Bob: another authentication Response
 {% endplantuml %}
 
+<!--sec data-title="Introduction" data-id="section0" data-show=true ces-->
 
 ```JavaScript
 filterArr(qMultiOpt, qArray) {
@@ -132,3 +133,6 @@ filterArr(qMultiOpt, qArray) {
        }
 }
 ```
+<!--endsec-->
+
+
