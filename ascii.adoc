@@ -7,7 +7,7 @@ icons:font
               web pages, man pages and blogs.  AsciiDoc files can be +
               translated to many formats including HTML, PDF, EPUB,  +
               man page.
-              
+
 [.lead]
 Preamble
 
@@ -38,15 +38,15 @@ Alice <-- Bob: another authentication Response
 - [x] also checked
 - [ ] not checked
 -     normal list item
--     
+-
 
 ==== sdfdsf
 
 dssdfdsf
 ^^^^^^^^^
 
-> ==== Note::Note
-> 
+> ==== Note::
+>
 > This is a note
 
 > ==== Note::Note
@@ -181,8 +181,8 @@ index, colophon) plus footnotes and index entries.
 [source,ruby]
 ----
 require 'sinatra'  // <1>
-get '/hi' do       # <2>  
-  "Hello World!"     
+get '/hi' do       # <2>
+  "Hello World!"
 end
 ----
 <1> Library import
