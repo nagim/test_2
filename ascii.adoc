@@ -95,7 +95,7 @@ What is the answer to the Ultimate Question?:: 42
 
 link:styles/website.css[testlink]
 
-link:test.adoc[test]
+link:test.html[test]
 
 > **Warning** New stuff stuff dd
 
