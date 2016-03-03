@@ -1,4 +1,4 @@
-{
+{{ "gitbook": "2.x.x" }
     "plugins": [
         "comment",
         "include",
@@ -34,6 +34,6 @@
         }
     },
     "variables": {
-        "process": "install"
+        "alert": "note: '<div class="alert alert-info" role="alert"><i class="fa fa-info-circle"></i> <b>Note: </b>'"
     }
 }
