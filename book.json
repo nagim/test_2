@@ -35,6 +35,7 @@
         }
     },
     "variables": {
-        "note": "<div class=\"alert alert-info\" role=\"alert\"><i class=\"fa fa-info-circle\" </i> <b>Note: </b>"
+        "note": "<div class=\"alert alert-info\" role=\"alert\"><i class=\"fa fa-info-circle\" </i> <b>Note: </b>",
+        "end": "</div>"
     }
 }
