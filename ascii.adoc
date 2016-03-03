@@ -57,7 +57,7 @@ This is a note
 
 fdg
 
-{{ book.alert }} This is a note {{ book.alert.end}}
+{{ book.note }} This is a note {{ book.note.end}}
 
 [NOTE]
 ====
