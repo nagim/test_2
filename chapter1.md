@@ -110,6 +110,8 @@ Alice -> Bob: Another authentication Request
 Alice <-- Bob: another authentication Response
 {% endplantuml %}
 
+{{ book.note }} This is a note {{ book.note.end}}
+
 <!--sec data-title="Introduction" data-id="section0" data-show=true ces-->
 
 ```JavaScript
