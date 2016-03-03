@@ -23,7 +23,7 @@ see
 AsciiDoc is highly [line-through]#configurable#: both the AsciiDoc source file syntax and the
 [small]#backend output# markups (which can be almost any type of SGML/XML markup) [big]#can be#
 
-AsciiDoc is free software and is licenced under the terms of the 'GNU
+AsciiDoc is free [red]#software# and is licenced under the terms of the 'GNU
 General Public License version 2' (GPLv2).
 
 {% plantuml %}
@@ -57,7 +57,9 @@ This is a note
 
 fdg
 
+++++
 {{ book.note }} This is a note {{ book.end}}
+++++
 
 [NOTE]
 ====
@@ -148,8 +150,6 @@ NOTE: This is a note
 
 Example:
 
-<!--sec data-title="Introduction" data-id="section0" data-show=true ces-->
-
 [subs="quotes",source,js]
 ----
 [red]#filterArr(qMultiOpt, qArray) {#
@@ -170,8 +170,6 @@ Example:
     }
 }
 ----
-
-<!--endsec-->
 
 [[X7]]
 Example Books
