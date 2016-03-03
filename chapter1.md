@@ -87,8 +87,7 @@ dfgfdg
 dfgfdg
 
 > #### Warning::Warning
-gfghfh
-
+> gfghfh
 
 > #### Caution::Caution
 
@@ -102,6 +101,9 @@ dfgfdg
 
 dfgfdg
 
+
+{{ book.note }} This is a note {{ book.end}}
+
 {% plantuml %}
 Alice -> Bob: Authentication Request
 Bob --> Alice: Authentication Response
@@ -110,7 +112,6 @@ Alice -> Bob: Another authentication Request
 Alice <-- Bob: another authentication Response
 {% endplantuml %}
 
-{{ book.note }} This is a note {{ book.note.end}}
 
 <!--sec data-title="Introduction" data-id="section0" data-show=true ces-->
 
