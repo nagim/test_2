@@ -1,4 +1,5 @@
-{{ "gitbook": "2.x.x" }
+{
+ "gitbook": "2.x.x",
     "plugins": [
         "comment",
         "include",
