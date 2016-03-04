@@ -14,25 +14,16 @@
 |===
 
 === Code example
-[subs="quotes",source,js]
+[subs="quotes",source]
 ----
-[red]#filterArr(qMultiOpt, qArray) {#
-    if($('#question'+qMultiOpt+'input.checkbox:checked').length < 1) { // <1>
-    // Hide the array if no multi-opt options are checked
-    $('#question'+qArray+'').hide();
-    }
-    else {
-         $('#question'+qArray+' table.question tbody td, #question'+qArray+' table.question thead th').show();
-         // Loop through multi-opt checkboxes and, if checked, show corresponding column of array
-         $('#question'+qMultiOpt+' input.checkbox').each(function(i){
-         if($(this).attr('checked') == true) {
-             var classArr3 = $(this).attr('id').split('X'+qMultiOpt);
-             var ansCode3 = classArr3[1];
-             $('#question'+qArray+' .ans-'+ansCode3+'').hide();
-             }
-         });
-    }
-}
+tsp_IMS_Configuration_Scenarios.trafficCases.trafficSpecific.media :=
+          {
+            enabled := true,
+            generator := {
+              mlsim :=
+              {
+                [red]#enabled := true,#  // <1>
+                enableMLSimPlus := true,
 ----
 
 <1> Callout
