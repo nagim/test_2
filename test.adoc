@@ -28,6 +28,21 @@ tsp_IMS_Configuration_Scenarios.trafficCases.trafficSpecific.media :=
                 enableMLSimPlus := true,
 ----
 
+=== Code example wit callouts
+
+[source]
+----
+tsp_IMS_Configuration_Scenarios.trafficCases.trafficSpecific.media :=
+          {
+            enabled := true,
+            generator := {
+              mlsim :=     
+              {
+                enabled := true,   // <1>
+                enableMLSimPlus := true,
+----
+<1> Callout
+
 === User Inputs
 
   asciidoc -a data-uri -a icons -a toc -a max-width=55em article.txt
@@ -57,10 +72,13 @@ tsp_IMS_Configuration_Scenarios.trafficCases.trafficSpecific.media :=
 > **Hint** This is a tip
 
 
+
 > **Info** This is a note
 
 
+
 > **Caution** This is important info
+
 
 
 > **Danger** This is a warning

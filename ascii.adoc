@@ -178,7 +178,7 @@ AsciiDoc markup supports all the standard DocBook frontmatter and
 backmatter sections (dedication, preface, bibliography, glossary,
 index, colophon) plus footnotes and index entries.
 
-[subs="quotes",source,ruby]
+[source,ruby]
 ----
 require 'sinatra'  // <1>
 get '/hi' do       # <2>
