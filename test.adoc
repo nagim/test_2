@@ -30,7 +30,7 @@ tsp_IMS_Configuration_Scenarios.trafficCases.trafficSpecific.media :=
 
 === Code example wit callouts
 
-[source,js]
+[source]
 ----
 tsp_IMS_Configuration_Scenarios.trafficCases.trafficSpecific.media :=
           {
@@ -38,8 +38,8 @@ tsp_IMS_Configuration_Scenarios.trafficCases.trafficSpecific.media :=
             generator := {
               mlsim :=     
               {
-                enabled := true,   // <1>
-                enableMLSimPlus := true,  // <2>
+                enabled := true,            // <1>
+                enableMLSimPlus := true,    // <2>
 ----
 <1> Callout 1
 <2> Callout 2
