@@ -135,7 +135,7 @@ div.tableblock > table[frame="vsides"] {
 
 table.tableblock {
   margin-top: 1.0em;
-  background: #aaa;
+  background: white;
   margin-bottom: 1.5em;
 }
 thead, p.tableblock.header {
@@ -144,6 +144,7 @@ thead, p.tableblock.header {
 }
 p.tableblock {
   margin-top: 0;
+  background: white;
 }
 table.tableblock {
   border-width: 3px;
@@ -151,12 +152,14 @@ table.tableblock {
   border-style: solid;
   border-color: #527bbd;
   border-collapse: collapse;
+  background: white;
 }
 th.tableblock, td.tableblock {
   border-width: 1px;
   padding: 4px;
   border-style: solid;
   border-color: #527bbd;
+  background: white;
 }
 
 table.tableblock.frame-topbot {
