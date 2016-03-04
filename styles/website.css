@@ -70,6 +70,10 @@ hr.style18:before {
   border-radius: 20px; 
 }
 
+div.tableblock.white-background table { 
+  background-color: white; 
+} 
+
 div.unbreakable{page-break-inside:avoid}
 .big{font-size:larger}
 .small{font-size:smaller}

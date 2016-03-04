@@ -1,1 +1,76 @@
-= Test
+== Typographic Conventions
+
+=== Inline elements
+
+[role="white-background",grid="rows",frame="topbot"]
+|===
+|*Type* |  *Example*
+| Messages (Requests, Responses) |  `[red]#*INVITE*#` (could be other color)
+| Headers |  `*Contact*`
+| GUI elements | *[OK]* button, *[Enable]* checkbox
+| Parameters | `tsp_GenApp_Diameter_configs`
+| Path, file name | _TitanSim-RnXnn-install.tgz_, _/home/username/TitanSim-RnXnn-install_
+| Parameter value | `_true_`
+|===
+
+=== Code example
+[subs="quotes",source,js]
+----
+[red]#filterArr(qMultiOpt, qArray) {#
+    if($('#question'+qMultiOpt+'input.checkbox:checked').length < 1) { // <1>
+    // Hide the array if no multi-opt options are checked
+    $('#question'+qArray+'').hide();
+    }
+    else {
+         $('#question'+qArray+' table.question tbody td, #question'+qArray+' table.question thead th').show();
+         // Loop through multi-opt checkboxes and, if checked, show corresponding column of array
+         $('#question'+qMultiOpt+' input.checkbox').each(function(i){
+         if($(this).attr('checked') == true) {
+             var classArr3 = $(this).attr('id').split('X'+qMultiOpt);
+             var ansCode3 = classArr3[1];
+             $('#question'+qArray+' .ans-'+ansCode3+'').hide();
+             }
+         });
+    }
+}
+----
+
+<1> Callout
+
+==== User Inputs
+
+  asciidoc -a data-uri -a icons -a toc -a max-width=55em article.txt
+  
+=== Admonitions
+
+++++
+{{ book.tip }} This is a tip {{ book.end}}
+++++
+
+
+++++
+{{ book.note }} This is a note {{ book.end}}
+++++
+
+
+++++
+{{ book.warning }} This is important info {{ book.end}}
+++++
+
+
+++++
+{{ book.danger }} This is a warning {{ book.end}}
+++++
+
+
+> **Hint** This is a tip
+
+
+> **Info** This is a note
+
+
+> **Caution** This is important info
+
+
+> **Danger** This is a warning
+
