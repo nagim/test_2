@@ -35,7 +35,7 @@
 		}
 	},
 	"variables": {
-		"note": "<div class=\"alert alert-info\" role=\"alert\"><i class=\"fa fa-info-circle\"></i> <p><b>Note: </b>",
+		"note": "<p><div class=\"alert alert-info\" role=\"alert\"><i class=\"fa fa-info-circle\"></i> <b>Note: </b>",
 		"warning": "<div class=\"alert alert-warning\" role=\"alert\"><i class=\"fa fa-warning\"></i> <b>Important: </b>",
 		"danger": "<div class=\"alert alert-danger\" role=\"alert\"><i class=\"fa fa-exclamation-circle\"></i> <b>Warning: </b>",
 		"tip": "<div class=\"alert alert-success\" role=\"alert\"><i class=\"fa fa-check-square-o\"></i> <b>Tip: </b>",
