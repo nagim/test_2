@@ -1,5 +1,5 @@
 {
-	"gitbook": "3.0.0-pre.3",
+	"gitbook": "2.x.x",
 	"plugins": [
 		"comment",
 		"include",
