@@ -1,6 +1,7 @@
-== Typographic Conventions
+= Typographic Conventions
 
-=== Inline elements
+
+== Inline elements
 
 [role="white-background",grid="rows",frame="topbot"]
 |===
@@ -13,7 +14,7 @@
 | Parameter value | `_true_`
 |===
 
-=== Code example
+== Code example
 
 [subs="quotes",source]
 ----
@@ -27,17 +28,30 @@ tsp_IMS_Configuration_Scenarios.trafficCases.trafficSpecific.media :=
                 enableMLSimPlus := true,
 ----
 
-==== User Inputs
+=== User Inputs
 
   asciidoc -a data-uri -a icons -a toc -a max-width=55em article.txt
   
-=== Admonitions
+== Admonitions
 
 ++++
 {{ book.note }} This is a note {{ book.end }}
 ++++
 
 
+++++
+{{ book.tip }} This is a tip {{ book.end }}
+++++
+
+
+++++
+{{ book.warning }} This is important info {{ book.end }}
+++++
+
+
+++++
+{{ book.danger }} This is a warning {{ book.end }}
+++++
 
 
 > **Hint** This is a tip
