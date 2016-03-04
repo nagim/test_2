@@ -175,8 +175,7 @@ table.tableblock.frame-none {
 }
 
 table.tableblock.grid-none {
-  border: none;
-  outline: none;
+  border: 0;
 }
 
 th.tableblock.halign-left, td.tableblock.halign-left {
