@@ -144,7 +144,6 @@ thead, p.tableblock.header {
 }
 p.tableblock {
   margin-top: 0;
-  background: white;
 }
 table.tableblock {
   border-width: 3px;
@@ -159,7 +158,6 @@ th.tableblock, td.tableblock {
   padding: 4px;
   border-style: solid;
   border-color: #527bbd;
-  background: white;
 }
 
 table.tableblock.frame-topbot {
@@ -174,7 +172,7 @@ table.tableblock.frame-none {
   border-style: hidden;
 }
 
-th.tableblock.grid-rows td.tableblock.grid-rows{
+th.tableblock.grid-rows, td.tableblock.grid-rows{
   border: none;
 }
 
