@@ -43,24 +43,6 @@
   
 === Admonitions
 
-++++
-{{ book.tip }} This is a tip {{ book.end}}
-++++
-
-
-++++
-{{ book.note }} This is a note {{ book.end}}
-++++
-
-
-++++
-{{ book.warning }} This is important info {{ book.end}}
-++++
-
-
-++++
-{{ book.danger }} This is a warning {{ book.end}}
-++++
 
 
 > **Hint** This is a tip
