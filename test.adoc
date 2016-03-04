@@ -1,4 +1,4 @@
-== Typographic Conventions
+= Typographic Conventions
 
 === Inline elements
 
