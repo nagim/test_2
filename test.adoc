@@ -6,7 +6,7 @@
 [role="white-background",grid="rows",frame="topbot"]
 |===
 |*Type* |  *Example*
-| Messages (Requests, Responses) |  pass:quotes[[red]#`*INVITE*`#] (could be other color)
+| Messages (Requests, Responses) |  `*INVITE*`
 | Headers |  `*Contact*`
 | GUI elements | *[OK]* button, *[Enable]* checkbox
 | Parameters | `tsp_GenApp_Diameter_configs`
@@ -51,7 +51,7 @@ tsp_IMS_Configuration_Scenarios.trafficCases.trafficSpecific.media :=
 == Admonitions
 
 ++++
-{{ book.note }} This is a note {{ book.end }}
+{{ book.note }} <p>This is a note</p> {{ book.end }}
 ++++
 
 
