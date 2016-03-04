@@ -51,7 +51,7 @@ tsp_IMS_Configuration_Scenarios.trafficCases.trafficSpecific.media :=
 == Admonitions
 
 ++++
-{{ book.note }} <p>This is a note</p> {{ book.end }}
+{{ book.note }} This is a note {{ book.end }}
 ++++
 
 
