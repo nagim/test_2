@@ -151,13 +151,13 @@ table.tableblock {
   border-style: solid;
   border-color: #527bbd;
   border-collapse: collapse;
-  background: white;
 }
 th.tableblock, td.tableblock {
   border-width: 1px;
   padding: 4px;
   border-style: solid;
   border-color: #527bbd;
+  background: white;
 }
 
 table.tableblock.frame-topbot {
@@ -170,10 +170,6 @@ table.tableblock.frame-sides {
 }
 table.tableblock.frame-none {
   border-style: hidden;
-}
-
-th.tableblock.grid-rows, td.tableblock.grid-rows{
-  border: none;
 }
 
 th.tableblock.halign-left, td.tableblock.halign-left {
