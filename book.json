@@ -35,10 +35,10 @@
 		}
 	},
 	"variables": {
-		"note": "<div class=\"alert alert-info\" role=\"alert\"><i class=\"fa fa-info-circle\"></i> <b>Note: </b><p style=\"display:inline\">",
-		"warning": "<div class=\"alert alert-warning\" role=\"alert\"><i class=\"fa fa-warning\"></i> <b>Important: </b><p style=\"display:inline\">",
-		"danger": "<div class=\"alert alert-danger\" role=\"alert\"><i class=\"fa fa-exclamation-circle\"></i> <b>Warning: </b><p style=\"display:inline\">",
-		"tip": "<div class=\"alert alert-success\" role=\"alert\"><i class=\"fa fa-check-square-o\"></i> <b>Tip: </b><p style=\"display:inline\">",
-		"end": "</p></div>"
+		"note": "<div class=\"alert alert-info\" role=\"alert\"><i class=\"fa fa-info-circle\"></i> <b>Note: </b><div class=\"paragraph\">",
+		"warning": "<div class=\"alert alert-warning\" role=\"alert\"><i class=\"fa fa-warning\"></i> <b>Important: </b><div class=\"paragraph\">",
+		"danger": "<div class=\"alert alert-danger\" role=\"alert\"><i class=\"fa fa-exclamation-circle\"></i> <b>Warning: </b><div class=\"paragraph\">",
+		"tip": "<div class=\"alert alert-success\" role=\"alert\"><i class=\"fa fa-check-square-o\"></i> <b>Tip: </b><div class=\"paragraph\">",
+		"end": "</dive></div>"
 	}
 }
