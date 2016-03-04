@@ -5,4 +5,4 @@
 * New Section
    * [Chapter 1](chapter1.md)
    * [test](test.adoc)
-   * [Ascii](ascii.adoc#_example_articles)
+   * [Ascii](ascii.adoc)
