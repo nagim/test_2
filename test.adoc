@@ -2,7 +2,7 @@
 
 === Inline elements
 
-
+[role="white-background",grid="rows",frame="topbot"]
 |===
 |*Type* |  *Example*
 | Messages (Requests, Responses) |  `[red]#*INVITE*#` (could be other color)
