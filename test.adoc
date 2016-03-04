@@ -3,10 +3,10 @@
 
 == Inline elements
 
-[role="white-background",grid="rows",frame="topbot"]
+[role="white-background",grid="rows",frame="none"]
 |===
 |*Type* |  *Example*
-| Messages (Requests, Responses) |  `*INVITE*`
+| Messages (Requests, Responses) |  `[red]#*INVITE*#` (could be other color)
 | Headers |  `*Contact*`
 | GUI elements | *[OK]* button, *[Enable]* checkbox
 | Parameters | `tsp_GenApp_Diameter_configs`
@@ -28,7 +28,7 @@ tsp_IMS_Configuration_Scenarios.trafficCases.trafficSpecific.media :=
                 enableMLSimPlus := true,
 ----
 
-=== Code example wit callouts
+=== Code example with callouts
 
 [source]
 ----
