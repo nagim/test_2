@@ -110,6 +110,6 @@ div.unbreakable{page-break-inside:avoid}
 .yellow-background{background-color:#fafa00}
 
 
-div.tableblock.white-background table { 
+table.tableblock.white-background table { 
   background-color: #fafafa; 
 }
