@@ -2,7 +2,7 @@
 
 === Inline elements
 
-[grid="rows",frame="topbot"]
+
 |===
 |*Type* |  *Example*
 | Messages (Requests, Responses) |  `[red]#*INVITE*#` (could be other color)
@@ -22,7 +22,7 @@ tsp_IMS_Configuration_Scenarios.trafficCases.trafficSpecific.media :=
             generator := {
               mlsim :=
               {
-                [red]#enabled := true,#  // <1>
+<1>             [red]#enabled := true,#
                 enableMLSimPlus := true,
 ----
 
