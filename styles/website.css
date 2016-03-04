@@ -184,3 +184,31 @@ th.tableblock.valign-middle, td.tableblock.valign-middle {
 th.tableblock.valign-bottom, td.tableblock.valign-bottom {
   vertical-align: bottom;
 }
+
+table.grid-all th.tableblock, table.grid-all td.tableblock {
+    border-width: 0 1px 1px 0;
+}
+
+table.grid-all tfoot > tr > th.tableblock, table.grid-all tfoot > tr > td.tableblock {
+    border-width: 1px 1px 0 0;
+}
+
+table.grid-cols th.tableblock, table.grid-cols td.tableblock {
+    border-width: 0 1px 0 0;
+}
+
+table.grid-all * > tr > .tableblock:last-child, table.grid-cols * > tr > .tableblock:last-child {
+    border-right-width: 0;
+}
+
+table.grid-rows th.tableblock, table.grid-rows td.tableblock {
+    border-width: 0 0 1px 0;
+}
+
+table.grid-all tbody > tr:last-child > th.tableblock, table.grid-all tbody > tr:last-child > td.tableblock, table.grid-all thead:last-child > tr > th.tableblock, table.grid-rows tbody > tr:last-child > th.tableblock, table.grid-rows tbody > tr:last-child > td.tableblock, table.grid-rows thead:last-child > tr > th.tableblock {
+    border-bottom-width: 0;
+}
+
+table.grid-rows tfoot > tr > th.tableblock, table.grid-rows tfoot > tr > td.tableblock {
+    border-width: 1px 0 0 0;
+}
