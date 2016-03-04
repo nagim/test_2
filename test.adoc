@@ -4,7 +4,7 @@
 
 == Inline elements
 
-[role="white-background", grid="rows", frame="none"]
+[role="white-background", grid="none", frame="none"]
 |===
 |*Type* |  *Example*
 | Messages (Requests, Responses) |  `[red]#*INVITE*#` (could be other color)
