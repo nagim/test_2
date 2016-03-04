@@ -201,7 +201,7 @@ table.grid-all * > tr > .tableblock:last-child, table.grid-cols * > tr > .tableb
     border-right-width: 0;
 }
 
-table.grid-rows th.tableblock, table.grid-rows td.tableblock {
+table.tableblock.grid-rows th.tableblock, table.tableblock.grid-rows td.tableblock {
     border-width: 0 0 1px 0;
 }
 
@@ -209,6 +209,6 @@ table.grid-all tbody > tr:last-child > th.tableblock, table.grid-all tbody > tr:
     border-bottom-width: 0;
 }
 
-table.grid-rows tfoot > tr > th.tableblock, table.grid-rows tfoot > tr > td.tableblock {
+table.tableblock.grid-rows tfoot > tr > th.tableblock, table.grid-rows tfoot > tr > td.tableblock {
     border-width: 1px 0 0 0;
 }
