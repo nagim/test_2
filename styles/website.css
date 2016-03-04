@@ -135,7 +135,7 @@ div.tableblock > table[frame="vsides"] {
 
 table.tableblock {
   margin-top: 1.0em;
-  background: white;
+  background: transparent;
   margin-bottom: 1.5em;
 }
 thead, p.tableblock.header {
@@ -144,7 +144,7 @@ thead, p.tableblock.header {
 }
 p.tableblock {
   margin-top: 0;
-  background: white;
+  background: transparent;
 }
 table.tableblock {
   border-width: 3px;
@@ -152,14 +152,14 @@ table.tableblock {
   border-style: solid;
   border-color: #527bbd;
   border-collapse: collapse;
-  background: white;
+  background: transparent;
 }
 th.tableblock, td.tableblock {
   border-width: 1px;
   padding: 4px;
   border-style: solid;
   border-color: #527bbd;
-  background: white;
+  background: transparent;
 }
 
 table.tableblock.frame-topbot {
@@ -174,8 +174,8 @@ table.tableblock.frame-none {
   border-style: hidden;
 }
 
-table.tableblock.grid-none {
-  border: 0;
+table.tableblock.grid-rows {
+  border-width: 0 0 1px 0;
 }
 
 th.tableblock.halign-left, td.tableblock.halign-left {
