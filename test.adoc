@@ -33,6 +33,8 @@ tsp_IMS_Configuration_Scenarios.trafficCases.trafficSpecific.media :=
                 enableMLSimPlus := true,
 ----
 
+{{ book.toggle }}
+
 === Code example with callouts
 
 [source]
