@@ -12,12 +12,12 @@
 | GUI elements | *[OK]* button, *[Enable]* checkbox
 | Parameters | `tsp_GenApp_Diameter_configs`
 | Path, file name | _TitanSim-RnXnn-install.tgz_, _/home/username/TitanSim-RnXnn-install_
-| Parameter value | `_true_`
+| Parameter value | _``true``_
 |===
 
-_`true`_ +
+_``true``_ +
 *`Contact`* +
-`[red]#*INVITE*#`
+*`[red]#INVITE#`*
 
 == Code example
 
