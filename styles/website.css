@@ -153,9 +153,9 @@ table.tableblock {
   border-collapse: collapse;
 }
 th.tableblock, td.tableblock {
-  border-width: 0;
+  border-width: 1;
   padding: 4px;
-  border-style: hidden;
+  border-style: solid;
   border-color: #527bbd;
   background: white;
 }
