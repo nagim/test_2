@@ -34,7 +34,7 @@ tsp_IMS_Configuration_Scenarios.trafficCases.trafficSpecific.media :=
 ----
 
 ++++
-{{ book.toggle }}
+{{ book.toggle }} This is some text in a collapsible layout. {{ book.end }}{{ book.end }}{{ book.end }}
 ++++
 
 === Code example with callouts
