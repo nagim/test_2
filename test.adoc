@@ -7,7 +7,7 @@
 [grid="rows", frame="none"]
 |===
 |*Type* |  *Example*
-| Messages (Requests, Responses) |  `[red]#*INVITE*#` (could be other color)
+| Messages (Requests, Responses) |  *[blue]#`INVITE`#* (could be other color)
 | Headers |  *`Contact`*
 | GUI elements | *[OK]* button, *[Enable]* checkbox
 | Parameters | `tsp_GenApp_Diameter_configs`
@@ -17,7 +17,7 @@
 
 _``true``_ +
 *`Contact`* +
-*`[red]#INVITE#`*
+*[blue]#`INVITE`#* 
 
 == Code example
 
