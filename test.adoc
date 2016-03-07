@@ -8,15 +8,15 @@
 |===
 |*Type* |  *Example*
 | Messages (Requests, Responses) |  `[red]#*INVITE*#` (could be other color)
-| Headers |  `*Contact*`
+| Headers |  *`Contact`*
 | GUI elements | *[OK]* button, *[Enable]* checkbox
 | Parameters | `tsp_GenApp_Diameter_configs`
 | Path, file name | _TitanSim-RnXnn-install.tgz_, _/home/username/TitanSim-RnXnn-install_
 | Parameter value | `_true_`
 |===
 
-`_true_` +
-`*Contact*` +
+_`true`_ +
+*`Contact`* +
 `[red]#*INVITE*#`
 
 == Code example
