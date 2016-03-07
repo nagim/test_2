@@ -33,7 +33,9 @@ tsp_IMS_Configuration_Scenarios.trafficCases.trafficSpecific.media :=
                 enableMLSimPlus := true,
 ----
 
+++++
 {{ book.toggle }}
+++++
 
 === Code example with callouts
 
@@ -93,16 +95,20 @@ tsp_IMS_Configuration_Scenarios.trafficCases.trafficSpecific.media :=
 
 
 > ==== Info::Note
+> 
 > This is a note
 
 
 > ==== Hint::Tip
+> 
 > This is a tip
 
 
 > ==== Warning::Important
+> 
 > This is important info
 
 
 > ==== Danger::Warning
+> 
 > This is a warning
