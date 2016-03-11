@@ -21,16 +21,18 @@ _``true``_ +
 
 == Parameter descriptions
 
+==== `cps`
+
 ++++
-<a class="btn btn-primary" role="button" data-toggle="collapse" href="#type" aria-expanded="false" aria-controls="collapseExample">
+<a class="btn btn-primary" role="button" data-toggle="collapse" href="#default" aria-expanded="false" aria-controls="collapseExample">
   Default value
 </a>
 
-<a class="btn btn-primary" role="button" data-toggle="collapse" href="#default" aria-expanded="false" aria-controls="collapseExample">
+<a class="btn btn-primary" role="button" data-toggle="collapse" href="#type" aria-expanded="false" aria-controls="collapseExample">
   Type
 </a>
 
-<a class="btn btn-primary" role="button" data-toggle="collapse" href="#descrption" aria-expanded="false" aria-controls="collapseExample">
+<a class="btn btn-primary" role="button" data-toggle="collapse" href="#description" aria-expanded="false" aria-controls="collapseExample">
   Description
 </a>
 ++++
