@@ -113,18 +113,23 @@ tsp_IMS_Configuration_Scenarios.trafficCases.trafficSpecific.media :=
 > 
 > This is a warning
 
-`cps`
+`nrOfCalls`
 
+[subs="quotes"]
 ++++
 {{ book.param }}
 {{ book.ptype }}
-Type: float
+Type: integer
 {{ book.paramend }}
 {{ book.pdefault }}
 Default value: -1
 {{ book.paramend }}
 {{ book.pdescr }}
-The field is used for setting the total number of calls during the execution. The real number of executed calls can be more than the nrOfCalls, but the difference is less than the number of actual cps value (for example, if cps=3.0, and nrOfCalls=10, the calls can be, for example, 12, because every second 3, 3, 3, 1 calls are needed, but 3, 3, 3, 3, cps is scheduled, so it is 12 instead of 10). After these calls are executed, the application behaves as if the Stop button was pressed. If the parameter is left on default value, the application does not stop the execution based on the number of calls. This parameter must have the same value as the nrOfCalls parameter in CallTerm traffic case and cannot be less or equal to 0.
+The field is used for setting the total number of calls during the execution. 
+The real number of executed calls can be more than the `nrOfCalls`, but the difference is less than the number of actual `cps` value (for example, if `cps`=3.0, and `nrOfCalls`=10, the calls can be, for example, 12, because every second 3, 3, 3, 1 calls are needed, but 3, 3, 3, 3, cps is scheduled, so it is 12 instead of 10). 
+After these calls are executed, the application behaves as if the *Stop* button was pressed. 
+If the parameter is left on default value, the application does not stop the execution based on the number of calls. 
+This parameter must have the same value as the `nrOfCalls` parameter in `CallTerm` traffic case and cannot be less or equal to `0`.
 {{ book.paramend }}
 {{ book.end }}
 ++++
