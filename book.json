@@ -47,6 +47,6 @@
 		"ptype": "<div id=\"type\" class=\"tab-pane active\"><p>",
 		"pdefault": "<div id=\"default\" class=\"tab-pane\"><p>",
 		"pdescr": "<div id=\"descr\" class=\"tab-pane\"><p>",
-		"paramend": "</div>"
+		"paramend": "</p></div>"
 	}
 }
