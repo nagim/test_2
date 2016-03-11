@@ -17,8 +17,7 @@
 		"sections",
 		"callouts",
 		"puml",
-		"sectionx",
-        "wide-page"
+		"sectionx"
 	],
 	"pluginsConfig": {
 		"versions": {
