@@ -22,8 +22,8 @@ _``true``_ +
 == Parameter descriptions
 
 `nrOfCalls`
-[%hardbreaks]
-[subs="quotes"]
+
+[subs="quotes",%hardbreaks]
 ++++
 {{ book.param }}
 {{ book.ptype }}
