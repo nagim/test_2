@@ -17,7 +17,8 @@
 		"sections",
 		"callouts",
 		"puml",
-		"sectionx"
+		"sectionx",
+        "bootstrapjs"
 	],
 	"pluginsConfig": {
 		"versions": {
