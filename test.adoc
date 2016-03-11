@@ -62,43 +62,136 @@ tsp_IMS_Configuration_Scenarios.trafficCases.trafficSpecific.media :=
 
 
 ++++
-{{ book.toggle }} Optional parameter. It defines the number of participants of the call: 2-party or 3-party call can be used. This parameter is the union of the following elements:
-{{ book.toggle }} 
-callOrig2pty
+<div class="list-group">
+    <a aria-expanded="false" class="collapsed list-group-heading" data-toggle="collapse" href="#tabularListGroupCollapse1">callType</a>
+    <div class="collapse" id="tabularListGroupCollapse1">
+        <ul class="tabular-list-group">
+			<li class="list-group-item">
+				<div class="list-group-item-field">
+				
+				</div>
+				
 
-It is for describing the elements of 2pty calls.
-Example
-callType := {
-          callOrig2pty:={
-                    termAnsweringMode := {normal:={}},
-                    holdingTimeMin:=5.0,
-                    holdingTimeMax:=5.0
-          }
-}
-{{ book.toggle }} 
-callOrig2pty
+				<div class="list-group-item-field">
+            
+				</div>
 
-It is for describing the elements of 2pty calls.
-Example
-callType := {
-          callOrig2pty:={
-                    termAnsweringMode := {normal:={}},
-                    holdingTimeMin:=5.0,
-                    holdingTimeMax:=5.0
-          }
-}
-{{ book.end }}
-{{ book.end }}
-{{ book.end }}
-{{ book.end }}
-{{ book.end }}
-{{ book.end }}
-{{ book.end }}
-{{ book.end }}
-{{ book.end }}
-{{ book.end }}
-{{ book.end }}
-{{ book.end }}
+				<div class="list-group-item-content">
+                      
+				</div>
+
+				<div class="list-group-item-field">
+            
+				</div>
+			</li>
+
+			<li class="list-group-item">
+				<div class="list-group-item-field">
+				
+				</div>
+				
+
+				<div class="list-group-item-field">
+            
+				</div>
+
+				<div class="list-group-item-content">
+                      
+				</div>
+
+				<div class="list-group-item-field">
+            
+				</div>
+			</li>
+		</ul>
+    </div>
+
+    <a aria-expanded="true" class="list-group-heading" data-toggle="collapse" href="#tabularListGroupCollapse2">List Group Heading</a>
+    <div class="collapse in" id="tabularListGroupCollapse2">
+        <<ul class="tabular-list-group">
+			<li class="list-group-item">
+				<div class="list-group-item-field">
+				
+				</div>
+				
+
+				<div class="list-group-item-field">
+            
+				</div>
+
+				<div class="list-group-item-content">
+                      
+				</div>
+
+				<div class="list-group-item-field">
+            
+				</div>
+			</li>
+
+			<li class="list-group-item">
+				<div class="list-group-item-field">
+				
+				</div>
+				
+
+				<div class="list-group-item-field">
+            
+				</div>
+
+				<div class="list-group-item-content">
+                      
+				</div>
+
+				<div class="list-group-item-field">
+            
+				</div>
+			</li>
+		</ul>
+    </div>
+
+    <a aria-expanded="false" class="collapsed list-group-heading" data-toggle="collapse" href="#tabularListGroupCollapse3">List Group Heading</a>
+    <div class="collapse" id="tabularListGroupCollapse3">
+        <<ul class="tabular-list-group">
+			<li class="list-group-item">
+				<div class="list-group-item-field">
+				
+				</div>
+				
+
+				<div class="list-group-item-field">
+            
+				</div>
+
+				<div class="list-group-item-content">
+                      
+				</div>
+
+				<div class="list-group-item-field">
+            
+				</div>
+			</li>
+
+			<li class="list-group-item">
+				<div class="list-group-item-field">
+				
+				</div>
+				
+
+				<div class="list-group-item-field">
+            
+				</div>
+
+				<div class="list-group-item-content">
+                      
+				</div>
+
+				<div class="list-group-item-field">
+            
+				</div>
+			</li>
+		</ul>
+    </div>
+</div>
 ++++
 
 === Code example with callouts
