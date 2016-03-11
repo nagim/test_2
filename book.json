@@ -39,13 +39,13 @@
 		"warning": "<div class=\"alert alert-warning\" role=\"alert\"><i class=\"fa fa-warning\"></i> <b>Important: </b>",
 		"danger": "<div class=\"alert alert-danger\" role=\"alert\"><i class=\"fa fa-exclamation-circle\"></i> <b>Warning: </b>",
 		"tip": "<div class=\"alert alert-success\" role=\"alert\"><i class=\"fa fa-check-square-o\"></i> <b>Tip: </b>",
-		"toggle": "<div class=\"panel panel-default\"><div class=\"panel-heading\" role=\"tab\" id=\"headingOne\"><h4 class=\"panel-title\"><a role=\"button\" data-toggle=\"collapse\" data-parent=\"#accordion\" href=\"#collapseOne\" aria-expanded=\"false\" aria-controls=\"collapseOne\"><i class=\"fa fa-list-alt\"></i> Example</a></h4></div><div id=\"collapseOne\" class=\"panel-collapse collapse in\" role=\"tabpanel\"aria-labelledby=\"headingOne\"><div class=\"panel-body\">",
+        "toggle": "<div class=\"panel panel-default\"><div class=\"panel-heading\" role=\"tab\" id=\"headingOne\"><h4 class=\"panel-title\"><a role=\"button\" data-toggle=\"collapse\" data-parent=\"#accordion\" href=\"#collapseOne\" aria-expanded=\"false\" aria-controls=\"collapseOne\"><i class=\"fa fa-list-alt\"></i> Example</a></h4></div><div id=\"collapseOne\" class=\"panel-collapse collapse in\" role=\"tabpanel\"aria-labelledby=\"headingOne\"><div class=\"panel-body\">",
 		"end": "</div>",
-
+		
 		"param": "<ul class=\"nav nav-tabs\"><li class=\"active\"><a data-toggle=\"tab\" href=\"#type\">Type</a></li><li><a data-toggle=\"tab\" href=\"#default\">Default value</a></li><li><a data-toggle=\"tab\" href=\"#descr\">Description</a></li><li><a data-toggle=\"tab\" href=\"#example\">Example</a></li></ul><div class=\"tab-content\">",
-		"p-type": "<div id=\"type\" class=\"tab-pane fade in active\">",
-		"p-default": "<div id=\"default\" class=\"tab-pane fade in active\">",
-		"p-descr": "<div id=\"descr\" class=\"tab-pane fade in active\">",
+		"p-type": "<div id=\"type\" class=\"tab-pane fade in active\"><p>",
+		"p-default": "<div id=\"default\" class=\"tab-pane fade in active\"><p>",
+		"p-descr": "<div id=\"descr\" class=\"tab-pane fade in active\"><p>",
 		"paramend": "</div>"
 	}
 }
