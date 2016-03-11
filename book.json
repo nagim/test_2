@@ -1,5 +1,6 @@
 {
 	"gitbook": "2.x.x",
+    "generator": "site",
 	"plugins": [
 		"comment",
 		"include",
@@ -18,7 +19,7 @@
 		"callouts",
 		"puml",
 		"sectionx",
-        "bootstrapjs"
+        "addcssjs"
 	],
 	"pluginsConfig": {
 		"versions": {
@@ -32,7 +33,11 @@
 			"warning": {
 				"alert": "warning",
 				"picto": "fa-exclamation-circle"
-			}
+			},
+            "addcssjs": {
+                "js": ["assets/bootstrap.js"],
+                "js": ["assets/bootstrap.min.js"]
+            }
 		}
 	},
 	"variables": {
