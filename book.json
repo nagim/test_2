@@ -1,6 +1,5 @@
 {
 	"gitbook": "2.x.x",
-    "output.name": "website",
 	"plugins": [
 		"comment",
 		"include",
