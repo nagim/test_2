@@ -23,7 +23,7 @@ _``true``_ +
 
 `nrOfCalls`
 
-[subs="quotes",%hardbreaks]
+[subs="quotes",hardbreaks]
 ++++
 {{ book.param }}
 {{ book.ptype }}
