@@ -43,9 +43,9 @@
 		"end": "</div>",
 		
 		"param": "<ul class=\"nav nav-tabs\"><li class=\"active\"><a data-toggle=\"tab\" href=\"#type\">Type</a></li><li><a data-toggle=\"tab\" href=\"#default\">Default value</a></li><li><a data-toggle=\"tab\" href=\"#descr\">Description</a></li><li><a data-toggle=\"tab\" href=\"#example\">Example</a></li></ul><div class=\"tab-content\">",
-		"p-type": "<div id=\"type\" class=\"tab-pane fade in active\"><p>",
-		"p-default": "<div id=\"default\" class=\"tab-pane fade in active\"><p>",
-		"p-descr": "<div id=\"descr\" class=\"tab-pane fade in active\"><p>",
+		"p-type": "<div id=\"type\" class=\"tab-pane active\"><p>",
+		"p-default": "<div id=\"default\" class=\"tab-pane\"><p>",
+		"p-descr": "<div id=\"descr\" class=\"tab-pane\"><p>",
 		"paramend": "</div>"
 	}
 }
