@@ -44,9 +44,9 @@
 		"end": "</div>",
 		
 		"param": "<ul class=\"nav nav-tabs\"><li class=\"active\"><a data-toggle=\"tab\" href=\"#type\">Type</a></li><li><a data-toggle=\"tab\" href=\"#default\">Default value</a></li><li><a data-toggle=\"tab\" href=\"#descr\">Description</a></li><li><a data-toggle=\"tab\" href=\"#example\">Example</a></li></ul><div class=\"tab-content\">",
-		"ptype": "<div id=\"type\" class=\"tab-pane active\">",
-		"pdefault": "<div id=\"default\" class=\"tab-pane\">",
-		"pdescr": "<div id=\"descr\" class=\"tab-pane\">",
-		"paramend": "</div>"
+		"ptype": "<div id=\"type\" class=\"tab-pane active\"><p>",
+		"pdefault": "<div id=\"default\" class=\"tab-pane\"><p>",
+		"pdescr": "<div id=\"descr\" class=\"tab-pane\"><p>",
+		"paramend": "</p></div>"
 	}
 }
