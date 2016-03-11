@@ -18,8 +18,7 @@
 		"sections",
 		"callouts",
 		"puml",
-		"sectionx",
-        "addcssjs"
+		"sectionx"
 	],
 	"pluginsConfig": {
 		"versions": {
@@ -33,11 +32,7 @@
 			"warning": {
 				"alert": "warning",
 				"picto": "fa-exclamation-circle"
-			},
-            "addcssjs": {
-                "js": ["assets/bootstrap.js"],
-                "js": ["assets/bootstrap.min.js"]
-            }
+			}
 		}
 	},
 	"variables": {
@@ -49,9 +44,9 @@
 		"end": "</div>",
 		
 		"param": "<ul class=\"nav nav-tabs\"><li class=\"active\"><a data-toggle=\"tab\" href=\"#type\">Type</a></li><li><a data-toggle=\"tab\" href=\"#default\">Default value</a></li><li><a data-toggle=\"tab\" href=\"#descr\">Description</a></li><li><a data-toggle=\"tab\" href=\"#example\">Example</a></li></ul><div class=\"tab-content\">",
-		"p-type": "<div id=\"type\" class=\"tab-pane active\"><p>",
-		"p-default": "<div id=\"default\" class=\"tab-pane\"><p>",
-		"p-descr": "<div id=\"descr\" class=\"tab-pane\"><p>",
+		"ptype": "<div id=\"type\" class=\"tab-pane active\"><p>",
+		"pdefault": "<div id=\"default\" class=\"tab-pane\"><p>",
+		"pdescr": "<div id=\"descr\" class=\"tab-pane\"><p>",
 		"paramend": "</div>"
 	}
 }
