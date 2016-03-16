@@ -160,3 +160,19 @@ tsp_IMS_Configuration_Scenarios.trafficCases.trafficSpecific.media :=
 > 
 > This is a warning
 
+
+{% hint style='info' %}
+ This is a note
+{% endhint %}
+
+{% hint style='tip' %}
+ This is a tip
+{% endhint %}
+
+{% hint style='working' %}
+ This is work in progress
+{% endhint %}
+
+{% hint style='danger' %}
+ This is a warning
+{% endhint %}

@@ -1,52 +1,52 @@
 {
-	"gitbook": "2.x.x",
+    "gitbook": "2.x.x",
     "generator": "site",
-	"plugins": [
-		"comment",
-		"include",
-		"-sharing",
-		"anchor-navigation",
-		"heading-anchors",
-		"ungrey",
-		"toggle-chapters",
-		"book-summary-scroll-position-saver",
-		"splitter",
-		"versions",
-		"richquotes",
-		"copy-code-button",
-		"codesnippet",
-		"sections",
-		"callouts",
-		"puml",
-		"sectionx"
-	],
-	"pluginsConfig": {
-		"versions": {
-			"type": "branches"
-		},
-		"richquotes": {
-			"danger": {
-				"alert": "danger",
-				"picto": "fa-exclamation-triangle"
-			},
-			"warning": {
-				"alert": "warning",
-				"picto": "fa-exclamation-circle"
-			}
-		}
-	},
-	"variables": {
-		"note": "<div class=\"alert alert-info\" role=\"alert\"><i class=\"fa fa-info-circle\"></i><span> <b>Note: </b>",
-		"warning": "<div class=\"alert alert-warning\" role=\"alert\"><i class=\"fa fa-warning\"></i> <b>Important: </b>",
-		"danger": "<div class=\"alert alert-danger\" role=\"alert\"><i class=\"fa fa-exclamation-circle\"></i> <b>Warning: </b>",
-		"tip": "<div class=\"alert alert-success\" role=\"alert\"><i class=\"fa fa-check-square-o\"></i> <b>Tip: </b>",
+    "plugins": [
+        "comment",
+        "include",
+        "-sharing",
+        "anchor-navigation",
+        "heading-anchors",
+        "ungrey",
+        "toggle-chapters",
+        "book-summary-scroll-position-saver",
+        "splitter",
+        "versions",
+        "richquotes",
+        "copy-code-button",
+        "codesnippet",
+        "sections",
+        "callouts",
+        "puml",
+        "sectionx",
+        "hints"
+    ],
+    "pluginsConfig": {
+        "versions": {
+            "type": "branches"
+        },
+        "richquotes": {
+            "danger": {
+                "alert": "danger",
+                "picto": "fa-exclamation-triangle"
+            },
+            "warning": {
+                "alert": "warning",
+                "picto": "fa-exclamation-circle"
+            }
+        }
+    },
+    "variables": {
+        "danger": "<div class=\"alert alert-danger\" role=\"alert\"><i class=\"fa fa-exclamation-circle\"></i> <b>Warning: </b>",
+        "ptype": "<div id=\"type\" class=\"tab-pane active\"><p>",
+        "param": "<ul class=\"nav nav-tabs nav-stacked\"><li class=\"active\"><a data-toggle=\"tab\" href=\"#type\">Type</a></li><li><a data-toggle=\"tab\" href=\"#default\">Default value</a></li><li><a data-toggle=\"tab\" href=\"#descr\">Description</a></li><li><a data-toggle=\"tab\" href=\"#example\">Example</a></li></ul><div class=\"tab-content\">",
+        "paramend": "</p></div>",
+        "pdescr": "<div id=\"descr\" class=\"tab-pane\"><p>",
+        "pdefault": "<div id=\"default\" class=\"tab-pane\"><p>",
+        "note": "<div class=\"alert alert-info\" role=\"alert\"><i class=\"fa fa-info-circle\"></i><span> <b>Note: </b>",
         "toggle": "<div class=\"panel panel-default\"><div class=\"panel-heading\" role=\"tab\" id=\"headingOne\"><h4 class=\"panel-title\"><a role=\"button\" data-toggle=\"collapse\" data-parent=\"#accordion\" href=\"#collapseOne\" aria-expanded=\"false\" aria-controls=\"collapseOne\"><i class=\"fa fa-list-alt\"></i> Example</a></h4></div><div id=\"collapseOne\" class=\"panel-collapse collapse in\" role=\"tabpanel\"aria-labelledby=\"headingOne\"><div class=\"panel-body\">",
-		"end": "</div>",
-		
-		"param": "<ul class=\"nav nav-tabs nav-stacked\"><li class=\"active\"><a data-toggle=\"tab\" href=\"#type\">Type</a></li><li><a data-toggle=\"tab\" href=\"#default\">Default value</a></li><li><a data-toggle=\"tab\" href=\"#descr\">Description</a></li><li><a data-toggle=\"tab\" href=\"#example\">Example</a></li></ul><div class=\"tab-content\">",
-		"ptype": "<div id=\"type\" class=\"tab-pane active\"><p>",
-		"pdefault": "<div id=\"default\" class=\"tab-pane\"><p>",
-		"pdescr": "<div id=\"descr\" class=\"tab-pane\"><p>",
-		"paramend": "</p></div>"
-	}
+        "tip": "<div class=\"alert alert-success\" role=\"alert\"><i class=\"fa fa-check-square-o\"></i> <b>Tip: </b>",
+        "end": "</div>",
+        "warning": "<div class=\"alert alert-warning\" role=\"alert\"><i class=\"fa fa-warning\"></i> <b>Important: </b>"
+    }
 }
