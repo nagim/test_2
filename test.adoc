@@ -7,8 +7,8 @@
 [grid="rows", frame="none"]
 |===
 |*Type* |  *Example*
-| Messages (Requests, Responses) |  *[blue]#`INVITE`#* (could be other color)
-| Headers |  *`Contact`*
+| Messages (Requests, Responses) |  *INVITE* (could be other color)
+| Headers |  *_Contact_*
 | GUI elements | *[OK]* button, *[Enable]* checkbox
 | Parameters | `tsp_GenApp_Diameter_configs`
 | Path, file name | _TitanSim-RnXnn-install.tgz_, _/home/username/TitanSim-RnXnn-install_
@@ -16,8 +16,8 @@
 |===
 
 _``true``_ +
-*`Contact`* +
-*[blue]#`INVITE`#* 
+*_Contact_* +
+*INVITE* 
 
 == Parameter descriptions
 
