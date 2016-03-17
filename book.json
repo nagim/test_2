@@ -19,6 +19,7 @@
         "callouts",
         "puml",
         "sectionx",
+        "super-prd",
         "hints"
     ],
     "pluginsConfig": {

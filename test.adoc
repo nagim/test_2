@@ -170,9 +170,20 @@ tsp_IMS_Configuration_Scenarios.trafficCases.trafficSpecific.media :=
 {% endhint %}
 
 {% hint style='working' %}
- This is work in progress
+ This is important info
 {% endhint %}
 
 {% hint style='danger' %}
  This is a warning
 {% endhint %}
+
+
+> **spec** A spec
+
+> **info** An info
+
+> **note** A note
+
+> **hint** A hint
+
+> **app** A new feature.
