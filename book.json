@@ -1,6 +1,6 @@
 {
     "gitbook": "2.x.x",
-    "generator": "site",
+    "generator": "website",
     "plugins": [
         "comment",
         "include",
