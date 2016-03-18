@@ -1,7 +1,7 @@
 {
     "gitbook": "3.0.0-pre.5",
     "generator": "website",
-    "theme": "theme-official",
+    "theme": "official",
     "plugins": [
         "comment",
         "include",
