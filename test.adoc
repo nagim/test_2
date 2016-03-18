@@ -79,7 +79,7 @@ tsp_IMS_Configuration_Scenarios.trafficCases.trafficSpecific.media :=
             generator := {
               mlsim :=     
               {
-                *#enabled := true,#*
+                *enabled := true,*
                 enableMLSimPlus := true,
 ----
 
