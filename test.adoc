@@ -71,7 +71,7 @@ Optional parameter. It is the value of calls per second; target call intensity, 
 
 == Code example
 
-[source,subs="quotes",source,subs="quotes"]
+[source,subs="quotes",subs="quotes"]
 ----
 tsp_IMS_Configuration_Scenarios.trafficCases.trafficSpecific.media :=
           {
