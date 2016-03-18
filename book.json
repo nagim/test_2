@@ -20,6 +20,7 @@
         "callouts",
         "puml",
         "sectionx",
+        "theme-official",
         "hints"
     ],
     "pluginsConfig": {
