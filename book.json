@@ -19,7 +19,8 @@
         "callouts",
         "puml",
         "sectionx",
-        "hints"
+        "hints",
+        "tabs"
     ],
     "pluginsConfig": {
         "versions": {
