@@ -1,7 +1,6 @@
 {
-    "gitbook": "3.0.0-pre.5",
+    "gitbook": "2.x.x",
     "generator": "website",
-    "theme": "official",
     "plugins": [
         "comment",
         "include",
@@ -20,7 +19,6 @@
         "callouts",
         "puml",
         "sectionx",
-        "theme-official",
         "hints"
     ],
     "pluginsConfig": {
