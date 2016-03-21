@@ -27,7 +27,7 @@ Default value: _``false``_
 +
 When set to _``true``_, the simulated users use a temporary identifier at
 registration. This ID is replaced later with the associated URI received
-in the [blue]#200 OK#.
+in the [maroon]#200 OK#.
 +
 The `usedPAssocURIElement` parameter defines which associated URI element
 is used further. The first element is used when the `usedPAssocURIElement`
@@ -50,10 +50,10 @@ Default value: _``3600.0``_, based on link:http://www.ietf.org/rfc/rfc3261.txt[R
 3261]
 +
 The registration of entities in the IMS system expires after a certain
-time. The expiration time is sent to the IMS system in the [blue]#_Expires_#
-header of the [blue]#REGISTER# message. Upon registering, the entity sends the
+time. The expiration time is sent to the IMS system in the [maroon]#_Expires_#
+header of the [maroon]#REGISTER# message. Upon registering, the entity sends the
 initial value set in the `registrationExpires` parameter to the IMS
-system. The real expiration time is the value included in the [blue]#200 OK#
+system. The real expiration time is the value included in the [maroon]#200 OK#
 response of the registration sent by the IMS system.
 +
 Unit: sec
@@ -96,7 +96,7 @@ Type: boolean
 Default value: _``true``_
 +
 Allows or permits the entities of the Traffic Case to re-register (that
-is to send [blue]#re-REGISTER# messages).
+is to send [maroon]#re-REGISTER# messages).
 +
 Unit: 1/sec
 +
@@ -116,9 +116,9 @@ Default value: _``3``_
 +
 The number of occasions when an entity can try to repeat sending its
 registration request, after receiving an unsuccessful response that
-includes a [blue]#_Retry-After_# header with the suggested waiting time until the
+includes a [maroon]#_Retry-After_# header with the suggested waiting time until the
 next try. It sets the maximum number of consecutive responses received
-including a [blue]#_Retry-After_# header before a call is marked as failed.
+including a [maroon]#_Retry-After_# header before a call is marked as failed.
 
 * `retryAfterFail`
 +
@@ -127,7 +127,7 @@ Type: float
 Default value: _``30.0``_
 +
 The number of seconds that should be waited before trying to register
-again the first time after an error, when there is a [blue]#_Retry-After_# field
+again the first time after an error, when there is a [maroon]#_Retry-After_# field
 in the unsuccessful response used for the first time.
 +
 
@@ -139,9 +139,9 @@ Type: charstring
 +
 Default value: _``empty string``_
 +
-Used to set the content of the [blue]#_P-Access-Network-Info_# header of [blue]#REGISTER#
+Used to set the content of the [maroon]#_P-Access-Network-Info_# header of [maroon]#REGISTER#
 messages. If the default value is used or the parameter is omitted, no
-[blue]#_P-Access-Network-Info_# header is added to the messages at all.
+[maroon]#_P-Access-Network-Info_# header is added to the messages at all.
 +
 Allowed values:
 
@@ -173,10 +173,10 @@ Type: boolean
 +
 Default value: _``false``_
 +
-When set to _``true``_ or _``omitted``_, the [blue]#_Contact_# header of the [blue]#REGISTER# messages
+When set to _``true``_ or _``omitted``_, the [maroon]#_Contact_# header of the [maroon]#REGISTER# messages
 contains the transport protocol (for example Contact:
 <…transport=udp…>). When set to _``false``_, the transport protocol is not
-included in the [blue]#_Contact_# header.
+included in the [maroon]#_Contact_# header.
 +
 * `distributeRegister`
 +
@@ -210,12 +210,12 @@ Type: boolean
 +
 Default value: _``false``_
 +
-When set to true, the [blue]#_Authorization_# header is included in the initial
-and the [blue]#de-REGISTER# messages.
+When set to true, the [maroon]#_Authorization_# header is included in the initial
+and the [maroon]#de-REGISTER# messages.
 
 > ==== Note::Note
 > 
-> When AKA authentication is set, the [blue]#_Authorization_# header is always included in the initial and in the [blue]#de-REGISTER# messages, independently of this parameter.
+> When AKA authentication is set, the [maroon]#_Authorization_# header is always included in the initial and in the [maroon]#de-REGISTER# messages, independently of this parameter.
 
 * `deregisterCurrentContactOnly`
 +
@@ -225,8 +225,8 @@ Default value: _``false``_
 +
 When set to _``true``_, only the current contact for the given user is
 de-registered, that is, only the contact address is inserted into the
-Contact header of the [blue]#de-REGISTER# message (instead of all of them using
-the * syntax in the [blue]#_Contact header_#, which is the case if the parameter
+Contact header of the [maroon]#de-REGISTER# message (instead of all of them using
+the * syntax in the [maroon]#_Contact header_#, which is the case if the parameter
 is set to _``false``_ or is omitted).
 
 * `enableSTUN`
@@ -251,8 +251,8 @@ STUN binding requests are sent.
 +
 Type: _``IMS_TC_Registration_keep``_
 +
-Enables the inclusion of keep parameter to [blue]#_Via_# header, and defines the
-frequency of [blue]#REGISTER# messages that contains keep.
+Enables the inclusion of keep parameter to [maroon]#_Via_# header, and defines the
+frequency of [maroon]#REGISTER# messages that contains keep.
 +
 ** `enable`
 +
@@ -333,9 +333,9 @@ Type: IMS_Configuration_Registration_reRegType
 +
 Default value: _``DEFAULT``_ (the Call-ID remains the same)
 +
-The `reRegType` parameter defines whether the Call-ID in the [blue]#re-REGISTER#
+The `reRegType` parameter defines whether the Call-ID in the [maroon]#re-REGISTER#
 messages remains, or the application generates new ones for every
-[blue]#re-REGISTER# message. Its value can also be _``INITIAL``_ (new Call-IDs is
+[maroon]#re-REGISTER# message. Its value can also be _``INITIAL``_ (new Call-IDs is
 generated).
 
 * `reRegRPS`
@@ -382,9 +382,9 @@ Default value: _``omit``_
 +
 Describes the elements of `OAuth` field.
 +
-There is an [blue]#_Authorization_# header in a [blue]#REGISTER# message, if it is the
-reply to a [blue]#401 – Unauthorized response#, or if `authHeaderInInitialReg`
-parameter is enabled. The `OAuth` field is a record in the [blue]#_Authorization_#
+There is an [maroon]#_Authorization_# header in a [maroon]#REGISTER# message, if it is the
+reply to a [maroon]#401 – Unauthorized response#, or if `authHeaderInInitialReg`
+parameter is enabled. The `OAuth` field is a record in the [maroon]#_Authorization_#
 header with the following structure:
 +
 Example:
@@ -404,14 +404,14 @@ while `serviceProviderIdLow` and `serviceProviderIdHigh` having one or two
 digits.
 +
 If the `oauth` parameter is set, the `OAuth` field is included in the
-[blue]#_Authorization_# header of the [blue]#REGISTER# messages. The `oauth` parameter is
+[maroon]#_Authorization_# header of the [maroon]#REGISTER# messages. The `oauth` parameter is
 a string containing three elements: `httpCode` + `service provider id` +
 `expiration time`. If both `serviceProviderIdLow` and
 `serviceProviderIdHigh` are missing, the default values are used. If
 only the `serviceProviderIdLow` or the `serviceProviderIdHigh` is missing,
 the existing one is used instead of the missing one.
 +
-An example for this parameter in an outgoing [blue]#REGISTER# message can be the
+An example for this parameter in an outgoing [maroon]#REGISTER# message can be the
 following:
 +
 `oauth="200013600"`
@@ -426,8 +426,8 @@ Type: boolean
 +
 Default value: _``false``_
 +
-When set to _``true``_, after a [blue]#401# response, all [blue]#REGISTER# messages contain a
-[blue]#_UserAgent_# header with the value _``dont_challenge``_.
+When set to _``true``_, after a [maroon]#401# response, all [maroon]#REGISTER# messages contain a
+[maroon]#_UserAgent_# header with the value _``dont_challenge``_.
 
 * `isDuaClient`
 +
@@ -479,7 +479,7 @@ Type: float
 +
 Default value: _``omit``_ (no UPDATE message is sent)
 +
-It indicates the time delay when sending [blue]#UPDATE# message after the call
+It indicates the time delay when sending [maroon]#UPDATE# message after the call
 is established. This parameter is applicable only for
 link:../CallTerm.xml[CallTerm] traffic case. It has no effect on other
 traffic cases.
