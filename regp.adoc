@@ -10,11 +10,11 @@ Type: float
 Default value: _``1.0``_
 +
 Registration per second, that is the number of registrations sent out by
-the traffic case. When the `rps` is set to `0.0`, the registration does not
+the traffic case. When the `rps` is set to _``0.0``_, the registration does not
 start until a greater value is set.
 +
 For example, when 10000 entities are defined in the traffic case and 100
-entities register per second (`rps` := `100.0`), then it takes 100 seconds
+entities register per second (`rps` := _``100.0``_), then it takes 100 seconds
 for all 10000 entities to register.
 +
 Unit: 1/sec
@@ -72,6 +72,7 @@ expiration time (95% by default).
 Unit: sec
 +
 > ==== Note::Note 
+> 
 > It is in effect only if the `distributeRegister` value is _``true``_.
 
 * `reRegMargin`
@@ -213,6 +214,7 @@ When set to true, the [blue]#_Authorization_# header is included in the initial
 and the [blue]#de-REGISTER# messages.
 
 > ==== Note::Note
+> 
 > When AKA authentication is set, the [blue]#_Authorization_# header is always included in the initial and in the [blue]#de-REGISTER# messages, independently of this parameter.
 
 * `deregisterCurrentContactOnly`
@@ -351,6 +353,7 @@ Unit: 1/s
 +
 
 > ==== Note::This parameter can be modified on the GUI only if it is present in the configuration file. 
+> 
 > This parameter is called Target CPS on the GUI
 and can be found on Execution Control panel > Statistics tab then Select
 Entity Group > Select Scenario and choose the reRegistration traffic
