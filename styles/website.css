@@ -5,6 +5,8 @@
   max-width: 80%;
 }
 
+p {font-size: 200%;}
+
 blockquote.alert {
     overflow:auto !important;
     padding-left: 0 !important;
