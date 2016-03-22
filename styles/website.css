@@ -1,5 +1,6 @@
 code {
-    font-size: 100%;
+    font-family: monospace, serif;
+    font-size: 1em;
 }
 
 blockquote.alert {
