@@ -5,7 +5,7 @@
   max-width: 80%;
 }
 
-p {font-size: 600%;}
+.book.p {font-size: 600%;}
 
 blockquote.alert {
     overflow:auto !important;
