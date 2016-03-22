@@ -186,10 +186,16 @@ Default value: _``false``_
 +
 When set to _``true``_, the registers are distributed, if possible, over the
 expiration time. If the `sbgRegMinExpires` is set to value > _``0.0``_, the
-first required expiration time is: `expires = <user-index> * 1.618 \+
-sbgRegMinExpires`. When `sbgRegMinExpires` is set to _``0.0``_, the first
-required expiration time is: `expires = <user-index> *  1.618 \+
-<registrationExpires>`. For all value modulo, `360000.0` is calculated.
+first required expiration time is: 
++
+`expires = <user-index> * 1.618 + sbgRegMinExpires`
++
+When `sbgRegMinExpires` is set to _``0.0``_, the first
+required expiration time is: 
++
+`expires = <user-index> *  1.618 + <registrationExpires>`
++
+For all value modulo, `360000.0` is calculated.
 
 * `delayInitialRegister`
 +
