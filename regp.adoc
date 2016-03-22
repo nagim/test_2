@@ -492,7 +492,7 @@ traffic cases.
 
 = Table
 
-[options="header",cols="v*5"]
+[options="header",cols="verse*5"]
 |===
 |Command-Name	|Source node	|Destination node	|Abbreviation	|Code
 |Update-Location-Request	|MME	|HSS	|ULR	|316
