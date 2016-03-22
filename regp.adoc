@@ -9,7 +9,7 @@ Type: float
 +
 Default value: _``1.0``_
 +
-Registration per second, that is the ++number++ of registrations sent out by
+Registration per second, that is the number of registrations sent out by
 the traffic case. When the `rps` is set to _``0.0``_, the registration does not
 start until a greater value is set.
 +
@@ -145,27 +145,27 @@ messages. If the default value is used or the parameter is omitted, no
 +
 Allowed values:
 
-** undefined
-** IEEE-802.11
-** IEEE-802.11a
-** IEEE-802.11b
-** IEEE-802.11g
-** 3GPP-GERAN
-** 3GPP-UTRAN-FDD
-** 3GPP-UTRAN-TDD
-** ADSL
-** ADSL2
-** ADSL2+
-** RADSL
-** SDSL
-** HDSL
-** HDSL2
-** G.SHDSL2
-** VDSL
-** IDSL
-** 3GPP2-1X
-** 3GPP2-1X-HRPD
-** DOCSIS
+** _``undefined``_
+** _``IEEE-802.11``_
+** _``IEEE-802.11a``_
+** _``IEEE-802.11b``_
+** _``IEEE-802.11g``_
+** _``3GPP-GERAN``_
+** _``3GPP-UTRAN-FDD``_
+** _``3GPP-UTRAN-TDD``_
+** _``ADSL``_
+** _``ADSL2``_
+** _``ADSL2+``_
+** _``RADSL``_
+** _``SDSL``_
+** _``HDSL``_
+** _``HDSL2``_
+** _``G.SHDSL2``_
+** _``VDSL``_
+** _``IDSL``_
+** _``3GPP2-1X``_
+** _``3GPP2-1X-HRPD``_
+** _``DOCSIS``_
 
 * `includeTransportInContact`
 +
@@ -249,7 +249,7 @@ STUN binding requests are sent.
 
 * `keep`
 +
-Type: _``IMS_TC_Registration_keep``_
+Type: IMS_TC_Registration_keep
 +
 Enables the inclusion of keep parameter to [maroon]#_Via_# header, and defines the
 frequency of [maroon]#REGISTER# messages that contains keep.
