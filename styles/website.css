@@ -92,7 +92,7 @@ span.small { font-size: 0.6em; }
 span.underline { text-decoration: underline; }
 span.overline { text-decoration: overline; }
 span.line-through { text-decoration: line-through; }
-
+/*
 div.unbreakable { page-break-inside: avoid; }
 
 /*
@@ -194,3 +194,4 @@ th.tableblock.valign-bottom, td.tableblock.valign-bottom {
 }
 
 
+*/
