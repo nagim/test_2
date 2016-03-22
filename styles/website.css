@@ -5,7 +5,7 @@
   max-width: 80%;
 }
 
-.book.p {font-size: 600%;}
+.book .book-body .page-wrapper .page-inner section.normal code {font-size: 200%;}
 
 blockquote.alert {
     overflow:auto !important;
