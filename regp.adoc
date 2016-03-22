@@ -483,3 +483,26 @@ It indicates the time delay when sending [maroon]#UPDATE# message after the call
 is established. This parameter is applicable only for
 link:../CallTerm.xml[CallTerm] traffic case. It has no effect on other
 traffic cases.
+
+= Table
+
+[width="100%",options="header"]
+|===
+|Command-Name	|Source node	|Destination node	|Abbreviation	|Code
+|Update-Location-Request	|MME	|HSS	|ULR	|316
+|Update-Location-Answer	|HSS	|MME	|ULA	|316
+|Cancel-Location-Request	|HSS	|MME	|CLR	|317
+|Cancel-Location-Answer	|MME	|HSS	|CLA	|317
+|Authentication-Information-Request	|MME	|HSS	|AIR	|318
+|Authentication-Information-Answer	|HSS	|MME	|AIA	|318
+|Insert-Subscriber-Data-Request	|HSS	|MME	|IDR	|319
+|Insert-Subscriber-Data-Answer	|MME	|HSS	|IDA	|319
+|Delete-Subscriber-Data-Request	|HSS	|MME	|DSR	|320
+|Delete-Subscriber-Data-Answer	|MME	|HSS	|DSA	|320
+|Purge-UE-Request	|MME	|HSS	|PUR	|321
+|Purge-UE-Answer	|HSS	|MME	|PUA	|321
+|Reset-Request	|HSS	|MME	|RSR	|322
+|Reset-Answer	|MME	|HSS	|RSA	|322
+|Notify-Request	|MME	|HSS	|NOR	|323
+|Notify-Answer	|HSS	|MME	|NOA	|323
+|===
