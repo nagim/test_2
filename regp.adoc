@@ -9,7 +9,7 @@ Type: float
 +
 Default value: _``1.0``_
 +
-Registration per second, that is the number of registrations sent out by
+Registration per second, that is the ++number++ of registrations sent out by
 the traffic case. When the `rps` is set to _``0.0``_, the registration does not
 start until a greater value is set.
 +
