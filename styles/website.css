@@ -1,8 +1,8 @@
 .book .book-body .navigation {
-  min-width: 14%;
+  min-width: 24%;
 }
 .book .book-body .page-wrapper .page-inner {
-  max-width: 85%;
+  max-width: 75%;
 }
 
 blockquote.alert {

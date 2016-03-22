@@ -19,8 +19,7 @@
         "callouts",
         "puml",
         "sectionx",
-        "hints",
-        "wide-page"
+        "hints"
     ],
     "pluginsConfig": {
         "versions": {
