@@ -50,8 +50,8 @@ Default value: _``3600.0``_, based on link:http://www.ietf.org/rfc/rfc3261.txt[R
 3261]
 +
 The registration of entities in the IMS system expires after a certain
-time. The expiration time is sent to the IMS system in the [maroon]#_Expires_#
-header of the [maroon]#REGISTER# message. Upon registering, the entity sends the
+time. The expiration time is sent to the IMS system in the [header]#Expires#
+header of the [message]#REGISTER# message. Upon registering, the entity sends the
 initial value set in the `registrationExpires` parameter to the IMS
 system. The real expiration time is the value included in the [maroon]#200 OK#
 response of the registration sent by the IMS system.
