@@ -1,5 +1,5 @@
 = Typographic Conventions
-{% set var = "test variable"}
+{% set var = "test variable" %}
 :frame: none
 :grid: none
 
