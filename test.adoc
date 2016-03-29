@@ -1,4 +1,5 @@
 = Typographic Conventions
+{% set var = "test variable"}
 :frame: none
 :grid: none
 
@@ -14,6 +15,8 @@
 | Path, file name | _TitanSim-RnXnn-install.tgz_, _/home/username/TitanSim-RnXnn-install_
 | Parameter value | _``true``_
 |===
+
+{% include "include.adoc" %}
 
 _``true``_ +
 *_Contact_* +
