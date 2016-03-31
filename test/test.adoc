@@ -16,7 +16,7 @@
 | Parameter value | _``true``_
 |===
 
-{% include "/assets/include.adoc" %}
+{% include "\assets\include.adoc" %}
 
 _``true``_ +
 *_Contact_* +
