@@ -4,5 +4,5 @@
 * [Ascii](ascii.adoc)
 * New Section
    * [Chapter 1](chapter1.md)
-   * [test](test.adoc)
+   * [test](/test/test.adoc)
    * [regp](regp.adoc)
