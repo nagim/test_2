@@ -19,7 +19,7 @@
 {% include "/assets/include.adoc" %}
 
 _``true``_ +
-[header]#Contact#
+[header]#Contact# +
 [message]#INVITE#
 
 == Parameter descriptions
