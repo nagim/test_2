@@ -8,8 +8,8 @@
 [grid="rows", frame="none"]
 |===
 |*Type* |  *Example*
-| Messages (Requests, Responses) |  [blue]#INVITE# (could be other color)
-| Headers |  *_Contact_*
+| Messages (Requests, Responses) |  [message]#INVITE# (could be other color)
+| Headers |  [header]#Contact#
 | GUI elements | *[OK]* button, *[Enable]* checkbox
 | Parameters | `tsp_GenApp_Diameter_configs`
 | Path, file name | _TitanSim-RnXnn-install.tgz_, _/home/username/TitanSim-RnXnn-install_
@@ -19,8 +19,8 @@
 {% include "/assets/include.adoc" %}
 
 _``true``_ +
-*_Contact_* +
-*INVITE*
+[header]#Contact#
+[message]#INVITE#
 
 == Parameter descriptions
 
@@ -108,41 +108,6 @@ tsp_IMS_Configuration_Scenarios.trafficCases.trafficSpecific.media :=
   asciidoc -a data-uri -a icons -a toc -a max-width=55em article.txt
   
 == Admonitions
-
-++++
-{{ book.note }} This is a note {{ book.end }}
-++++
-
-
-++++
-{{ book.tip }} This is a tip {{ book.end }}
-++++
-
-
-++++
-{{ book.warning }} This is important info {{ book.end }}
-++++
-
-
-++++
-{{ book.danger }} This is a warning {{ book.end }}
-++++
-
-
-> **Hint** This is a tip
-
-
-
-> **Info** This is a note
-
-
-
-> **Caution** This is important info
-
-
-
-> **Danger** This is a warning
-
 
 > ==== Info::Note
 > 
