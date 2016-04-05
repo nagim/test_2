@@ -521,7 +521,7 @@ traffic cases.
 .3+^.^|weight=3 |no language |no language |no language
 |=====================
 
-[cols="^0,^0",width="25%]
+[cols="^0,^0",width="25%"]
 |==============
 |1 |en
 |2 |us
