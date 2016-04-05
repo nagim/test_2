@@ -513,7 +513,7 @@ traffic cases.
 |Notify-Answer	|HSS	|MME	|NOA	|323
 |===
 
-[cols="2*","width="25%"]
+[cols="^0,^0",width="50%"]
 |=====================
 .2+^.^|weight=2 |en |en
 .3+^.^|weight=3 |us |us |us
