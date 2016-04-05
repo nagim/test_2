@@ -513,10 +513,12 @@ traffic cases.
 |Notify-Answer	|HSS	|MME	|NOA	|323
 |===
 
-[cols=",",]
+[cols="^.^,^.^"]
 |=====================
-.2+^.^|weight=2 |en |en
-.3+^.^|weight=3 |us |us |us
-.2+^.^|weight=2 |hu |hu
-.3+^.^|weight=3 |no language |no language |no language
+.2+|weight=2 |en |en
+.3+|weight=3 |us |us |us
+.2+|weight=2 |hu |hu
+.3+|weight=3 |no language |no language |no language
 |=====================
+
+
