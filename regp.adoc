@@ -538,7 +538,7 @@ traffic cases.
 |13 |us
 |==============
 
-[source,subs="specialchars,quotes"]
+[subs="specialchars,quotes"]
 ----
 _<SOF>_
 _[red]#Call-ID#_ <unused in the scenario>
