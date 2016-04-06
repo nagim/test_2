@@ -547,3 +547,22 @@ _[red]#Call-ID#_ <unused in the scenario>
 [red]#_eventTypeBCSM_#: <copied into CAP IDP>
 _<EOF>_
 ----
+
+[options="header",cols="^0,^0,,width="50%"]
+|===============================================================
+|Bit |Value |Meaning
+|0 |_``0``_ |`IPRoutingAddress` not supported
+|0 |_``1``_ |`IPRoutingAddress` supported
+|1 |_``0``_ |`VoiceBack` not supported
+|1 |_``1``_ |`VoiceBack` supported
+|2 |_``0``_ |`VoiceInformation` not supported through speech recognition
+|2 |_``1``_ |`VoiceInformation` supported through speech recognition
+|3 |_``0``_ |`VoiceInformation` not supported through voice recognition
+|3 |_``1``_ |`VoiceInformation` supported through voice recognition
+|4 |_``0``_ |Generation of voice announcements from Text not supported
+|4 |_``1``_ |Generation of voice announcements from Text supported
+|5 |_``-``_ |Reserved
+|6 |_``-``_ |Reserved
+|7 |_``0``_ |End of standard part
+|7 |_``1``_ |This value is reserved in CAP V.2
+|===============================================================
