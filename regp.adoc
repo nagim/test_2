@@ -537,3 +537,16 @@ traffic cases.
 |12 |us
 |13 |us
 |==============
+
+
+1. Receives ACR
+2. Stores link:Configuration_of_MMsim/AVPs_of_MMsim.adoc[configured VPs] from the incoming ACR
+3. Sends ACA with
+[upperalpha]
+. successful link:https://tools.ietf.org/html/rfc3588#section-7.1[Result-Code AVP]
++
+or
+. link:https://tools.ietf.org/html/rfc3588#section-7.6[Experimental-Result AVP]
++
+or
+. link:https://tools.ietf.org/html/rfc3588#section-7.1[Result-Code AVP] and a link:https://tools.ietf.org/html/rfc3588#section-7.5[Failed-AVP AVP] (rejection / not fully processed)
