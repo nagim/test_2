@@ -518,7 +518,7 @@ traffic cases.
 .2+^.^|weight=2 |en |en
 .3+^.^|weight=3 |us |us |us
 .2+^.^|weight=2 |hu |hu
-.3+^.^|weight=3 |no language |no language |no language
+.3+|weight=3 |no language |no language |no language
 |=====================
 
 [cols="^0,^0",width="25%"]
@@ -550,3 +550,35 @@ or
 +
 or
 . link:https://tools.ietf.org/html/rfc3588#section-7.1[Result-Code AVP] and a link:https://tools.ietf.org/html/rfc3588#section-7.5[Failed-AVP AVP] (rejection / not fully processed)
+
+[options="header",cols="11*^.^,verse*11"]
+
+|=======================================================================
+
+|  |Basic call by a Virtual Private Network (VPN) user |Call barred on the terminating side |Call diverted due to user busy |Camel prepaid charging |Camel impacted MMTel offline charging |Camel online charging |User interaction – play announcement |User interaction -  prompt and collect |Call continued |CAMEL interaction with Location Services
+
+|Triggered by Originating MTAS (MO) |√ |  |  |√ |√ |√ |√ |√ |√ |√
+|Triggered by Terminating MTAS (MT) |  |√ |√ |  |  |  |  |  |√ | 
+|Optionally triggered by forwarding MTAS (MF) |  |  |  |√ |√ |√ |  |  |√
+| 
+|Apply Charging (ACH) |  |  |  |√ |  |  |  |  |  | 
+|Call Information Request (CIRq) |  |  |  |  |  |√ |  |  |  | 
+|Cancel (CAN) |  |  |  |  |  |  |  |  |  | 
+|Connect (CON) |√ |  |√ |  |  |  |  |  |  |√
+|Connect to Resource (CTR) |  |  |  |  |  |√ |√ |√ |  | 
+|Continue (CUE) |  |  |√ |√ |√ |  |√ |√ |√ | 
+|Disconnect Forward Connection (DFC) |  |  |  |  |  |  |√ |√ |  | 
+|Furnish Charging Information (FCI) |  |  |  |  |√ |  |  |  |  | 
+|Play Announcement (PA) |  |  |  |  |  |  |√ |  |  | 
+|Prompt and Collect (PC) User Information |  |  |  |  |  |  |  |√ |  | 
+|Release Call (RC) |  |√ |  |  |  |  |  |  |  | 
+|Request Report Basic Call State Machine (BCSM) Event (RRB) |  |  |√ |√
+|  |  |  |  |  | 
+|Reset Timer (RT) |√ |  |  |  |  |  |  |  |  |√
+|Specialized Resource Report (SRR) |  |  |  |  |  |  |√ |√ |  | 
+|Call Information Report (CIRp) |  |  |  |  |  |√ |  |  |  | 
+|Apply Charging Report (ACR) |  |  |  |√ |  |  |  |  |  | 
+|Event Report BCSM (ERB) – Request type |  |  |√ |  |  |  |  |  |  | 
+|Event Report BCSM (ERB) – Notify type |  |  |  |√ |  |  |  |  |  | 
+|Initial Detection Point (IDP) |√ |√ |√ |√ |√ |√ |√ |√ |√ |√
+|=======================================================================
