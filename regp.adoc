@@ -541,7 +541,7 @@ traffic cases.
 [source,subs="specialchars,quotes"]
 ----
 _<SOF>_
-[red]#_Call-ID_# <unused in the scenario>
+_[red]#Call-ID#_ <unused in the scenario>
 [red]#_calledPartyBCDNumber_#: <copied into CAP IDP>
 [red]#_callingPartyNumber_#: <copied into CAP IDP>
 [red]#_eventTypeBCSM_#: <copied into CAP IDP>
