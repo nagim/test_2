@@ -537,3 +537,13 @@ traffic cases.
 |12 |us
 |13 |us
 |==============
+
+[source,subs="quotes"]
+----
+_<SOF>_
+[red]#_Call-ID_# <unused in the scenario>
+[red]#_calledPartyBCDNumber_#: <copied into CAP IDP>
+[red]#_callingPartyNumber_#: <copied into CAP IDP>
+[red]#_eventTypeBCSM_#: <copied into CAP IDP>
+_<EOF>_
+----
