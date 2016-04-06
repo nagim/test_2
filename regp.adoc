@@ -548,7 +548,7 @@ _[red]#Call-ID#_ <unused in the scenario>
 _<EOF>_
 ----
 
-[options="header",cols="^0,^0,,width="50%"]
+[options="header",cols="^0,^0,^",width="70%"]
 |===============================================================
 |Bit |Value |Meaning
 |0 |_``0``_ |`IPRoutingAddress` not supported
