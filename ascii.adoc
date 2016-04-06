@@ -27,11 +27,7 @@ AsciiDoc is free [red]#software# and is licenced under the terms of the 'GNU
 General Public License version 2' (GPLv2).
 
 {% plantuml %}
-Alice -> Bob: Authentication Request
-Bob --> Alice: Authentication Response
-
-Alice -> Bob: Another authentication Request
-Alice <-- Bob: another authentication Response
+{% include "/test/testuml.plant" %}
 {% endplantuml %}
 
 - [*] checked
