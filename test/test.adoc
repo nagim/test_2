@@ -18,7 +18,7 @@
 
 {% include "/assets/include.adoc" %}
 
-link:assets/include.adoc[link]
+link:/assets/include.adoc[link]
 
 _``true``_ +
 [header]#Contact# +
