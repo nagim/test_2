@@ -490,6 +490,7 @@ is established. This parameter is applicable only for
 link:../CallTerm.xml[CallTerm] traffic case. It has no effect on other
 traffic cases.
 
+[[Table]]
 = Table
 
 [options="header",cols="verse*5"]
