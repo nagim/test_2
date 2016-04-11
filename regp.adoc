@@ -567,3 +567,45 @@ _<EOF>_
 |7 |_``0``_ |End of standard part
 |7 |_``1``_ |This value is reserved in CAP V.2
 |===============================================================
+
+[source,subs="quotes"]
+----
+[red]#tsp_GenApp_Diameter_configs := {#
+  {
+    MM_config:={
+      genericServerParameters := {
+        selfName := "MM1",
+        hostId := "MM1",
+        hostRealm := "MM1",
+        hostIPAddrType := "IP",
+        hostIPAddrData := $local_vip,
+        productName := "MM",
+        vendorId := 10415,
+        applicationId := "3",
+        destinationHost := "unknow host - value from CER",
+        destinationRealm := "unknow realm - value from CER",
+        hostportNumber := 3868 //not used
+      },
+      SuccAnswerFactor := 30.0,
+      expResultfactor := 10.0,
+      expResultParams := {
+        vendorId := 193,
+        code := 2001
+      },
+      {% raw %}
+      errorParams := {{code := 5001, avps := omit},{code := 5002, avps := omit}},
+      {% endraw %}
+      enableStorage:=true,
+      repositoryPath := "MTAS",
+      maxFileSize := 6000000, //unused parameter
+      tmpStorageTime:=300,
+      storagePeriods:={
+        
+      },
+      storageStructure:={
+        {avpCode:={"Accounting_Record_Type"},storageIndex:=1},//480
+        {avpCode:={"Accounting_Record_Number"},storageIndex:=2}//263
+      }
+    }
+  }
+}
