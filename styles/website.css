@@ -17,7 +17,7 @@
      text-decoration: underline;
 }
 
-.book .book-body .page-wrapper .page-inner section.normal h1 h2 h3 h4 h5 h6 a{
+.book .book-body .page-wrapper .page-inner section.normal h1.a{
      visibility: hidden;
 }
 
