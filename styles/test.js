@@ -1,5 +1,7 @@
 window.onload=function(){
 $(document).ready(function() {
-$("pre").wrapInner("<code></code>");
+$("pre").contents()
+        .filter(function(){return this.nodeType === 3}).add(".red")
+        .wrap('<code />');
 });
 }
