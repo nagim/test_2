@@ -8,7 +8,7 @@
         "anchor-navigation",
         "heading-anchors",
         "ungrey",
-        "-expandable-chapters",
+        "expandable-chapters",
         "book-summary-scroll-position-saver",
         "splitter",
         "versions",
