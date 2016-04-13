@@ -9,12 +9,16 @@
      display: none;
 }*/
 
-a.glossary-term {
+.book .book-body .page-wrapper .page-inner section.normal a.glossary-term {
      text-decoration: none;
 }
 
-a {
+.book .book-body .page-wrapper .page-inner section.normal a {
      text-decoration: underline;
+}
+
+.book .book-body .page-wrapper .page-inner section.normal h1 h2 h3 h4 h5 h6 {
+     visibility: hidden;
 }
 
 .book .book-body .page-wrapper .page-inner section.normal code {font-size: 100%;}
