@@ -20,7 +20,7 @@
         "puml",
         "sectionx",
         "hints",
-        "scripts"
+        "addcssjs"
     ],
     "pluginsConfig": {
         "versions": {
@@ -35,9 +35,9 @@
                 "alert": "warning",
                 "picto": "fa-exclamation-circle"
             },
-            "scripts": {
-              "files": [
-                  "./website.js"
+            "addcssjs": {
+              "js": [
+                  "styles/website.js"
               ]
             }
         }
