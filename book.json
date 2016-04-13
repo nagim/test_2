@@ -36,7 +36,7 @@
                 "picto": "fa-exclamation-circle"
             },
             "addcssjs": {
-              "js": ["styles/website.js"]
+              "js": ["/styles/website.js"]
             }
         }
     },
