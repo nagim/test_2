@@ -19,7 +19,8 @@
         "callouts",
         "puml",
         "sectionx",
-        "hints"
+        "hints",
+        "scripts"
     ],
     "pluginsConfig": {
         "versions": {
@@ -33,6 +34,11 @@
             "warning": {
                 "alert": "warning",
                 "picto": "fa-exclamation-circle"
+            },
+            "scripts": {
+              "files": [
+                  "./website.js"
+              ]
             }
         }
     },
