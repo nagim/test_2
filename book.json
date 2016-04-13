@@ -1,7 +1,7 @@
 {
 	"gitbook": "2.x.x",
 	"plugins": [
-    	"addcssjs",
+		"addcssjs",
 		"comment",
 		"include",
 		"-sharing",
@@ -19,7 +19,7 @@
 		"callouts",
 		"puml",
 		"sectionx",
-		"hints",
+		"hints"
 	],
 	"pluginsConfig": {
 		"versions": {
@@ -33,11 +33,10 @@
 			"warning": {
 				"alert": "warning",
 				"picto": "fa-exclamation-circle"
-			},
-          },
-          "addcssjs": {
-				"js": ["styles/test.js"]
-          }
+			}
+		},
+		"addcssjs": {
+			"js": ["styles/test.js"]
 		}
 	},
 	"variables": {
