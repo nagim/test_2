@@ -5,9 +5,9 @@
   max-width: 80%;
 }
 
-.book-summary .summary .chapter b {
+/*.book-summary .summary .chapter b {
      display: none;
-}
+}*/
 
 .book .book-body .page-wrapper .page-inner section.normal code {font-size: 100%;}
 
