@@ -20,7 +20,7 @@
 		"puml",
 		"sectionx",
 		"hints",
-		"customtheme"
+		"addcssjs"
 	],
 	"pluginsConfig": {
 		"versions": {
@@ -35,7 +35,7 @@
 				"alert": "warning",
 				"picto": "fa-exclamation-circle"
 			},
-			"customtheme": {
+			"addcssjs": {
 				"js": ["styles/page.js"]
 			}
 		}
