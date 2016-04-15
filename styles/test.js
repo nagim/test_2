@@ -1,5 +1,5 @@
-window.onload=function(){
-  $(document).ready(function() {
+require(["gitbook"], function(gitbook) {
+gitbook.events.bind("page.change", function() {
     $("pre > code").contents().unwrap()
     $("pre").wrapInner('<code />')
     var b = $(".copy-code-button")
@@ -9,4 +9,4 @@ window.onload=function(){
       $(".copy-code-button").not(':last-child').detach()
     });
   });
-}
+ });
