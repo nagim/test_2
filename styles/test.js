@@ -1,4 +1,4 @@
-require(["gitbook"], function(gitbook) {
+require(["gitbook", "jQuery"], function(gitbook, $) {
 gitbook.events.bind("page.change", function() {
     $("pre > code").contents().unwrap()
     $("pre").wrapInner('<code />')
