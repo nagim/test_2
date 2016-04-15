@@ -1,6 +1,11 @@
+$(document).ready(function() {
 $("pre").one("load", function () {
-var b = $("button");
-b.remove();
-$(this).wrapInner('<code />');
-$(this).append($(b));
+$(this).wrapInner('<code />')
+//var b = $("button")
+//b.remove()
+//$($("code")).after($("button"))
+//$(this).append($(b))
+//$("pre").contents().filter(function(){return this.nodeType === 3}).wrap('<code />')
+//$("code").add($(".red").wrap('<code />'))
+});
 });
