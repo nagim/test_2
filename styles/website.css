@@ -17,7 +17,19 @@
      text-decoration: underline;
 }
 
-.book .book-body .page-wrapper .page-inner section.normal h1 a.glossary-term, h2 a.glossary-term, h3 a.glossary-term, h4 a.glossary-term, h5 a.glossary-term, h6 a.glossary-term{
+.book .book-body .page-wrapper .page-inner section.normal h1 a.glossary-term {
+     pointer-events: none;
+     cursor: default;
+     color: inherit;
+}
+
+.book .book-body .page-wrapper .page-inner section.normal h2 a.glossary-term {
+     pointer-events: none;
+     cursor: default;
+     color: inherit;
+}
+
+.book .book-body .page-wrapper .page-inner section.normal p a.glossary-term:not(:first-of-type) {
      pointer-events: none;
      cursor: default;
      color: inherit;
