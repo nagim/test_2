@@ -1,7 +1,6 @@
 # Glossary
 
-## AsciiDoc
-## Ascii
+## AsciiDoc, Ascii
 
 Cool thing
 Or a markup lang
