@@ -6,7 +6,6 @@
 		"include",
 		"-sharing",
 		"anchor-navigation",
-		"heading-anchors",
 		"ungrey",
 		"toggle-chapters",
 		"book-summary-scroll-position-saver",
