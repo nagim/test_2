@@ -3,10 +3,10 @@ window.onload=function(){
     $("code").contents().unwrap()
     $("pre").wrapInner('<code />')
     var b = $(".copy-code-button")
-    b.remove()
+    b.detach()
     $("pre").append($(b))
     $("pre").each(function() {
-      $(".copy-code-button").not(':last-child').remove()
+      $(".copy-code-button").not(':last-child').detach()
     });
   });
 }
