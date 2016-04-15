@@ -1,6 +1,6 @@
 window.onload=function(){
   $(document).ready(function() {
-    $("code").contents().unwrap()
+    $("pre > code").contents().unwrap()
     $("pre").wrapInner('<code />')
     var b = $(".copy-code-button")
     b.detach()
