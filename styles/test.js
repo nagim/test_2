@@ -1,4 +1,3 @@
-$(document).ready(function() {
 $("pre").one("load", function () {
 $(this).wrapInner('<code />')
 //var b = $("button")
@@ -7,5 +6,4 @@ $(this).wrapInner('<code />')
 //$(this).append($(b))
 //$("pre").contents().filter(function(){return this.nodeType === 3}).wrap('<code />')
 //$("code").add($(".red").wrap('<code />'))
-});
 });
