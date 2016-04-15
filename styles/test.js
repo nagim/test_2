@@ -1,7 +1,10 @@
 gitbook.events.bind("page.change", function(){
 $(document).ready(function() {
-$("pre").contents()
-        .filter(function(){return this.nodeType === 3}).add(".red")
-        .wrap('<code />');
+$("pre").one("load", function () {
+var b = $("button")
+b.remove()
+$(this).wrapInner('<code />')
+$(this).append($(b))
 });
-}
+});
+});
