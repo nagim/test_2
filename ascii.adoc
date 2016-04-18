@@ -1,3 +1,4 @@
+[[asciidoc-home-page]]
 = AsciiDoc Home Page
 // Web page meta data.
 icons:font
