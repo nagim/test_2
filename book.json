@@ -19,7 +19,8 @@
         "puml",
         "sectionx",
         "hints",
-        "anker-enable"
+        "anker-enable",
+        "heading-anchors"
     ],
     "pluginsConfig": {
         "addcssjs": {
