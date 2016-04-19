@@ -568,9 +568,9 @@ _<EOF>_
 |7 |_``1``_ |This value is reserved in CAP V.2
 |===============================================================
 
-[source,subs="quotes"]
+[source]
 ----
-[red]#tsp_GenApp_Diameter_configs := {#
+$$$tsp_GenApp_Diameter_configs := {
   {
     MM_config:={
       genericServerParameters := {

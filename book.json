@@ -20,7 +20,9 @@
         "sectionx",
         "hints",
         "anker-enable",
-        "heading-anchors"
+        "heading-anchors",
+        "-highlight",
+        "code-highlighter"        
     ],
     "pluginsConfig": {
         "addcssjs": {
