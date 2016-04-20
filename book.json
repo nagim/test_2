@@ -8,21 +8,13 @@
         "anchor-navigation",
         "ungrey",
         "toggle-chapters",
-        "book-summary-scroll-position-saver",
-        "splitter",
         "versions",
-        "richquotes",
         "copy-code-button",
-        "codesnippet",
-        "sections",
         "callouts",
         "puml",
-        "sectionx",
         "hints",
-        "anker-enable",
         "heading-anchors",
-        "-highlight",
-        "code-highlighter"        
+        "highlight"      
     ],
     "pluginsConfig": {
         "scripts": {
@@ -32,16 +24,6 @@
         },
         "versions": {
             "type": "branches"
-        },
-        "richquotes": {
-            "danger": {
-                "alert": "danger",
-                "picto": "fa-exclamation-triangle"
-            },
-            "warning": {
-                "alert": "warning",
-                "picto": "fa-exclamation-circle"
-            }
         },
         "callouts": {
             "showTypeInHeader": "false"
