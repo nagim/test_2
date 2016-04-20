@@ -2,9 +2,10 @@
 
 * [Welcome](README.md)
 * [Ascii](ascii.adoc)
-* New Section
+* [New Section](chapter1.md)
    * [Chapter 1](chapter1.md)
-   * [test](/test/test.adoc)
+   * [test](test/test.adoc)
    * [regp](regp.adoc)
-   * [new](chapter1.html)
+   * [new](../chapter1.md)
 * [Test](test)
+
