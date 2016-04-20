@@ -19,7 +19,7 @@
         "puml",
         "sectionx",
         "hints",
-        "anker-enable",
+        "anker-enable": "0.0.3",
         "heading-anchors",
         "-highlight",
         "code-highlighter"        
