@@ -7,7 +7,7 @@
         "-sharing",
         "anchor-navigation",
         "ungrey",
-        "collapsible-menu",
+        "toggle-chapters",
         "book-summary-scroll-position-saver",
         "splitter",
         "versions",
