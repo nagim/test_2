@@ -1,5 +1,5 @@
 {
-    "gitbook": "2.x.x",
+    "gitbook": "3.0.0-pre.9",
     "plugins": [
         "scripts",
         "comment",
@@ -19,7 +19,7 @@
         "puml",
         "sectionx",
         "hints",
-        "anker-enable@0.0.3",
+        "anker-enable",
         "heading-anchors",
         "-highlight",
         "code-highlighter"        
