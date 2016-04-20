@@ -1,7 +1,7 @@
 {
     "gitbook": "2.x.x",
     "plugins": [
-        "addcssjs",
+        "scripts",
         "comment",
         "include",
         "-sharing",
@@ -25,8 +25,8 @@
         "code-highlighter"        
     ],
     "pluginsConfig": {
-        "addcssjs": {
-            "js": [
+        "scripts": {
+            "files": [
                 "styles/test.js"
             ]
         },

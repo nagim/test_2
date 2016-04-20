@@ -1,3 +1,5 @@
+window.onload=function(){
+  $(document).ready(function() {
     $("pre > code").contents().unwrap()
     $("pre").wrapInner('<code />')
     var b = $(".copy-code-button")
@@ -6,3 +8,5 @@
     $("pre").each(function() {
       $(".copy-code-button").not(':last-child').detach()
     });
+  });
+}
