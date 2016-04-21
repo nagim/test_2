@@ -17,8 +17,6 @@ AsciiDoc is mentioned here a lot.
 - [ ] Neptune
 - [ ] Comet Haley
 
-[RST](sdk.rst)
-
 Here's some code:
 
 > **Info** Info
