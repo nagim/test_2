@@ -76,7 +76,7 @@ Default value: 0.0
 
 == Code example
 
-[subs="quotes",source]
+[source,subs="quotes"]
 ----
 tsp_IMS_Configuration_Scenarios.trafficCases.trafficSpecific.media :=
           {
