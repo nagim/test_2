@@ -18,7 +18,7 @@
         "puml",
         "hints",
         "heading-anchors",
-        "highlight"
+        "highlight" 
     ],
     "pluginsConfig": {
         "scripts": {
