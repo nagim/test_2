@@ -15,10 +15,7 @@
         "hints",
         "heading-anchors",
         "highlight",
-        {
-          "name": "disable-glossary",
-          "version": "git+https://github.com/nagim/gitbook-plugin-disable-glossary.git"
-        }
+        "codeblock-disable-glossary"
     ],
     "pluginsConfig": {
         "scripts": {
