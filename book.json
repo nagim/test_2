@@ -1,10 +1,6 @@
 {
     "gitbook": "2.x.x",
     "plugins": [
-        {
-          "name": "disable-glossary",
-          "version": "git+https://github.com/nagim/gitbook-plugin-disable-glossary.git"
-        },
         "scripts",
         "comment",
         "include",
@@ -18,7 +14,11 @@
         "puml",
         "hints",
         "heading-anchors",
-        "highlight" 
+        "highlight",
+        {
+          "name": "disable-glossary",
+          "version": "git+https://github.com/nagim/gitbook-plugin-disable-glossary.git"
+        }
     ],
     "pluginsConfig": {
         "scripts": {
