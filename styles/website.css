@@ -18,7 +18,7 @@
 .book .book-body .page-wrapper .page-inner section.normal a {
      text-decoration: underline;
 }
-
+/*
 .book .book-body .page-wrapper .page-inner section.normal h1 a.glossary-term {
      pointer-events: none;
      cursor: default;
@@ -30,7 +30,7 @@
      cursor: default;
      color: inherit;
 }
-
+*/
 .book .book-body .page-wrapper .page-inner section.normal p a.glossary-term:not(:first-of-type) {
      pointer-events: none;
      cursor: default;
