@@ -20,6 +20,8 @@
 
 link:testuml.plant[link]
 
+link:../new.adoc#callingPartyNumber[link anchor test]
+
 _``true``_ +
 [header]#Contact# +
 [message]#INVITE#
