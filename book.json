@@ -1,5 +1,6 @@
 {
-    "gitbook": "2.x.x",
+    "gitbook": "3.0.0-pre.9",
+    "theme": "theme-default".
     "plugins": [
         "scripts",
         "comment",
