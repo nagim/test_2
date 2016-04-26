@@ -1,6 +1,6 @@
 {
     "gitbook": "3.0.0-pre.9",
-    "theme": "theme-default".
+    "theme": "theme-default",
     "plugins": [
         "scripts",
         "comment",
