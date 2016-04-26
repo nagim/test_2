@@ -1,6 +1,5 @@
 {
     "gitbook": "2.x.x",
-    "theme": "theme-official",
     "plugins": [
         "scripts",
         "comment",
