@@ -6,7 +6,7 @@
         "include",
         "-sharing",
         "anchor-navigation",
-        "splitter,
+        "splitter",
         "ungrey",
         "toggle-chapters",
         "book-summary-scroll-position-saver",
