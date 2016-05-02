@@ -1,21 +1,22 @@
 {
-    "gitbook": "2.x.x",
+    "gitbook": "3.0.0-pre.10",
     "plugins": [
         "scripts",
         "comment",
         "include",
         "-sharing",
         "anchor-navigation",
+        "splitter,
         "ungrey",
         "toggle-chapters",
+        "book-summary-scroll-position-saver",
         "versions",
         "copy-code-button",
         "callouts",
         "puml",
         "hints",
         "heading-anchors",
-        "highlight",
-        "codeblock-disable-glossary"
+        "highlight"
     ],
     "pluginsConfig": {
         "scripts": {
