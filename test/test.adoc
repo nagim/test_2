@@ -3,6 +3,8 @@
 :frame: none
 :grid: none
 
+sdfdsfdsf
+
 == Inline elements
 
 [grid="rows", frame="none"]
@@ -21,58 +23,6 @@
 _``true``_ +
 [header]#Contact# +
 [message]#INVITE#
-
-== Parameter descriptions
-
-fdgfdg
-
-=== `cps`
-
-++++
-<a class="btn btn-primary btn-xs" role="button" data-toggle="collapse" href="#default" aria-expanded="false" aria-controls="collapseExample">
-  Default value
-</a>
-
-<a class="btn btn-primary btn-xs" role="button" data-toggle="collapse" href="#type" aria-expanded="false" aria-controls="collapseExample">
-  Type
-</a>
-
-<a class="btn btn-primary btn-xs" role="button" data-toggle="collapse" href="#description" aria-expanded="false" aria-controls="collapseExample">
-  Description
-</a>
-++++
-
-[[type]]
-Type: float
-
-[[default]]
-Default value: 0.0
-
-[[description]]
-Optional parameter. It is the value of calls per second; target call intensity, it must be 0.0 or greater. In case of 0.0, no traffic is generated. The number of calls that can be initiated with the given Traffic Case in one second. To reach and to continuously keep the desired cps value, there must be free entities (that do not participate in any calls) in the given Traffic Case. If there are no free (available) entities, no more calls can be started, at least until a busy entity finishes its call.
-
-++++
-<a class="btn btn-primary btn-xs" role="button" data-toggle="collapse" href="#default" aria-expanded="false" aria-controls="collapseExample">
-  Default value
-</a>
-
-<a class="btn btn-primary btn-xs" role="button" data-toggle="collapse" href="#type" aria-expanded="false" aria-controls="collapseExample">
-  Type
-</a>
-
-<a class="btn btn-primary btn-xs" role="button" data-toggle="collapse" href="#description" aria-expanded="false" aria-controls="collapseExample">
-  Description
-</a>
-++++
-
-[[type]]
-Type: float
-
-[[default]]
-Default value: 0.0
-
-[[description]]
-[red]#Optional parameter#. It is the value of calls per second; target call intensity, it must be 0.0 or greater. In case of 0.0, no traffic is generated. The number of calls that can be initiated with the given Traffic Case in one second. To reach and to continuously keep the desired cps value, there must be free entities (that do not participate in any calls) in the given Traffic Case. If there are no free (available) entities, no more calls can be started, at least until a busy entity finishes its call.
 
 == Code example
 
@@ -105,11 +55,6 @@ tsp_IMS_Configuration_Scenarios.trafficCases.trafficSpecific.media :=
 <1> Callout 1
 <2> Callout 2
 
-=== User Inputs
-
-fdgfdg
-
-asciidoc -a data-uri -a icons -a toc -a max-width=55em article.txt
   
 == Admonitions
 
