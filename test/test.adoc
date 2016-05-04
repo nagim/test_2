@@ -15,8 +15,6 @@ sdfdsfdsf
 | Parameter value | _``true``_
 |===
 
-{% include "../assets/include.adoc" %}
-
 _``true``_ +
 [header]#Contact# +
 [message]#INVITE#
