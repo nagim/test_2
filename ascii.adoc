@@ -27,6 +27,13 @@ AsciiDoc is highly [line-through]#configurable#: both AsciiDoc the AsciiDoc sour
 
 {% include "test/testuml.plant" %}
 
+{% plantuml %}
+Alice -> Bob: Authentication Request
+Bob --> Alice: Authentication Response
+
+Alice -> Bob: Another authentication Request
+Alice <-- Bob: another authentication Response
+{% endplantuml %}
 
 - [*] checked
 - [x] also checked
