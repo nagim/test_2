@@ -25,7 +25,7 @@ AsciiDoc is highly [line-through]#configurable#: both AsciiDoc the AsciiDoc sour
 
 
 
-{% include "/test/testuml.plant" %}
+{% include "test/testuml.plant" %}
 
 
 - [*] checked
