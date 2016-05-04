@@ -1,5 +1,4 @@
 = Typographic Conventions
-{% set var = "test variable" %}
 
 sdfdsfdsf
 
