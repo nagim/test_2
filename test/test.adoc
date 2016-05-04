@@ -2,24 +2,6 @@
 
 sdfdsfdsf
 
-== Inline elements
-
-|===
-|*Type* |  *Example*
-| Messages (Requests, Responses) |  [message]#INVITE# (could be other color)
-| Headers |  [header]#Contact#
-| GUI elements | *OK* button, *Enable* checkbox
-| Parameters | `tsp_GenApp_Diameter_configs`
-| Path, file name | _TitanSim-RnXnn-install.tgz_, _/home/username/TitanSim-RnXnn-install_
-| Parameter value | `true`
-|===
-
-`true`
-
-[header]#Contact# 
-
-[message]#INVITE#
-
 == Code example
 
 [source]
