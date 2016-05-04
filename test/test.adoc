@@ -1,4 +1,3 @@
 = Typographic Conventions
-{% set var = "test variable" %}
 
 == Inline elements
