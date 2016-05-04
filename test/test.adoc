@@ -4,7 +4,6 @@ sdfdsfdsf
 
 == Inline elements
 
-
 |===
 |*Type* |  *Example*
 | Messages (Requests, Responses) |  [message]#INVITE# (could be other color)
@@ -12,16 +11,18 @@ sdfdsfdsf
 | GUI elements | *[OK]* button, *[Enable]* checkbox
 | Parameters | `tsp_GenApp_Diameter_configs`
 | Path, file name | _TitanSim-RnXnn-install.tgz_, _/home/username/TitanSim-RnXnn-install_
-| Parameter value | _``true``_
+| Parameter value | `true`
 |===
 
-_``true``_ +
-[header]#Contact# +
+`true`
+
+[header]#Contact# 
+
 [message]#INVITE#
 
 == Code example
 
-[source,subs="quotes"]
+[source]
 ----
 tsp_IMS_Configuration_Scenarios.trafficCases.trafficSpecific.media :=
           {
