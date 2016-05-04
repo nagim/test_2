@@ -109,26 +109,6 @@ tsp_IMS_Configuration_Scenarios.trafficCases.trafficSpecific.media :=
   
 == Admonitions
 
-> ==== Info::Note
-> 
-> This is a note
-
-
-> ==== Hint::Tip
-> 
-> This is a tip
-
-
-> ==== Warning::Important
-> 
-> This is important info
-
-
-> ==== Danger::Warning
-> 
-> This is a warning
-
-
 {% hint style='info' %}
  This is a note
 {% endhint %}
