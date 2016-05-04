@@ -1,7 +1,7 @@
 {
     "gitbook": "3.0.0-pre.11",
     "plugins": [
-        "-scripts",
+        "scripts",
         "comment",
         "include",
         "-sharing",
@@ -15,8 +15,7 @@
         "callouts",
         "puml",
         "hints",
-        "heading-anchors",
-        "highlight"
+        "heading-anchors"
     ],
     "pluginsConfig": {
         "scripts": {
