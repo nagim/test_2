@@ -39,7 +39,7 @@ tsp_IMS_Configuration_Scenarios.trafficCases.trafficSpecific.media :=
 ----
 
 
-=== Code example with callouts
+== Code example with callouts
 
 [source]
 ----
