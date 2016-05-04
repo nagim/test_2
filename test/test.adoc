@@ -1,13 +1,11 @@
 = Typographic Conventions
 {% set var = "test variable" %}
-:frame: none
-:grid: none
 
 sdfdsfdsf
 
 == Inline elements
 
-[grid="rows", frame="none"]
+
 |===
 |*Type* |  *Example*
 | Messages (Requests, Responses) |  [message]#INVITE# (could be other color)
@@ -34,42 +32,6 @@ tsp_IMS_Configuration_Scenarios.trafficCases.trafficSpecific.media :=
             generator := {
               mlsim :=     
               {
-                *enabled := true,*
+                enabled := true,
                 enableMLSimPlus := true,
 ----
-
-
-== Code example with callouts
-
-[source]
-----
-tsp_IMS_Configuration_Scenarios.trafficCases.trafficSpecific.media :=
-          {
-            enabled := true,
-            generator := {
-              mlsim :=     
-              {
-                enabled := true,            // <1>
-                enableMLSimPlus := true,    // <2>
-----
-<1> Callout 1
-<2> Callout 2
-
-  
-== Admonitions
-
-{% hint style='info' %}
- This is a note
-{% endhint %}
-
-{% hint style='tip' %}
- This is a tip
-{% endhint %}
-
-{% hint style='working' %}
- This is important info
-{% endhint %}
-
-{% hint style='danger' %}
- This is a warning
-{% endhint %}
