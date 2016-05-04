@@ -1,17 +1,1 @@
 = Typographic Conventions
-
-sdfdsfdsf
-
-== Code example
-
-[source]
-----
-tsp_IMS_Configuration_Scenarios.trafficCases.trafficSpecific.media :=
-          {
-            enabled := true,
-            generator := {
-              mlsim :=     
-              {
-                enabled := true,
-                enableMLSimPlus := true,
-----
