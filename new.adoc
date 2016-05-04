@@ -2,7 +2,7 @@
 
 * `tcParams`
 +
-The parameters of the traffic case of `EPTF_GenApp_<version>_EntityProperties` type. It contains the following three optional members:
+The parameters of the traffic case of `EPTF_GenApp_\<version>_EntityProperties` type. It contains the following three optional members:
 
 ** [[callingPartyNumber]]`callingPartyNumber`
 +
