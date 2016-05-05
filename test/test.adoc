@@ -1,3 +1,54 @@
 = Typographic Conventions
 
 == Inline elements
+
+|===
+|*Type* |  *Example*
+| Messages (Requests, Responses) |  [message]#INVITE# (could be other color)
+| Headers |  [header]#Contact#
+| GUI elements | *[OK]* button, *[Enable]* checkbox
+| Parameters | `tsp_GenApp_Diameter_configs`
+| Path, file name | _TitanSim-RnXnn-install.tgz_, _/home/username/TitanSim-RnXnn-install_
+| Parameter value | _``true``_
+|===
+
+{% include "../assets/include.adoc" %}
+
+_``true``_ +
+[header]#Contact# +
+[message]#INVITE#
+
+== Code example
+
+[source,subs="quotes"]
+----
+tsp_IMS_Configuration_Scenarios.trafficCases.trafficSpecific.media :=
+          {
+            enabled := true,
+            generator := {
+              mlsim :=     
+              {
+                *enabled := true,*
+                enableMLSimPlus := true,
+----
+  
+== Admonitions
+
+> ==== Info::Note
+> 
+> This is a note
+
+
+> ==== Hint::Tip
+> 
+> This is a tip
+
+
+> ==== Warning::Important
+> 
+> This is important info
+
+
+> ==== Danger::Warning
+> 
+> This is a warning
