@@ -1,1 +1,84 @@
 = Typographic Conventions
+
+== Inline elements
+
+|===
+|*Type* |  *Example*
+| Messages (Requests, Responses) |  [message]#INVITE# (could be other color)
+| Headers |  [header]#Contact#
+| GUI elements | *[OK]* button, *[Enable]* checkbox
+| Parameters | `tsp_GenApp_Diameter_configs`
+| Path, file name | _TitanSim-RnXnn-install.tgz_, _/home/username/TitanSim-RnXnn-install_
+| Parameter value | _``true``_
+|===
+
+{% include "/assets/include.adoc" %}
+
+_``true``_ +
+[header]#Contact# +
+[message]#INVITE#
+
+== Code example
+
+[source,subs="quotes"]
+----
+tsp_IMS_Configuration_Scenarios.trafficCases.trafficSpecific.media :=
+          {
+            enabled := true,
+            generator := {
+              mlsim :=     
+              {
+                *enabled := true,*
+                enableMLSimPlus := true,
+----
+  
+== Admonitions
+
+> ==== Info::Note
+> 
+> This is a note
+
+
+> ==== Hint::Tip
+> 
+> This is a tip
+
+
+> ==== Warning::Important
+> 
+> This is important info
+
+
+> ==== Danger::Warning
+> 
+> This is a warning
+
+[cols="1*m,,,",options="header"]
+|=========================================================================================================================
+|Flag |  |Comment
+|-T |Skips the update of TITAN. |By default, TITAN is updated.
+|-c |Skips the check of required packages. |By default, the required packages are checked.
+|-s + argument |Current folder, from which the install script was started. |By default, it is the current directory.
+|-d + argument |Sets a custom target directory where TitanSim is installed. |By default, it is the ~/titansim directory.
+|-m |Installs TitanSim with MLSim+ (flag is not supported with -f flag!) |By default, MLSim+ is not installed.
+|-e |Installs TitanSim with EIN SS7 support (flag is not supported with -f flag!) |By default, EIN SS7 is not installed.
+|-q |Installs TitanSim with SQL (flag is not supported with -f flag!) |By default, SQL is not installed.
+|-D |Installs with debug (for developer debugging only, it causes performance drop!) |By default: false
+|-O |Installs with debug symbols (for segfault hunting only, it causes bigger object files and binary!) |By default: false
+|-J |Performance measurement, used only by developers. For profiling only, the performance drops to 1%. |By default: false
+|-I |Installs with IPSec support. |By default: false
+|-S |Installs with SSL support. |By default: false
+|-C |Installs with coverage. |By default: false
+|-t |Installs with DTLS support (-m flag is necessary!) |By default: false
+|-B + argument |Name of the MLSim+ tarball. |By default: mlsimplus_lpa108457-*.tar.gz
+|-g |Installs without GUI. |By default: false
+|-u |It only updates tools and src folders and does an incremental make. |By default: false
+|-U |It updates everything and does an incremental make. |By default: false
+|-y |It answers YES to all questions. |By default: false
+|-l + argument |It sets the maximum core number. |By default it sets every available.
+|-o + argument |It sets compiler options. |By default: -O2
+|-L |It enables dynamic linking. |By default: false
+|-r + argument |It sets working directory for installation of temporary files. |By default, it is the /tmp directory.
+|-f + argument |Sets a custom .prj file to be built. |By default, it is the TitanSim.prj.
+|-h |To get help. |-
+|=========================================================================================================================
