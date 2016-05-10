@@ -53,7 +53,7 @@ tsp_IMS_Configuration_Scenarios.trafficCases.trafficSpecific.media :=
 > 
 > This is a warning
 
-[subs="quotes,specialchars",source]
+[subs="specialchars,quotes",source]
 ----
 DataElement: "TcTargetCPSOrWeight"
   ValueType  : floatType
