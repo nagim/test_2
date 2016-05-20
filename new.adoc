@@ -7,3 +7,5 @@ The parameters of the traffic case of `EPTF_GenApp_version_EntityProperties` typ
 ** [[callingPartyNumber]]callingPartyNumber
 +
 The parameters of the traffic case of `EPTF_GenApp_version_EntityProperties` type. It contains the following three optional members:
+
+** link:http://ttcn.ericsson.se/vobs/TCC_Releases/Applications/TitanSim_LPA108463/cfg/IMS/release_evolution_ims.cfg[__cfg/ims/release_evolution_ims.cfg__]
