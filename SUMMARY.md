@@ -6,5 +6,5 @@
    * [newtest](new.adoc)
    * [test](test/test.adoc)
    * [regp](regp.adoc)
-   * [**new**](chapter1.md)
+   * [<b>new</b>](chapter1.md)
 
