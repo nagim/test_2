@@ -2,6 +2,8 @@
 
 == Inline elements
 
+text
+
 |===
 |*Type* |  *Example*
 | Messages (Requests, Responses) |  [message]#INVITE# (could be other color)
