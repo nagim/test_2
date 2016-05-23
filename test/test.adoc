@@ -55,24 +55,19 @@ tsp_IMS_Configuration_Scenarios.trafficCases.trafficSpecific.media :=
 > 
 > This is a warning
 
-[subs="specialchars,quotes",source]
-----
-DataElement: "TcTargetCPSOrWeight"
-  ValueType  : floatType
-  Description: This dataElement returns the target CPS for traffic case in non-weighted scenario and the traffic case weight for traffic case in weighted-scenario.
-  CLI Example: ds get [red]#<datadescription xmlns='http://ttcn.ericsson.se/protocolModules/xtdp/xtdl' element='TcTargetCPSOrWeight' source='ExecCtrl'> <params>  <dataparam name='EntityGroup' value='EGrp01'/> <dataparam name='Scenario' value='Scenario01'/> <dataparam name='TrafficCase' value='TrafficCase01'/> </params> </datadescription>#        
-
-  Parameters:
-    Parameter name: "EntityGroup"
-    TypeDescr: "EntityGroup" item
-    Description   : Name of the entity group. Should be one item in the list returned by 'EntityGroups'
-    Example Value : "EGrp01"
-    Parameter name: "Scenario"
-    TypeDescr: "Scenario" item
-    Description   : Name of the scenario of an entity group. Should be one item in the list returned by 'Scenarios'
-    Example Value : "Scenario01"
-    Parameter name: "TrafficCase"
-    TypeDescr: "TrafficCase" item
-    Description   : Name of the traffic case of an scenario. Should be one item in the list returned by 'TrafficCases'
-    Example Value : "TrafficCase01"
-----
+> ==== Note::Note
+> 
+> Settings changed with the commands above are lost at reboot. To preserve custom settings, add them to the _/etc/sysctl.conf_ file:
+> [source]
+> ----
+> net.ipv4.ip_local_port_range = 1024 7999
+> net.core.rmem_max = 12582912
+> net.core.wmem_max = 12582912
+> net.ipv4.tcp_rmem = 10240 87380 12582912
+> net.ipv4.tcp_wmem = 10240 87380 12582912
+> net.ipv6.route.max_size = 8388608
+> net.ipv6.xfrm6_gc_thresh = 8388608
+> kernel.core_pattern = core.%e.%p.%h.%t
+> ----
+> 
+> Pay attention to the slightly different format used in the command and in the _/etc/sysctl.conf_ file. If there is apport crash reporting system running on your computer, then the `kernel.core_pattern` setting written to _/etc/sysctl.conf_ is overridden by _/etc/init/apport.conf_. Apport collects core dump files in directory _/var/crash_.
