@@ -1,5 +1,6 @@
 = Typographic Conventions
-
+{% set var = "test" %
+}
 == Inline elements
 
 text
