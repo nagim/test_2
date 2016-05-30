@@ -6,5 +6,5 @@
    * [newtest](new.adoc)
    * [test](test/test.adoc)
    * [regp](regp.adoc)
-   * [<b>new</b>](chapter1.md)
+   * [![img](assets/images/add.png)new](chapter1.md)
 
