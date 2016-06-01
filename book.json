@@ -5,7 +5,7 @@
         "comment",
         "include",
         "-sharing",
-        "anchor-navigation",
+        "-anchor-navigation",
         "splitter",
         "ungrey",
         "toggle-chapters",
