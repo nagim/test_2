@@ -1,11 +1,11 @@
 {
-    "gitbook": "2.6.7",
+    "gitbook": "3.0.3",
     "plugins": [
         "scripts",
         "comment",
         "include",
         "-sharing",
-        "anchor-navigation",
+        "-anchor-navigation",
         "splitter",
         "ungrey",
         "toggle-chapters",
