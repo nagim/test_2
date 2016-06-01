@@ -15,7 +15,8 @@
         "callouts",
         "puml",
         "hints",
-        "heading-anchors"
+        "heading-anchors",
+        "catalog"
     ],
     "pluginsConfig": {
         "scripts": {
