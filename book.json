@@ -16,7 +16,7 @@
         "puml",
         "hints",
         "anchorjs",
-        "-catalog",
+        "-catalog", 
         {
             "name": "catalog2",
             "version": "git+https://github.com/nagim/gitbook-plugin-catalog2.git"
