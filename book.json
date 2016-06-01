@@ -16,7 +16,7 @@
         "puml",
         "hints",
         "anchorjs",
-        "-catalog"
+        "catalog"
     ],
     "pluginsConfig": {
         "scripts": {
