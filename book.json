@@ -15,7 +15,7 @@
         "callouts",
         "puml",
         "hints",
-        "anchors",
+        "anchorjs",
         "catalog"
     ],
     "pluginsConfig": {
