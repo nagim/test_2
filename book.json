@@ -5,7 +5,7 @@
         "comment",
         "include",
         "-sharing",
-        "-anchor-navigation",
+        "anchor-navigation",
         "splitter",
         "ungrey",
         "toggle-chapters",
@@ -15,8 +15,8 @@
         "callouts",
         "puml",
         "hints",
-        "anchors-wrapper",
-        "catalog"
+        "anchorjs",
+        "-catalog"
     ],
     "pluginsConfig": {
         "scripts": {
