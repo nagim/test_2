@@ -92,3 +92,15 @@ Pay attention to the slightly different format used in the command and in the _/
 ____
 
 _Gateway #<PTC index>/<Media gateway index> - <Name> (<encoding>)_
+
+* `setupMode`
++
+Type: charstring
++
+Supported values: _``active``_, _``passive``_ or _``actpass``_
++
+Optional parameter. The value of the parameter is encoded in outgoing SDP, as value of `a=setup` attribute. The parameter overrides the value of `serverMode`. If `setupMode` is set to _``active``_, then `serverMode` is _``false``_, regardless of its value in the configuration file. If `setupMode` is different than _``active``_, then `serverMode` is _``true``_, regardless of its value in the configuration file.
++
+If the parameter is not present in the configuration file, then `a=setup:active` is encoded in outgoing SDP.
++
+The configuration file can be found at: link:http://ttcn.ericsson.se/vobs/TCC_Releases/Applications/TitanSim_LPA108463/cfg/IMS/jenkins/CallOrigWithMediaMLSimPlus_DTLS.cfg[___cfg/IMS/jenkins/CallOrigWithMediaMLSimPlus_DTLS.cfg___].
