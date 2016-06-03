@@ -103,4 +103,4 @@ Optional parameter. The value of the parameter is encoded in outgoing SDP, as va
 +
 If the parameter is not present in the configuration file, then `a=setup:active` is encoded in outgoing SDP.
 +
-The configuration file can be found at: link:http://ttcn.ericsson.se/vobs/TCC_Releases/Applications/TitanSim_LPA108463/cfg/IMS/jenkins/CallOrigWithMediaMLSimPlus_DTLS.cfg[___cfg__/IMS/jenkins/CallOrigWithMediaMLSimPlus_DTLS.cfg_____].
+The configuration file can be found at: link:http://ttcn.ericsson.se/vobs/TCC_Releases/Applications/TitanSim_LPA108463/cfg/IMS/jenkins/CallOrigWithMediaMLSimPlus_DTLS.cfg[__cfg____/IMS/jenkins/CallOrigWithMediaMLSimPlus_DTLS.cfg__].
