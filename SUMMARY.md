@@ -7,5 +7,5 @@
    * [test](test/test.adoc)
    * [regp](regp.adoc)
    * [new](chapter1.md)
-   * [testing](test_2/content/new.html#List_Anchor_Test)
+   * [testing](/test_2/content/new.html#List_Anchor_Test)
 
