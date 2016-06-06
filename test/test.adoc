@@ -17,7 +17,7 @@ text
 
 {% include "/assets/include.adoc" %}
 
-link:assets/include.adoc[link]
+link:new.adoc#callingPartyNumber[link]
 
 _``true``_ +
 [header]#Contact# +
