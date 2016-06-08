@@ -104,3 +104,5 @@ Optional parameter. The value of the parameter is encoded in outgoing SDP, as va
 If the parameter is not present in the configuration file, then `a=setup:active` is encoded in outgoing SDP.
 +
 The configuration file can be found at: _link:http://ttcn.ericsson.se/vobs/TCC_Releases/Applications/TitanSim_LPA108463/cfg/IMS/jenkins/CallOrigWithMediaMLSimPlus_DTLS.cfg[cfg/IMS/jenkins/CallOrigWithMediaMLSimPlus_DTLS.cfg]_.
+
+def generate[P <: Platform[P]](source: P#Source[Int], sink: P#Sink[Int]): TailProducer[P, Int] = source.map(_ * 2).write(sink)
