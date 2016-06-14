@@ -97,182 +97,42 @@ trafficCase : callingUserDescriptor := {
 |===
 
 
-= Revision History of TitanSim Online Documentation
-
 [options="header",cols="verse*2,,"]
 |===
-^.^|TitanSim Revision ^.^|Date of Delivery ^.^|Modifications
-3+^.^|
-The TitanSim team aims to continuously improve the quality of the documentation. The summary of the recent major improvements can be found link:https://erilink.ericsson.se/eridoc/erl/objectId/09004cff8a37c886?docno=16/2882-FCPCA101181Uen&action=current&format=ppt12[here].
+|Flag |Type |Description
+|`-n` |mandatory* a|Number of IP addresses
 
-^.^|R7A ^.^|16-16-2016 a|
+> ==== Note::Note
+>
+> The following three options need to be set together for this mode:
+>
+> `-net`, `–mask` or `–dev`
 
-#*Competently rewritten/restructured descriptions:*#
+|`-anyIP` |mandatory* a|This flag indicates the `AnyIP` mode. `AnyIP` is the capability to receive packets and establish incoming connections on IPs that have not been explicitly configured on the machine.
 
-* *Node Simulation > EPC*
+* `-net` and `-mask` must be set.
+* `-n` and `-dev` must NOT be set.
 
-#*New descriptions created*#
+|`-net` |optional a|
+Network address for virtual IPs
 
-* *User Simulation > TCP Connection Handling*
+> ==== Note::Note
+>
+> The first virtual IP is the net address + 1.
 
-Updated topics:
+Example:
+[source]
+net address: 192.168.0.0
+first virtual ip: 192.168.0.1
 
-* User Simulation > Traffic Cases > Presence > groupSubscribe Command
-* Installation > Misc Settings > Virtual IP Addresses and Route Ranges
-* Installation > Misc Settings > Linux Kernel Configuration for Media Generation
-* User Simulation > Statistics Window > Statistics Overview Window
+Example:
+[source]
+net address: 2001:1b70:8294:0800::1
+first virtual ip: 2001:1b70:8294:0800::2
 
-^.^|R7A07 ^.^|02-06-2016 a|
-#*Competently rewritten/restructured descriptions:*#
-
-* *User Simulation > Media*
-* *IMS Network Simulator*
-
-Updated topics
-
-* Node Simulation > PBX
-* User Simulation > Subscribe > Subscribe Overview
-* Node Simulation > MAP Traffic Generator
-* Installation > Prerequisites > Operating System-specific Prerequisites > Operating System Packages > Firefox
-
-^.^|R7A06 ^.^|12-05-2016 a|
-#*Competently rewritten/restructured descriptions:*#
-
-* *Node Simulation > MAP Traffic Generator*
-
-Updated topics:
-
-* Installation > Prerequisites > Prerequisites
-* Installation > Misc Settings > Linux Kernel Settings
-
-^.^|R7A05 ^.^|05-05-2016 a|
-#*New description created:*#
-
-* *Node Simulation > MTAS > DNS ENUM > DNS Server Simulator*
-* *Node Simulation > MGW Simulator > Configuration of MGW Simulator > Finite State Machines Declaration*
-* *User Simulation > Traffic Cases > Presence > Message Traffic Case with Presence*
-
-Updated topics:
-
-* User Simulation > SBG Simulator > Supported Features
-* User Simulation > Media > Features > DTMF
-* User Simulation > Media > MLSim+ > Configuration > RTMP
-* User Simulation > Traffic Cases > Presence > Presence Overview
-* User Simulation > Subscribe > Configuration of Subscribe
-* Installation > Docker > Using TitanSim Docker Release
-* Installation > Docker > Troubleshooting
-* Node Simulation > MRFC
-* Node Simulation > Common Configuration Settings > Diameter Protocol Stack Specific Settings > Parameters of the Simulated Node
-* Node Simulation > MTAS > HTTP > CNS > Configuration Settings > The Hierarchy of MTAS Configuration Settings
-* Node Simulation > PCRF Simulation > Configuration of PCRF Node Simulator > FSMs for Describing PCRF Behavior
-
-^.^|R7A04 ^.^|07-04-2016 a|
-#*New description created:*#
-
-* *Common Functionality > Routing Agent*
-* *Node Simulation > MTAS > HTTP > CNS*
-
-#*Competently rewritten/restructured descriptions:*#
-
-* *User Simulation > SBG Simulator*
-* *Node Simulation > CNS Simulator*
-
-Updated topics:
-
-* User Simulation > Configuration > IMEI
-* User Simulation > Traffic Cases > CallOrig
-* User Simulation > Media > MLSim+ > DTMF
-
-^.^|R7A03 ^.^|16-03-2016 a|
-#*New description created:*#
-
-* *Installation > Docker*
-
-Updated topics:
-
-* User Simulation > Subscribe > Subscribe Overview
-* User Simulation > Subscribe > Configuration of Subscribe in Registration, CallOrig, and CallTerm Traffic Cases
-* User Simulation > Configuration > CalledUserDescriptor
-* User Simulation > Configuration > CallingUserDescriptor
-* Node Simulation > SCP > Behavior Description of SCP Node Simulator > Basic Call By a VPN User
-* Node Simulation > SCP > Behavior Description of SCP Node Simulator > Call Diverted Due to User Busy
-* Node Simulation > SCP > Behavior Description of SCP Node Simulator > Camel Impacted MMTel Offline Charging
-* Node Simulation > SCP > Behavior Description of SCP Node Simulator > Camel Online Charging
-* Node Simulation > SCP > Behavior Description of SCP Node Simulator > User Interaction - Play Announcement
-* User Simulation > SR VCC Support > SRVCC Media Anchoring > SRVCC Media Anchoring
-* User Simulation > Configuration > Other Configuration Parameters
-* User Simulation > Media > MLSim+ > Configuration > General Configuration of MLSim+ Media
-* Installation > Prerequisites > Prerequisites
-* User Simulation > Traffic Cases > Registration > Registration Parameters
-* User Simulation > Message Modification
-* Node Simulation > Diameter EPC > Configuration of Diameter EPC > HSS SWx Simulation > HSS (SWx) Test Steps
-
-^.^|R7A02 ^.^|11-02-2016 a|
-#*Competently rewritten/restructured descriptions:*#
-
-* *Node Simulation > SCP*
-* *User Simulation > Media*
-
-Updated topics:
-
-* StartUp and Use > Logging > TitanSim Logs
-* StartUp and Use > Event Vector
-* User Simulation > Emergency Call > Emergency Registration to Normal Bearer
-* User Simulation > Emergency Call > Redirect Well-known Emergency Numbers
-* User Simulation > Traffic Cases > CallOrig
-* Installation >  Installation of TitanSim
-* Installation > Prerequisites > Space Requirements Specification
-* Installation > Prerequisites > Further Installation Information > Typical Installation Times of TitanSim
-* Node Simulation > MTAS > Diameter > CC Node Simulator > MTAS Specific Configuration Options > Preferred Language Support`` ``
-
-^.^|R7A01 ^.^|19-01-2016 a|
-Updated topics:
-
-* User Simulation > Configuration > GRUU
-* User Simulation > Traffic Cases > Registration > Registration Parameters
-* User Simulation > Media > Media Configuration Overview
-* User Simulation > Media > MLSim+ > MLSim+ Media Overview
-* User Simulation > Media > MLSim+ > Supported Codecs
-* Installation > Prerequisites > Operating System-specific Prerequisites > Operating System Packages
-* Installation > Prerequisites > Prerequisites
-* Installation > Misc Settings > Linux Kernel Setting
-
-Created new topics:
-
-* User Simulation > Configuration > IMEI
-
-Deleted topics:
-
-* Installation > Prerequisites > Operating System-specific Prerequisites > Installation of the SCTP Package
-* Installation > Prerequisites > Operating System-specific Prerequisites > Installation of the Libpcap Package
+|`-mask`               |optional a|Network mask for virtual IPs CIDR, link:https://tools.ietf.org/html/rfc4632[RFC 4632] (network bits count for example: _``18``_ or _``24``_).          
+|`-dev` |optional |Device to use, for example `eth1`
+|`-dry`                |optional |It makes the script to only print the commands for adding or deleting the virtual IP addresses. This gives a possibility to check the addresses being added/removed.
+|`-ipv`                |optional |IP version, 4 or 6 (Default: 4)
+|`-help\|h`             |optional |Prints the help of the available options.
 |===
-
-[options="header",cols=",,"]
-|===
-^.^|TitanSim Revision ^.^|Date of Delivery ^.^|Link
-^.^|*R6A* ^.^|10-12-2015 |link:http://ttcn.ericsson.se/TitanSim/Help_R6A/index.htm#Revision_History.htm[]
-^.^|R6A06 ^.^|26-11-2015 |link:http://ttcn.ericsson.se/TitanSim/Help_R6A06/index.htm#Revision_History.htm[]
-^.^|R6A05 ^.^|22-10-2015 |link:http://ttcn.ericsson.se/TitanSim/Help_R6A05/index.htm#Revision_History.htm[]
-^.^|R6A04 ^.^|01-10-2015 |link:http://ttcn.ericsson.se/TitanSim/Help_R6A04/index.htm#Revision_History.htm[]
-^.^|R6A03 ^.^|03-09-2015 |link:http://ttcn.ericsson.se/TitanSim/Help_R6A03/index.htm#Revision_History.htm[]
-^.^|R6A02 ^.^|06-08-2015 |link:http://ttcn.ericsson.se/TitanSim/Help_R6A02/index.htm#Revision_History.htm[]
-^.^|R6A01 ^.^|09-07-2015 |link:http://ttcn.ericsson.se/TitanSim/Help_R6A01/index.htm#Revision_History.htm[]
-^.^|*R5A* ^.^|25-06-2015 |link:http://ttcn.ericsson.se/TitanSim/Help_R5A/index.htm#Revision_History.htm[]
-^.^|R5A06 ^.^|04-06-2015 |link:http://ttcn.ericsson.se/TitanSim/Help_R5A06/index.htm#Revision_History.htm[]
-^.^|R5A05 ^.^|07-05-2015 |link:http://ttcn.ericsson.se/TitanSim/Help_R5A05/index.htm#Revision_History.htm[]
-^.^|R5A04 ^.^|09-04-2015 |link:http://ttcn.ericsson.se/TitanSim/Help_R5A04/index.htm#Revision_History.htm[]
-^.^|R5A03 ^.^|24-03-2015 |link:http://ttcn.ericsson.se/TitanSim/Help_R5A03/index.htm#Revision_History.htm[]
-^.^|R5A02 ^.^|12-02-2015 |link:http://ttcn.ericsson.se/TitanSim/Help_R5A02/index.htm#Revision_History.htm[]
-^.^|R5A01 ^.^|15-01-2015 |link:http://ttcn.ericsson.se/TitanSim/Help_R5A01/index.htm#Revision_History.htm[]
-^.^|*R4A* ^.^|15-12-2014 |link:http://ttcn.ericsson.se/TitanSim/Help_R4A/index.htm#Revision_History.htm[]
-^.^|R4A06 ^.^|20-11-2014 |link:http://ttcn.ericsson.se/TitanSim/Help_R4A06/index.htm#Revision_History.htm[]
-^.^|R4A05 ^.^|22-10-2014 |link:http://ttcn.ericsson.se/TitanSim/Help_R4A05/index.htm#Revision_History.htm[]
-^.^|R4A04 ^.^|25-09-2014 |link:http://ttcn.ericsson.se/TitanSim/Help_R4A04/index.htm#Revision_History.htm[]
-^.^|R4A03 ^.^|04-09-2014 |link:http://ttcn.ericsson.se/TitanSim/Help_R4A03/index.htm#Revision_History.htm[]
-^.^|R4A02 ^.^|07-08-2014 |link:http://ttcn.ericsson.se/TitanSim/Help_R4A02/index.htm#Revision_History.htm[]
-^.^|R4A01 ^.^|10-07-2014 |link:http://ttcn.ericsson.se/TitanSim/Help_R4A01/index.htm#Revision_History.htm[]
-^.^|*R3A* ^.^|26-06-2014 |link:http://ttcn.ericsson.se/TitanSim/Help_R3A/index.htm#Revision_History.htm[]
-^.^|R3A06 ^.^|05-06-2014 |link:http://ttcn.ericsson.se/TitanSim/Help_R3A06/index.htm#Revision_History.htm[]
-^.^|R3A05 ^.^|08-05-2014 |link:http://ttcn.ericsson.se/TitanSim/Help_R3A05/index.htm#Revision_History.htm[]
-|===
-
