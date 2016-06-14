@@ -72,7 +72,7 @@ sudo setcap 'cap_sys_nice=eip cap_net_raw=eip' /home/ttcn3/titansim/build/titans
 > 
 > This is a warning
 
-[options="header"]
+[options="header",cols=",,5"]
 |===
 |Flag |Type |Description
 |`-n` |mandatory* a|Number of IP addresses
