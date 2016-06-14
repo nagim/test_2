@@ -72,32 +72,7 @@ sudo setcap 'cap_sys_nice=eip cap_net_raw=eip' /home/ttcn3/titansim/build/titans
 > 
 > This is a warning
 
-[cols=",,,"]
-|===
-a| 
-[source]
-----
-trafficCase : callingUserDescriptor := {
-  basicUserParams := {
-   (…)
-   IdRange        := {"8000..8003"},
-   (…)
-    }
-}
----- a|
-[source]
-----
-{groupSubscribe:=
-  {sizeOfSubscribingUserGroup :=2,
-   sizeOfSubscribedUserGroup := 1,
-   subscribe := {(…) }
- }}
-----
-| 4 users 8000,8001,8002,8003 a| `group size 2`
-|===
-
-
-[options="header",cols="^2*2,,"]
+[options="header",cols="2*2,,.,"]
 |===
 |Flag |Type |Description
 |`-n` |mandatory* a|Number of IP addresses
