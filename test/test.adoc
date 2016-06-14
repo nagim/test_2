@@ -99,7 +99,7 @@ trafficCase : callingUserDescriptor := {
 
 = Revision History of TitanSim Online Documentation
 
-[options="header",cols=",,",width=80%]
+[options="header",cols="verse*2,,"]
 |===
 ^.^|TitanSim Revision ^.^|Date of Delivery ^.^|Modifications
 3+^.^|
