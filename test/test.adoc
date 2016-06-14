@@ -247,7 +247,7 @@ Deleted topics:
 * Installation > Prerequisites > Operating System-specific Prerequisites > Installation of the Libpcap Package
 |===
 
-[options="header",cols="verse*2,"]
+[options="header",cols=",,"]
 |===
 ^.^|TitanSim Revision ^.^|Date of Delivery ^.^|Link
 ^.^|*R6A* ^.^|10-12-2015 |link:http://ttcn.ericsson.se/TitanSim/Help_R6A/index.htm#Revision_History.htm[]
