@@ -97,7 +97,7 @@ trafficCase : callingUserDescriptor := {
 |===
 
 
-[options="header",cols="verse*2,,"]
+[options="header",cols="2,,"]
 |===
 |Flag |Type |Description
 |`-n` |mandatory* a|Number of IP addresses
