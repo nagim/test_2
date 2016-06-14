@@ -3,16 +3,19 @@
 
 == Inline elements
 
-text
-
+[options="header"]
 |===
-|*Type* |  *Example*
-| Messages (Requests, Responses) |  [message]#INVITE# (could be other color)
-| Headers |  [header]#Contact#
-| GUI elements | *[OK]* button, *[Enable]* checkbox
-| Parameters | `tsp_GenApp_Diameter_configs`
-| Path, file name | _TitanSim-RnXnn-install.tgz_, _/home/username/TitanSim-RnXnn-install_
-| Parameter value | _``true``_
+|Element Type | Rule | Example
+| *Messages* (Requests, Responses) | Requests and responses are highlighted with brown color. | [message]#INVITE#, [message]#200 OK#
+| *Headers* | For headers, italic font is used, highlighted with brown color.  | [header]#Contact#
+| *GUI elements* | GUI elements are written with bold, enclosed by square brackets. | *[OK]* button, *[Enable]* checkbox
+| *Parameters* | Monospaced font with gray background is used for parameters. | `tsp_GenApp_Diameter_configs`
+| *Macros* | Monospaced font with blue color is used for macros and templates. | [temp]#`titansim.cns_ok_response.body`#
+| *Values* | Monospaced italic font with gray background is used for values | _``true``_
+| *Warnings* | Italic font with orange color is used for warnings | [warn]#FSM has not been initialized...#
+| *FSM Test Steps* | FSM test steps are underlined | [underline]#Diameter3gppRx: handle RAA#:
+| *Events* | Events are underlined and written with italic | [event]#GenApp_common: triggerEvent#:
+| *Path, file name* | Paths, file names are written with italic. | _TitanSim-RnXnn-install.tgz_, _/home/username/TitanSim-RnXnn-install_
 |===
 
 {% include "/assets/include.adoc" %}
@@ -23,7 +26,13 @@ _``true``_ +
 [header]#Contact# +
 [message]#INVITE#
 
-== Code example
+== Block Elements
+
+Code examples, commands, user input and output are rendered with monospaced font and grey backround in a distinct block.
+
+Highlighted parts in code examples are written with colored text.
+
+Code example:
 
 [source,subs="quotes"]
 ----
@@ -33,76 +42,237 @@ tsp_IMS_Configuration_Scenarios.trafficCases.trafficSpecific.media :=
             generator := {
               mlsim :=     
               {
-                *enabled := true,*
+                [red]#enabled := true,#
                 enableMLSimPlus := true,
 ----
-  
+
+Command:
+
+[source]
+sudo setcap 'cap_sys_nice=eip cap_net_raw=eip' /home/ttcn3/titansim/build/titansim
+
 == Admonitions
 
-> ==== Info::Note
+> ==== Note::Note
 > 
 > This is a note
 
 
-> ==== Hint::Tip
+> ==== Info::Info
 > 
-> This is a tip
+> This is useful information
 
 
 > ==== Warning::Important
 > 
-> This is important info
+> This is something important
 
 
 > ==== Danger::Warning
 > 
 > This is a warning
 
-> ==== Note::Note
-> 
-> Settings changed with the commands above are lost at reboot. To preserve custom settings, add them to the _/etc/sysctl.conf_ file:
-> 
->  net.ipv4.ip_local_port_range = 1024 7999
->  net.core.rmem_max = 12582912
->  net.core.wmem_max = 12582912
->  net.ipv4.tcp_rmem = 10240 87380 12582912
->  net.ipv4.tcp_wmem = 10240 87380 12582912
->  net.ipv6.route.max_size = 8388608
->  net.ipv6.xfrm6_gc_thresh = 8388608
->  kernel.core_pattern = core.%e.%p.%h.%t
-> 
-> Pay attention to the slightly different format used in the command and in the _/etc/sysctl.conf_ file. If there is apport crash reporting system running on your computer, then the `kernel.core_pattern` setting written to _/etc/sysctl.conf_ is overridden by _/etc/init/apport.conf_. Apport collects core dump files in directory _/var/crash_.
+[cols=",,,"]
+|===
+a| 
+[source]
+----
+trafficCase : callingUserDescriptor := {
+  basicUserParams := {
+   (…)
+   IdRange        := {"8000..8003"},
+   (…)
+    }
+}
+---- a|
+[source]
+----
+{groupSubscribe:=
+  {sizeOfSubscribingUserGroup :=2,
+   sizeOfSubscribedUserGroup := 1,
+   subscribe := {(…) }
+ }}
+----
+| 4 users 8000,8001,8002,8003 a| `group size 2`
+|===
 
-[subs="quotes"]
-____
-==== Note::Note
 
-Settings changed with the commands above are lost at reboot. To preserve custom settings, add them to the _/etc/sysctl.conf_ file:
+= Revision History of TitanSim Online Documentation
 
-  net.ipv4.ip_local_port_range = 1024 7999
-  net.core.rmem_max = 12582912
-  net.core.wmem_max = 12582912
-  net.ipv4.tcp_rmem = 10240 87380 12582912
-  net.ipv4.tcp_wmem = 10240 87380 12582912
-  net.ipv6.route.max_size = 8388608
-  net.ipv6.xfrm6_gc_thresh = 8388608
-  kernel.core_pattern = core.%e.%p.%h.%t
+[options="header",cols=",,",width=80%]
+|===
+^.^|TitanSim Revision ^.^|Date of Delivery ^.^|Modifications
+3+^.^|
+The TitanSim team aims to continuously improve the quality of the documentation. The summary of the recent major improvements can be found link:https://erilink.ericsson.se/eridoc/erl/objectId/09004cff8a37c886?docno=16/2882-FCPCA101181Uen&action=current&format=ppt12[here].
 
-Pay attention to the slightly different format used in the command and in the _/etc/sysctl.conf_ file. If there is apport crash reporting system running on your computer, then the `kernel.core_pattern` setting written to _/etc/sysctl.conf_ is overridden by _/etc/init/apport.conf_. Apport collects core dump files in directory _/var/crash_.
-____
+^.^|R7A ^.^|16-16-2016 a|
 
-_Gateway #<PTC index>/<Media gateway index> - <Name> (<encoding>)_
+#*Competently rewritten/restructured descriptions:*#
 
-* `setupMode`
-+
-Type: charstring
-+
-Supported values: _``active``_, _``passive``_ or _``actpass``_
-+
-Optional parameter. The value of the parameter is encoded in outgoing SDP, as value of `a=setup` attribute. The parameter overrides the value of `serverMode`. If `setupMode` is set to _``active``_, then `serverMode` is _``false``_, regardless of its value in the configuration file. If `setupMode` is different than _``active``_, then `serverMode` is _``true``_, regardless of its value in the configuration file.
-+
-If the parameter is not present in the configuration file, then `a=setup:active` is encoded in outgoing SDP.
-+
-The configuration file can be found at: _link:http://ttcn.ericsson.se/vobs/TCC_Releases/Applications/TitanSim_LPA108463/cfg/IMS/jenkins/CallOrigWithMediaMLSimPlus_DTLS.cfg[cfg/IMS/jenkins/CallOrigWithMediaMLSimPlus_DTLS.cfg]_.
+* *Node Simulation > EPC*
 
-def generate[P <: Platform[P]](source: P#Source[Int], sink: P#Sink[Int]): TailProducer[P, Int] = source.map(_ * 2).write(sink)
+#*New descriptions created*#
+
+* *User Simulation > TCP Connection Handling*
+
+Updated topics:
+
+* User Simulation > Traffic Cases > Presence > groupSubscribe Command
+* Installation > Misc Settings > Virtual IP Addresses and Route Ranges
+* Installation > Misc Settings > Linux Kernel Configuration for Media Generation
+* User Simulation > Statistics Window > Statistics Overview Window
+
+^.^|R7A07 ^.^|02-06-2016 a|
+#*Competently rewritten/restructured descriptions:*#
+
+* *User Simulation > Media*
+* *IMS Network Simulator*
+
+Updated topics
+
+* Node Simulation > PBX
+* User Simulation > Subscribe > Subscribe Overview
+* Node Simulation > MAP Traffic Generator
+* Installation > Prerequisites > Operating System-specific Prerequisites > Operating System Packages > Firefox
+
+^.^|R7A06 ^.^|12-05-2016 a|
+#*Competently rewritten/restructured descriptions:*#
+
+* *Node Simulation > MAP Traffic Generator*
+
+Updated topics:
+
+* Installation > Prerequisites > Prerequisites
+* Installation > Misc Settings > Linux Kernel Settings
+
+^.^|R7A05 ^.^|05-05-2016 a|
+#*New description created:*#
+
+* *Node Simulation > MTAS > DNS ENUM > DNS Server Simulator*
+* *Node Simulation > MGW Simulator > Configuration of MGW Simulator > Finite State Machines Declaration*
+* *User Simulation > Traffic Cases > Presence > Message Traffic Case with Presence*
+
+Updated topics:
+
+* User Simulation > SBG Simulator > Supported Features
+* User Simulation > Media > Features > DTMF
+* User Simulation > Media > MLSim+ > Configuration > RTMP
+* User Simulation > Traffic Cases > Presence > Presence Overview
+* User Simulation > Subscribe > Configuration of Subscribe
+* Installation > Docker > Using TitanSim Docker Release
+* Installation > Docker > Troubleshooting
+* Node Simulation > MRFC
+* Node Simulation > Common Configuration Settings > Diameter Protocol Stack Specific Settings > Parameters of the Simulated Node
+* Node Simulation > MTAS > HTTP > CNS > Configuration Settings > The Hierarchy of MTAS Configuration Settings
+* Node Simulation > PCRF Simulation > Configuration of PCRF Node Simulator > FSMs for Describing PCRF Behavior
+
+^.^|R7A04 ^.^|07-04-2016 a|
+#*New description created:*#
+
+* *Common Functionality > Routing Agent*
+* *Node Simulation > MTAS > HTTP > CNS*
+
+#*Competently rewritten/restructured descriptions:*#
+
+* *User Simulation > SBG Simulator*
+* *Node Simulation > CNS Simulator*
+
+Updated topics:
+
+* User Simulation > Configuration > IMEI
+* User Simulation > Traffic Cases > CallOrig
+* User Simulation > Media > MLSim+ > DTMF
+
+^.^|R7A03 ^.^|16-03-2016 a|
+#*New description created:*#
+
+* *Installation > Docker*
+
+Updated topics:
+
+* User Simulation > Subscribe > Subscribe Overview
+* User Simulation > Subscribe > Configuration of Subscribe in Registration, CallOrig, and CallTerm Traffic Cases
+* User Simulation > Configuration > CalledUserDescriptor
+* User Simulation > Configuration > CallingUserDescriptor
+* Node Simulation > SCP > Behavior Description of SCP Node Simulator > Basic Call By a VPN User
+* Node Simulation > SCP > Behavior Description of SCP Node Simulator > Call Diverted Due to User Busy
+* Node Simulation > SCP > Behavior Description of SCP Node Simulator > Camel Impacted MMTel Offline Charging
+* Node Simulation > SCP > Behavior Description of SCP Node Simulator > Camel Online Charging
+* Node Simulation > SCP > Behavior Description of SCP Node Simulator > User Interaction - Play Announcement
+* User Simulation > SR VCC Support > SRVCC Media Anchoring > SRVCC Media Anchoring
+* User Simulation > Configuration > Other Configuration Parameters
+* User Simulation > Media > MLSim+ > Configuration > General Configuration of MLSim+ Media
+* Installation > Prerequisites > Prerequisites
+* User Simulation > Traffic Cases > Registration > Registration Parameters
+* User Simulation > Message Modification
+* Node Simulation > Diameter EPC > Configuration of Diameter EPC > HSS SWx Simulation > HSS (SWx) Test Steps
+
+^.^|R7A02 ^.^|11-02-2016 a|
+#*Competently rewritten/restructured descriptions:*#
+
+* *Node Simulation > SCP*
+* *User Simulation > Media*
+
+Updated topics:
+
+* StartUp and Use > Logging > TitanSim Logs
+* StartUp and Use > Event Vector
+* User Simulation > Emergency Call > Emergency Registration to Normal Bearer
+* User Simulation > Emergency Call > Redirect Well-known Emergency Numbers
+* User Simulation > Traffic Cases > CallOrig
+* Installation >  Installation of TitanSim
+* Installation > Prerequisites > Space Requirements Specification
+* Installation > Prerequisites > Further Installation Information > Typical Installation Times of TitanSim
+* Node Simulation > MTAS > Diameter > CC Node Simulator > MTAS Specific Configuration Options > Preferred Language Support`` ``
+
+^.^|R7A01 ^.^|19-01-2016 a|
+Updated topics:
+
+* User Simulation > Configuration > GRUU
+* User Simulation > Traffic Cases > Registration > Registration Parameters
+* User Simulation > Media > Media Configuration Overview
+* User Simulation > Media > MLSim+ > MLSim+ Media Overview
+* User Simulation > Media > MLSim+ > Supported Codecs
+* Installation > Prerequisites > Operating System-specific Prerequisites > Operating System Packages
+* Installation > Prerequisites > Prerequisites
+* Installation > Misc Settings > Linux Kernel Setting
+
+Created new topics:
+
+* User Simulation > Configuration > IMEI
+
+Deleted topics:
+
+* Installation > Prerequisites > Operating System-specific Prerequisites > Installation of the SCTP Package
+* Installation > Prerequisites > Operating System-specific Prerequisites > Installation of the Libpcap Package
+|===
+
+[options="header",cols="verse*2,"]
+|===
+^.^|TitanSim Revision ^.^|Date of Delivery ^.^|Link
+^.^|*R6A* ^.^|10-12-2015 |link:http://ttcn.ericsson.se/TitanSim/Help_R6A/index.htm#Revision_History.htm[]
+^.^|R6A06 ^.^|26-11-2015 |link:http://ttcn.ericsson.se/TitanSim/Help_R6A06/index.htm#Revision_History.htm[]
+^.^|R6A05 ^.^|22-10-2015 |link:http://ttcn.ericsson.se/TitanSim/Help_R6A05/index.htm#Revision_History.htm[]
+^.^|R6A04 ^.^|01-10-2015 |link:http://ttcn.ericsson.se/TitanSim/Help_R6A04/index.htm#Revision_History.htm[]
+^.^|R6A03 ^.^|03-09-2015 |link:http://ttcn.ericsson.se/TitanSim/Help_R6A03/index.htm#Revision_History.htm[]
+^.^|R6A02 ^.^|06-08-2015 |link:http://ttcn.ericsson.se/TitanSim/Help_R6A02/index.htm#Revision_History.htm[]
+^.^|R6A01 ^.^|09-07-2015 |link:http://ttcn.ericsson.se/TitanSim/Help_R6A01/index.htm#Revision_History.htm[]
+^.^|*R5A* ^.^|25-06-2015 |link:http://ttcn.ericsson.se/TitanSim/Help_R5A/index.htm#Revision_History.htm[]
+^.^|R5A06 ^.^|04-06-2015 |link:http://ttcn.ericsson.se/TitanSim/Help_R5A06/index.htm#Revision_History.htm[]
+^.^|R5A05 ^.^|07-05-2015 |link:http://ttcn.ericsson.se/TitanSim/Help_R5A05/index.htm#Revision_History.htm[]
+^.^|R5A04 ^.^|09-04-2015 |link:http://ttcn.ericsson.se/TitanSim/Help_R5A04/index.htm#Revision_History.htm[]
+^.^|R5A03 ^.^|24-03-2015 |link:http://ttcn.ericsson.se/TitanSim/Help_R5A03/index.htm#Revision_History.htm[]
+^.^|R5A02 ^.^|12-02-2015 |link:http://ttcn.ericsson.se/TitanSim/Help_R5A02/index.htm#Revision_History.htm[]
+^.^|R5A01 ^.^|15-01-2015 |link:http://ttcn.ericsson.se/TitanSim/Help_R5A01/index.htm#Revision_History.htm[]
+^.^|*R4A* ^.^|15-12-2014 |link:http://ttcn.ericsson.se/TitanSim/Help_R4A/index.htm#Revision_History.htm[]
+^.^|R4A06 ^.^|20-11-2014 |link:http://ttcn.ericsson.se/TitanSim/Help_R4A06/index.htm#Revision_History.htm[]
+^.^|R4A05 ^.^|22-10-2014 |link:http://ttcn.ericsson.se/TitanSim/Help_R4A05/index.htm#Revision_History.htm[]
+^.^|R4A04 ^.^|25-09-2014 |link:http://ttcn.ericsson.se/TitanSim/Help_R4A04/index.htm#Revision_History.htm[]
+^.^|R4A03 ^.^|04-09-2014 |link:http://ttcn.ericsson.se/TitanSim/Help_R4A03/index.htm#Revision_History.htm[]
+^.^|R4A02 ^.^|07-08-2014 |link:http://ttcn.ericsson.se/TitanSim/Help_R4A02/index.htm#Revision_History.htm[]
+^.^|R4A01 ^.^|10-07-2014 |link:http://ttcn.ericsson.se/TitanSim/Help_R4A01/index.htm#Revision_History.htm[]
+^.^|*R3A* ^.^|26-06-2014 |link:http://ttcn.ericsson.se/TitanSim/Help_R3A/index.htm#Revision_History.htm[]
+^.^|R3A06 ^.^|05-06-2014 |link:http://ttcn.ericsson.se/TitanSim/Help_R3A06/index.htm#Revision_History.htm[]
+^.^|R3A05 ^.^|08-05-2014 |link:http://ttcn.ericsson.se/TitanSim/Help_R3A05/index.htm#Revision_History.htm[]
+|===
+
