@@ -1,5 +1,5 @@
 {
-      "gitbook": "2.x.x",
+      "gitbook": "3.x.x",
     "plugins": [
         "scripts",
         "comment",
@@ -17,7 +17,7 @@
         "hints",
         "anchorjs",
         "-search",
-        "search-pro",
+        "search-jieba",
         "-catalog", 
         {
             "name": "catalog2",
