@@ -32,24 +32,7 @@ Code examples, commands, user input and output are rendered with monospaced font
 
 Highlighted parts in code examples are written with colored text.
 
-Code example:
 
-[source,subs="quotes"]
-----
-tsp_IMS_Configuration_Scenarios.trafficCases.trafficSpecific.media :=
-          {
-            enabled := true,
-            generator := {
-              mlsim :=     
-              {
-                [red]#enabled := true,#
-                enableMLSimPlus := true,
-----
-
-Command:
-
-[source]
-sudo setcap 'cap_sys_nice=eip cap_net_raw=eip' /home/ttcn3/titansim/build/titansim
 
 == Admonitions
 
@@ -71,4 +54,5 @@ sudo setcap 'cap_sys_nice=eip cap_net_raw=eip' /home/ttcn3/titansim/build/titans
 > ==== Danger::Warning
 > 
 > This is a warning
+
 

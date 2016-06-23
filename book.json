@@ -16,6 +16,8 @@
         "puml",
         "hints",
         "anchorjs",
+        "-search",
+        "search-jieba",
         "-catalog", 
         {
             "name": "catalog2",
