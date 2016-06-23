@@ -17,7 +17,7 @@
         "hints",
         "anchorjs",
         "-search",
-        "search-jieba",
+        "search-pro",
         "-catalog", 
         {
             "name": "catalog2",
