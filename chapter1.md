@@ -1,11 +1,9 @@
+
 # First Chapter
 
 ## Some text
 
 AsciiDoc is mentioned here a lot.
-
-
-<hr class="style18">
 
 - [ ] Mercury
 - [x] Venus
