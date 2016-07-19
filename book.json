@@ -1,11 +1,11 @@
 {
-    "gitbook": "3.0.0-pre.12",
+      "gitbook": "3.x.x",
     "plugins": [
         "scripts",
         "comment",
         "include",
         "-sharing",
-        "anchor-navigation",
+        "-anchor-navigation",
         "splitter",
         "ungrey",
         "toggle-chapters",
@@ -15,7 +15,13 @@
         "callouts",
         "puml",
         "hints",
-        "heading-anchors"
+        "anchorjs",
+        "search",
+        "-catalog", 
+        {
+            "name": "catalog2",
+            "version": "git+https://github.com/nagim/gitbook-plugin-catalog2.git"
+        }
     ],
     "pluginsConfig": {
         "scripts": {

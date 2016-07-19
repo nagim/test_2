@@ -1,3 +1,3 @@
 ** `{{ var }}_config`
 
-{% include "../test/testuml.plant" %}
+link:../{{ var }}/test.adoc[link]

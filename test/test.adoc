@@ -1,3 +1,58 @@
 = Typographic Conventions
+{% set var = "test" %}
 
 == Inline elements
+
+[options="header"]
+|===
+|Element Type | Rule | Example
+| *Messages* (Requests, Responses) | Requests and responses are highlighted with brown color. | [message]#INVITE#, [message]#200 OK#
+| *Headers* | For headers, italic font is used, highlighted with brown color.  | [header]#Contact#
+| *GUI elements* | GUI elements are written with bold, enclosed by square brackets. | *[OK]* button, *[Enable]* checkbox
+| *Parameters* | Monospaced font with gray background is used for parameters. | `tsp_GenApp_Diameter_configs`
+| *Macros* | Monospaced font with blue color is used for macros and templates. | [temp]#`titansim.cns_ok_response.body`#
+| *Values* | Monospaced italic font with gray background is used for values | _``true``_
+| *Warnings* | Italic font with orange color is used for warnings | [warn]#FSM has not been initialized...#
+| *FSM Test Steps* | FSM test steps are underlined | [underline]#Diameter3gppRx: handle RAA#:
+| *Events* | Events are underlined and written with italic | [event]#GenApp_common: triggerEvent#:
+| *Path, file name* | Paths, file names are written with italic. | _TitanSim-RnXnn-install.tgz_, _/home/username/TitanSim-RnXnn-install_
+|===
+
+{% include "/assets/include.adoc" %}
+
+link:new.adoc#callingPartyNumber[link]
+
+_``true``_ +
+[header]#Contact# +
+[message]#INVITE#
+
+== Block Elements
+
+Code examples, commands, user input and output are rendered with monospaced font and grey backround in a distinct block.
+
+Highlighted parts in code examples are written with colored text.
+
+
+
+== Admonitions
+
+> ==== Note::Note
+> 
+> This is a note
+
+
+> ==== Info::Info
+> 
+> This is useful information
+
+
+> ==== Warning::Important
+> 
+> This is something important
+
+
+> ==== Danger::Warning
+> 
+> This is a warning
+
+

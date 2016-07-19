@@ -136,4 +136,4 @@ filterArr(qMultiOpt, qArray) {
 ```
 <!--endsec-->
 
-
+def generate[P <: Platform[P]]\(source: P#Source[Int], sink: P#Sink[Int]): TailProducer[P, Int] = source.map(_ * 2).write(sink)
