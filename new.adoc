@@ -1,9 +1,0 @@
-= List Anchor Test
-
-* `tcParams`
-+
-The parameters of the traffic case of `EPTF_GenApp_version_EntityProperties` type. It contains the following three optional members:
-
-** [[callingPartyNumber]]callingPartyNumber
-+
-The parameters of the traffic case of `EPTF_GenApp_version_EntityProperties` type. It contains the following three optional members:

@@ -1,3 +1,0 @@
-** `{{ var }}_config`
-
-link:../{{ var }}/test.adoc[link]
