@@ -51,8 +51,8 @@ dssdfdsf
 > This is a note
 
 > ==== Note::Note
-
-This is a note
+>
+> This is a note
 
 > **Info** **Info:** This is an info
 
