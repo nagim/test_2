@@ -43,12 +43,12 @@ Before launching instances of other Teradata products, be sure to launch a Terad
     
     ![](hdq1467245069334.gif)
 10. On the **Step 3: Configure Instance Details** page, change the default settings for the following parameters:
-<p>
-|Parameter|Action|
-|---------|------|
-|Auto-assign Public IP|Select <b>Enable</b>.|
-|Network|Select a different setting or click <b>Create new VPC</b> to run the instance in a network other than the default. For more information, see <a href="dmc1467240781066.md">Virtual Private Cloud</a>.|
-</p>
+
+  |Parameter|Action
+  |--------|------
+  |Auto-assign Public IP|Select <b>Enable</b>.
+  |Network|Select a different setting or click <b>Create new VPC</b> to run the instance in a network other than the default.<br/>For more information, see <a href="dmc1467240781066.md">Virtual Private Cloud</a>.<br/>
+
   ![](mlz1467245070301.gif)
 
 11. [Optional] Change the default settings for other instance parameters as follows:
