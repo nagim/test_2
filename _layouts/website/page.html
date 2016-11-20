@@ -1,8 +1,8 @@
 {% extends template.self %}
 
 {% block head %}
-    {% if page.tag %}
-    <meta name="tag" content="{{ page.tag }}">
+    {% if tag %}
+    <meta name="tag" content="{{ tag }}">
     {% endif %}
     {{ super() }}
 {% endblock %}
