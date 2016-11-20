@@ -1,5 +1,7 @@
+{% extends template.self %}
 {% block head %}
 +++<meta name="category" content="ascii">+++
+{{ super() }}
 {% endblock %}
 
 [[asciidoc-home-page]]
