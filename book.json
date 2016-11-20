@@ -1,5 +1,5 @@
 {
-      "gitbook": "3.2.2",
+      "gitbook": "2.x.x",
     "plugins": [
         "scripts",
         "comment",

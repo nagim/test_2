@@ -1,7 +1,10 @@
+---
+tags: [ascii]
+---
+
 [[asciidoc-home-page]]
 = AsciiDoc Home Page
 // Web page meta data.
-icons:font
 :keywords:    AsciiDoc, DocBook, EPUB, PDF, ebooks, slideshow, slidy, man page
 :description: AsciiDoc is a text document format for writing notes,  +
               documentation, articles, books, ebooks, slideshows,    +
