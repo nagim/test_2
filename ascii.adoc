@@ -1,11 +1,6 @@
-{% extends template.self %}
-{% block head %}
-+++<meta name="category" content="ascii">+++
-{{ super() }}
-{% endblock %}
-
 [[asciidoc-home-page]]
 = AsciiDoc Home Page
+{% set tag = "ascii" %}
 // Web page meta data.
 :keywords:    AsciiDoc, DocBook, EPUB, PDF, ebooks, slideshow, slidy, man page
 :description: AsciiDoc is a text document format for writing notes,  +
