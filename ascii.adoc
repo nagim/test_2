@@ -1,5 +1,5 @@
 {% block head %}
-<meta name="category" content="ascii">
+++++<meta name="category" content="ascii">++++
 {% endblock %}
 
 [[asciidoc-home-page]]
