@@ -1,8 +1,6 @@
 {% extends template.self %}
 
 {% block head %}
-    {% if tag == "ascii"%}
-    <meta name="tag" content="{{ tag }}">
-    {% endif %}
+    <meta name="tag" content="{% if page.tag %}{{ page.tag }}{% endif %}">
     {{ super() }}
 {% endblock %}
