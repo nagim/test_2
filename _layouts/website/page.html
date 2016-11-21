@@ -1,7 +1,7 @@
 {% extends template.self %}
 
 {% block head %}
-    {% if tag %}
+    {% if tag == "ascii"%}
     <meta name="tag" content="{{ tag }}">
     {% endif %}
     {{ super() }}
