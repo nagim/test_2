@@ -3,8 +3,8 @@
 [subs="macros"]
 ++++
 
-<div>
-<ul class="nav nav-tabs nav-justified">
+<div class="tabs">
+<ul class="tabs-nav justified">
   <li role="presentation" class="active"><a href="#protocols" data-toggle="tab">Protocols</a></li>
   <li role="presentation"><a href="#interfaces" data-toggle="tab">Interfaces</a></li>
 </ul>
