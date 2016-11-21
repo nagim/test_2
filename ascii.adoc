@@ -1,6 +1,6 @@
 [[asciidoc-home-page]]
 = AsciiDoc Home Page
-{% set tag = "ascii" %}
+tags: ascii
 
 [.lead]
 Preamble
