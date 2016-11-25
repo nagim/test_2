@@ -19,7 +19,7 @@
         "search",
         "-catalog",
         "navigator",
-        "addcssjs2"
+        "ga"
     ],
     "pluginsConfig": {
         "scripts": {
@@ -27,14 +27,12 @@
                 "styles/test.js"
             ]
         },
-        "versions": {
-            "type": "branches"
-        },
         "callouts": {
             "showTypeInHeader": "false"
         },
-        "addcssjs2": {
-            "js": "styles/ga.js"
+        "ga": {
+            "token": "UA-88024407-1",
+            "configuration": "auto"
         }
     },
     "variables": {
