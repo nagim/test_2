@@ -19,7 +19,7 @@
         "search",
         "-catalog",
         "navigator",
-        "addcssjs"
+        "addcssjs2"
     ],
     "pluginsConfig": {
         "scripts": {
@@ -33,8 +33,7 @@
         "callouts": {
             "showTypeInHeader": "false"
         },
-        "addcssjs": {
-            "css": "",
+        "addcssjs2": {
             "js": "styles/ga.js"
         }
     },
