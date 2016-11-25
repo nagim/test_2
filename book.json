@@ -1,5 +1,5 @@
 {
-      "gitbook": "2.x.x",
+    "gitbook": "2.x.x",
     "plugins": [
         "scripts",
         "comment",
@@ -18,7 +18,8 @@
         "anchorjs",
         "search",
         "-catalog",
-        "navigator"
+        "navigator",
+        "ga"
     ],
     "pluginsConfig": {
         "scripts": {
@@ -31,6 +32,10 @@
         },
         "callouts": {
             "showTypeInHeader": "false"
+        },
+        "ga": {
+            "token": "UA-88024407-1",
+            "configuration": "auto"
         }
     },
     "variables": {
