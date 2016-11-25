@@ -17,8 +17,7 @@
         "anchorjs",
         "search",
         "-catalog",
-        "navigator",
-        "ga"
+        "navigator"
     ],
     "pluginsConfig": {
         "scripts": {
@@ -28,10 +27,6 @@
         },
         "callouts": {
             "showTypeInHeader": "false"
-        },
-        "ga": {
-            "token": "UA-88024407-1",
-            "configuration": "auto"
         }
     },
     "variables": {
