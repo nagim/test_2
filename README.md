@@ -1,4 +1,4 @@
-# My Awesome Book
+# My Awesome {{ book.foo }}Book
 
 Just one line.
 
@@ -11,6 +11,9 @@ Another line.
 This file serves as [your](chapter1.md) book's preface, a great place to describe your book's content and ideas.
 
 Something.
+
+
+
 
 
 
