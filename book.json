@@ -30,6 +30,7 @@
         }
     },
     "variables": {
+        "test-var": "test!",
         "danger": "<div class=\"alert alert-danger\" role=\"alert\"><i class=\"fa fa-exclamation-circle\"></i> <b>Warning: </b>",
         "ptype": "<div id=\"type\" class=\"tab-pane active\"><p>",
         "param": "<ul class=\"nav nav-tabs nav-stacked\"><li class=\"active\"><a data-toggle=\"tab\" href=\"#type\">Type</a></li><li><a data-toggle=\"tab\" href=\"#default\">Default value</a></li><li><a data-toggle=\"tab\" href=\"#descr\">Description</a></li><li><a data-toggle=\"tab\" href=\"#example\">Example</a></li></ul><div class=\"tab-content\">",
