@@ -1,5 +1,5 @@
 {
-      "gitbook": "3.2.2",
+    "gitbook": "3.x.x",
     "plugins": [
         "scripts",
         "comment",
@@ -10,7 +10,6 @@
         "ungrey",
         "toggle-chapters",
         "book-summary-scroll-position-saver",
-        "versions",
         "copy-code-button",
         "callouts",
         "puml",
@@ -25,9 +24,6 @@
             "files": [
                 "styles/test.js"
             ]
-        },
-        "versions": {
-            "type": "branches"
         },
         "callouts": {
             "showTypeInHeader": "false"
