@@ -18,8 +18,6 @@ AsciiDoc is highly [line-through]#configurable#: both AsciiDoc the AsciiDoc sour
 
 rp-ack
 
-
-
 {% plantuml %}
 Alice -> Bob: Authentication Request
 Bob --> Alice: Authentication Response
