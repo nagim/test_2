@@ -16,9 +16,9 @@
 * [Revision History](Revision_History.adoc)
 * [Solved Issues](Solved_Issues.adoc)
 * General Information
- * [Online Help Reader’s Guide](General_Information/Online_Help_Readers_Guide.adoc)
- * [Typographic Conventions](General_Information/Typographic_Conventions.adoc)
- * [Support and Trouble Reporting](General_Information/Support_and_Trouble_Reporting.adoc)
+ * [Online Help Reader’s Guide](General_Information/Online_Help_Readers_Guide.md)
+ * [Typographic Conventions](General_Information/Typographic_Conventions.md)
+ * [Support and Trouble Reporting](General_Information/Support_and_Trouble_Reporting.md)
 * Installation
  * Prerequisites
    * [Prerequisites](Installation/Prerequisites/Prerequisites.adoc)
