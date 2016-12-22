@@ -17,7 +17,9 @@
         "anchorjs",
         "search",
         "-catalog",
-        "navigator"
+        "navigator",
+        "-search",
+        "search-plus"
     ],
     "pluginsConfig": {
         "scripts": {
