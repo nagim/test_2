@@ -31,7 +31,7 @@
             "showTypeInHeader": "false"
         },
          "theme-default": {
-            "showLevel": "false"
+            "showLevel": false
         }
     },
     "variables": {
