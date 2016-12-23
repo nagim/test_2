@@ -29,6 +29,9 @@
         },
         "callouts": {
             "showTypeInHeader": "false"
+        },
+         "theme-default": {
+            "showLevel": "false"
         }
     },
     "variables": {
