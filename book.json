@@ -10,12 +10,10 @@
         "ungrey",
         "toggle-chapters",
         "book-summary-scroll-position-saver",
-        "copy-code-button",
         "callouts",
         "puml",
         "hints",
         "anchorjs",
-        "search",
         "-catalog",
         "navigator",
         "-search",
@@ -29,9 +27,6 @@
         },
         "callouts": {
             "showTypeInHeader": "false"
-        },
-         "theme-default": {
-            "showLevel": false
         }
     },
     "variables": {
