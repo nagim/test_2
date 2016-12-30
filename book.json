@@ -7,7 +7,7 @@
         "-sharing",
         "-anchor-navigation",
         "splitter",
-        "ungrey",
+        "-ungrey",
         "toggle-chapters",
         "book-summary-scroll-position-saver",
         "callouts",
