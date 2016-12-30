@@ -1,4 +1,4 @@
-# My Awesome {{ book.foo }}Book
+# My Awesome Book
 
 Just one line.
 
