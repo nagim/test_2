@@ -9,15 +9,15 @@
         "splitter",
         "ungrey",
         "toggle-chapters",
-        "book-summary-scroll-position-saver",
-        "copy-code-button",
+        "-book-summary-scroll-position-saver",
         "callouts",
         "puml",
         "hints",
         "anchorjs",
-        "search",
         "-catalog",
-        "navigator"
+        "navigator",
+        "-search",
+        "search-plus"
     ],
     "pluginsConfig": {
         "scripts": {
