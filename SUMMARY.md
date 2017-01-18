@@ -3,7 +3,7 @@
 * [Welcome](README.md)
 * [Ascii](ascii.adoc)
 * [New Section](new-section.md)
-  * [new](chapter1.md)
+  * [new](chapter1.md#some)
   * [newest](ama1469665181376.md)
 
 
