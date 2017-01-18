@@ -2,7 +2,7 @@
 
 Just one line.
 
-## Second title
+## Second title {#second}
 
 Another line.
 

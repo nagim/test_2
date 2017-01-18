@@ -4,8 +4,8 @@
 [.lead]
 Preamble
 
+[[intro]]
 == Introduction
-{description}
 
 ---
 

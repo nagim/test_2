@@ -1,9 +1,9 @@
 # Summary
 
-* [Welcome](README.md)
-* [Ascii](ascii.adoc)
+* [Welcome](README.md#second)
+* [Ascii](ascii.adoc#intro)
 * [New Section](new-section.md)
-  * [new](chapter1.md#some)
+  * [new](chapter1.md)
   * [newest](ama1469665181376.md)
 
 
