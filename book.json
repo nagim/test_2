@@ -1,5 +1,5 @@
 {
-    "gitbook": "3.2.0",
+    "gitbook": "3.2.2",
     "plugins": [
         "scripts",
         "comment",
@@ -8,7 +8,7 @@
         "-anchor-navigation",
         "splitter",
         "ungrey",
-        "toggle-chapters",
+        "toggle2",
         "-book-summary-scroll-position-saver",
         "callouts",
         "puml",
