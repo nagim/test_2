@@ -17,7 +17,8 @@
         "-catalog",
         "navigator",
         "-search",
-        "search-plus"
+        "search-plus",
+        "versions"
     ],
     "pluginsConfig": {
         "scripts": {
@@ -31,7 +32,10 @@
         "lunr": {
             "maxIndexSize": 100000000,
             "ignoreSpecialCharacters": false
-        }
+        },
+        "versions": {
+           "type": "tags"
+        },
     },
     "variables": {
         "foo": "bar"
