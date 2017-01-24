@@ -14,7 +14,3 @@ Something.
 
 [![image](assets/images/add.png)]()
 
-
-
-
-

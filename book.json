@@ -16,7 +16,6 @@
         "anchorjs",
         "-catalog",
         "navigator",
-        "-search",
         "search-plus",
         "versions"
     ],
