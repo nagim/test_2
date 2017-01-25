@@ -17,7 +17,7 @@
         "-catalog",
         "-search",
         "-lunr",
-        "search-plus"
+        "search-plus",
         "versions"
     ],
     "pluginsConfig": {
