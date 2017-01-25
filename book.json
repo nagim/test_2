@@ -5,7 +5,7 @@
         "comment",
         "include",
         "-sharing",
-        "anchor-navigation-ex",
+        "page-nav-configurable",
         "splitter",
         "ungrey",
         "toggle2",
@@ -28,9 +28,6 @@
         },
         "callouts": {
             "showTypeInHeader": "false"
-        },
-         "anchor-navigation-ex":{
-            "isRewritePageTitle": true
         },
         "versions": {
            "type": "tags"
