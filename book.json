@@ -5,7 +5,7 @@
         "comment",
         "include",
         "-sharing",
-        "-anchor-navigation",
+        "anchor-navigation-ex"
         "splitter",
         "ungrey",
         "toggle2",
@@ -15,8 +15,9 @@
         "hints",
         "anchorjs",
         "-catalog",
-        "navigator",
-        "search-plus",
+        "-search",
+        "-lunr",
+        "search-plus"
         "versions"
     ],
     "pluginsConfig": {
@@ -28,9 +29,8 @@
         "callouts": {
             "showTypeInHeader": "false"
         },
-        "lunr": {
-            "maxIndexSize": 100000000,
-            "ignoreSpecialCharacters": false
+         "anchor-navigation-ex":{
+            "isRewritePageTitle": false
         },
         "versions": {
            "type": "tags"
