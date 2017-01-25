@@ -30,7 +30,7 @@
             "showTypeInHeader": "false"
         },
          "anchor-navigation-ex":{
-            "isRewritePageTitle": false
+            "isRewritePageTitle": true
         },
         "versions": {
            "type": "tags"
