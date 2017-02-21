@@ -12,5 +12,5 @@ This file serves as [your](chapter1.md) book's preface, a great place to describ
 
 Something.
 
-asdsdfdsf[![image](assets/images/add.png)]()
+[![image](assets/images/add.png)]()
 
